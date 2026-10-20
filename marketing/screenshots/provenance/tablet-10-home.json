@@ -1,0 +1,27 @@
+{
+  "schema": "public-screenshot-summary-v1",
+  "scope": "Public image identity and previously recorded observations; this is not an original capture-validator receipt.",
+  "key": "tablet-10-home",
+  "file": "tablet-10-home.png",
+  "sha256": "e009be6024d8b513023e4b51fab6c601f5c6daa659a5483e95081d9b97b7e470",
+  "dimensions": [
+    1600,
+    2560
+  ],
+  "raw_file": "raw/tablet-10-home.png",
+  "raw_sha256": "e009be6024d8b513023e4b51fab6c601f5c6daa659a5483e95081d9b97b7e470",
+  "raw_dimensions": [
+    1600,
+    2560
+  ],
+  "package": "com.ethannyakabuski.roomfortomorrow",
+  "source_apk_sha256": "1f1914078c5b0b1976f6dbd1bc126e18b63f041e32b9ff91169911965906f04f",
+  "source_apk_bytes": 184209827,
+  "capture_method": "adb_shell_screencap_png",
+  "pixel_processing": "Exact copies of the original unmodified guest PNG; no resize/crop/rotation/overlays.",
+  "game_state": "Normal Home with genuine saved wallet/progress and ordinary navigation.",
+  "visual_review": "Native operator inspected this exact ordinary frame for legibility, usable controls and absence of notification, ANR, fullscreen ad or modal obstruction. Logical tablet views are emulation. ",
+  "original_native_visual_review_recorded": true,
+  "physical_device_test": false,
+  "physical_tablet_test": false
+}

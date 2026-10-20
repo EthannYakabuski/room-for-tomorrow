@@ -1,0 +1,5064 @@
+{
+  "chapters": [
+    "First Keys",
+    "Sunny Studios",
+    "Shared Corners",
+    "Old Town",
+    "Garden Rooms",
+    "Tomorrow’s Homes"
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "name": "The First Page",
+      "chapter": 0,
+      "w": 5,
+      "h": 5,
+      "items": [
+        "chair",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [],
+      "door": [
+        3,
+        4
+      ],
+      "clearance": [
+        3,
+        3
+      ],
+      "windows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Morning Letter",
+      "chapter": 0,
+      "w": 5,
+      "h": 5,
+      "items": [
+        "desk",
+        "chair",
+        "lamp",
+        "plant"
+      ],
+      "blocked": [],
+      "door": [
+        3,
+        4
+      ],
+      "clearance": [
+        3,
+        3
+      ],
+      "windows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "A Soft Landing",
+      "chapter": 0,
+      "w": 5,
+      "h": 5,
+      "items": [
+        "bed",
+        "cabinet",
+        "lamp",
+        "plant"
+      ],
+      "blocked": [],
+      "door": [
+        3,
+        4
+      ],
+      "clearance": [
+        3,
+        3
+      ],
+      "windows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tea at Four",
+      "chapter": 0,
+      "w": 6,
+      "h": 5,
+      "items": [
+        "sofa",
+        "table",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [],
+      "door": [
+        4,
+        4
+      ],
+      "clearance": [
+        4,
+        3
+      ],
+      "windows": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "daylight": false,
+      "optional": "shelf",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "table",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 1,
+          "y": 0,
+          "r": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Window Seat",
+      "chapter": 0,
+      "w": 5,
+      "h": 6,
+      "items": [
+        "chair",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          4,
+          0
+        ]
+      ],
+      "door": [
+        3,
+        5
+      ],
+      "clearance": [
+        3,
+        4
+      ],
+      "windows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Night and Day",
+      "chapter": 0,
+      "w": 6,
+      "h": 5,
+      "items": [
+        "desk",
+        "bed",
+        "chair",
+        "lamp",
+        "plant"
+      ],
+      "blocked": [],
+      "door": [
+        4,
+        4
+      ],
+      "clearance": [
+        4,
+        3
+      ],
+      "windows": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Books by the Door",
+      "chapter": 0,
+      "w": 5,
+      "h": 6,
+      "items": [
+        "desk",
+        "chair",
+        "lamp",
+        "shelf",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          4,
+          0
+        ]
+      ],
+      "door": [
+        3,
+        5
+      ],
+      "clearance": [
+        3,
+        4
+      ],
+      "windows": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sunday Dinner",
+      "chapter": 0,
+      "w": 6,
+      "h": 6,
+      "items": [
+        "dining",
+        "stool",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [],
+      "door": [
+        4,
+        5
+      ],
+      "clearance": [
+        4,
+        4
+      ],
+      "windows": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "dining",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "stool",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "A Friend Stays",
+      "chapter": 0,
+      "w": 6,
+      "h": 6,
+      "items": [
+        "bed",
+        "desk",
+        "sofa",
+        "lamp",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [],
+      "door": [
+        4,
+        5
+      ],
+      "clearance": [
+        4,
+        4
+      ],
+      "windows": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "daylight": true,
+      "optional": "cabinet",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Little Home",
+      "chapter": 0,
+      "w": 6,
+      "h": 6,
+      "items": [
+        "desk",
+        "bed",
+        "sofa",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet",
+        "coat"
+      ],
+      "blocked": [],
+      "door": [
+        4,
+        5
+      ],
+      "clearance": [
+        4,
+        4
+      ],
+      "windows": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "coat",
+          "x": 4,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "East Light",
+      "chapter": 1,
+      "w": 6,
+      "h": 5,
+      "items": [
+        "desk",
+        "chair",
+        "lamp",
+        "plant"
+      ],
+      "blocked": [
+        [
+          5,
+          0
+        ]
+      ],
+      "door": [
+        4,
+        4
+      ],
+      "clearance": [
+        4,
+        3
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "The Green Alcove",
+      "chapter": 1,
+      "w": 5,
+      "h": 6,
+      "items": [
+        "chair",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          0,
+          5
+        ]
+      ],
+      "door": [
+        3,
+        5
+      ],
+      "clearance": [
+        3,
+        4
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": false,
+      "optional": "shelf",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "chair",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "The Long Morning",
+      "chapter": 1,
+      "w": 7,
+      "h": 5,
+      "items": [
+        "desk",
+        "bed",
+        "chair",
+        "lamp",
+        "plant"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ]
+      ],
+      "door": [
+        1,
+        4
+      ],
+      "clearance": [
+        1,
+        3
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Sunbeam Supper",
+      "chapter": 1,
+      "w": 6,
+      "h": 6,
+      "items": [
+        "dining",
+        "stool",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          0,
+          5
+        ]
+      ],
+      "door": [
+        4,
+        5
+      ],
+      "clearance": [
+        4,
+        4
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "dining",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "stool",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "A Spare Pillow",
+      "chapter": 1,
+      "w": 6,
+      "h": 6,
+      "items": [
+        "sofa",
+        "bed",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          5,
+          0
+        ]
+      ],
+      "door": [
+        4,
+        5
+      ],
+      "clearance": [
+        4,
+        4
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": false,
+      "optional": "cabinet",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 4,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "The Writer’s Nook",
+      "chapter": 1,
+      "w": 5,
+      "h": 7,
+      "items": [
+        "desk",
+        "chair",
+        "lamp",
+        "shelf",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "door": [
+        1,
+        6
+      ],
+      "clearance": [
+        1,
+        5
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Orange Curtains",
+      "chapter": 1,
+      "w": 7,
+      "h": 5,
+      "items": [
+        "sofa",
+        "table",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          0,
+          4
+        ]
+      ],
+      "door": [
+        5,
+        4
+      ],
+      "clearance": [
+        5,
+        3
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "table",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Two Windows",
+      "chapter": 1,
+      "w": 6,
+      "h": 7,
+      "items": [
+        "bed",
+        "desk",
+        "sofa",
+        "lamp",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          5,
+          0
+        ]
+      ],
+      "door": [
+        4,
+        6
+      ],
+      "clearance": [
+        4,
+        5
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "cabinet",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 0,
+          "r": 1
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 3,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "The Quiet Desk",
+      "chapter": 1,
+      "w": 7,
+      "h": 6,
+      "items": [
+        "desk",
+        "chair",
+        "lamp",
+        "shelf",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "door": [
+        1,
+        5
+      ],
+      "clearance": [
+        1,
+        4
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Studio with a View",
+      "chapter": 1,
+      "w": 7,
+      "h": 6,
+      "items": [
+        "desk",
+        "bed",
+        "sofa",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet",
+        "coat"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ]
+      ],
+      "door": [
+        5,
+        5
+      ],
+      "clearance": [
+        5,
+        4
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 4,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 5,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "coat",
+          "x": 3,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Room for Two",
+      "chapter": 2,
+      "w": 6,
+      "h": 6,
+      "items": [
+        "sofa",
+        "bed",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "door": [
+        4,
+        5
+      ],
+      "clearance": [
+        4,
+        4
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 1,
+          "y": 0,
+          "r": 1
+        },
+        {
+          "key": "cabinet",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "The Shared Shelf",
+      "chapter": 2,
+      "w": 6,
+      "h": 7,
+      "items": [
+        "desk",
+        "chair",
+        "lamp",
+        "shelf",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "door": [
+        1,
+        6
+      ],
+      "clearance": [
+        1,
+        5
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Supper Club",
+      "chapter": 2,
+      "w": 7,
+      "h": 6,
+      "items": [
+        "dining",
+        "stool",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "door": [
+        5,
+        5
+      ],
+      "clearance": [
+        5,
+        4
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "dining",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "stool",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 5,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "A Welcome Back",
+      "chapter": 2,
+      "w": 7,
+      "h": 6,
+      "items": [
+        "bed",
+        "desk",
+        "sofa",
+        "lamp",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "door": [
+        5,
+        5
+      ],
+      "clearance": [
+        5,
+        4
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "cabinet",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 1,
+          "y": 0,
+          "r": 1
+        },
+        {
+          "key": "cabinet",
+          "x": 4,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "The Common Room",
+      "chapter": 2,
+      "w": 7,
+      "h": 7,
+      "items": [
+        "sofa",
+        "table",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "door": [
+        1,
+        6
+      ],
+      "clearance": [
+        1,
+        5
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": false,
+      "optional": "shelf",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "table",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 1,
+          "y": 0,
+          "r": 1
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Homework Hour",
+      "chapter": 2,
+      "w": 6,
+      "h": 7,
+      "items": [
+        "desk",
+        "bed",
+        "chair",
+        "lamp",
+        "plant"
+      ],
+      "blocked": [
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "door": [
+        4,
+        6
+      ],
+      "clearance": [
+        4,
+        5
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "The Lending Library",
+      "chapter": 2,
+      "w": 7,
+      "h": 7,
+      "items": [
+        "desk",
+        "chair",
+        "lamp",
+        "shelf",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "door": [
+        5,
+        6
+      ],
+      "clearance": [
+        5,
+        5
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 5,
+          "y": 0,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "One More Chair",
+      "chapter": 2,
+      "w": 7,
+      "h": 6,
+      "items": [
+        "dining",
+        "stool",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "door": [
+        1,
+        5
+      ],
+      "clearance": [
+        1,
+        4
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "dining",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "stool",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "A Place to Rest",
+      "chapter": 2,
+      "w": 6,
+      "h": 7,
+      "items": [
+        "sofa",
+        "bed",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "door": [
+        4,
+        6
+      ],
+      "clearance": [
+        4,
+        5
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": false,
+      "optional": "cabinet",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Keys for Everyone",
+      "chapter": 2,
+      "w": 7,
+      "h": 7,
+      "items": [
+        "desk",
+        "bed",
+        "sofa",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet",
+        "coat"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "door": [
+        5,
+        6
+      ],
+      "clearance": [
+        5,
+        5
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 1,
+          "y": 0,
+          "r": 1
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 4,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "coat",
+          "x": 0,
+          "y": 4,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Brick and Books",
+      "chapter": 3,
+      "w": 6,
+      "h": 6,
+      "items": [
+        "desk",
+        "chair",
+        "lamp",
+        "shelf",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "door": [
+        1,
+        5
+      ],
+      "clearance": [
+        1,
+        4
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "The Narrow Landing",
+      "chapter": 3,
+      "w": 5,
+      "h": 8,
+      "items": [
+        "desk",
+        "bed",
+        "chair",
+        "lamp",
+        "plant"
+      ],
+      "blocked": [
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "door": [
+        3,
+        7
+      ],
+      "clearance": [
+        3,
+        6
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 4,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Old Town Tea",
+      "chapter": 3,
+      "w": 8,
+      "h": 5,
+      "items": [
+        "sofa",
+        "table",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "door": [
+        6,
+        4
+      ],
+      "clearance": [
+        6,
+        3
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "table",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 5,
+          "y": 0,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "The Corner Flat",
+      "chapter": 3,
+      "w": 7,
+      "h": 7,
+      "items": [
+        "bed",
+        "desk",
+        "sofa",
+        "lamp",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "door": [
+        1,
+        6
+      ],
+      "clearance": [
+        1,
+        5
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": true,
+      "optional": "cabinet",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Between the Beams",
+      "chapter": 3,
+      "w": 6,
+      "h": 8,
+      "items": [
+        "bed",
+        "cabinet",
+        "lamp",
+        "plant"
+      ],
+      "blocked": [
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "door": [
+        4,
+        7
+      ],
+      "clearance": [
+        4,
+        6
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "A Well-read Home",
+      "chapter": 3,
+      "w": 8,
+      "h": 6,
+      "items": [
+        "desk",
+        "chair",
+        "lamp",
+        "shelf",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "door": [
+        6,
+        5
+      ],
+      "clearance": [
+        6,
+        4
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 5,
+          "y": 0,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Room for Stories",
+      "chapter": 3,
+      "w": 7,
+      "h": 7,
+      "items": [
+        "sofa",
+        "bed",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "door": [
+        5,
+        6
+      ],
+      "clearance": [
+        5,
+        5
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": false,
+      "optional": "cabinet",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "The Tucked-away Table",
+      "chapter": 3,
+      "w": 8,
+      "h": 6,
+      "items": [
+        "dining",
+        "stool",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "door": [
+        6,
+        5
+      ],
+      "clearance": [
+        6,
+        4
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "dining",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "stool",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 5,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Above the Square",
+      "chapter": 3,
+      "w": 7,
+      "h": 8,
+      "items": [
+        "bed",
+        "desk",
+        "sofa",
+        "lamp",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "door": [
+        5,
+        7
+      ],
+      "clearance": [
+        5,
+        6
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 4,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 0,
+          "y": 4,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "A New Chapter",
+      "chapter": 3,
+      "w": 8,
+      "h": 7,
+      "items": [
+        "desk",
+        "bed",
+        "sofa",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet",
+        "coat"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "door": [
+        6,
+        6
+      ],
+      "clearance": [
+        6,
+        5
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 5,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 4,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "coat",
+          "x": 0,
+          "y": 4,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Fern House",
+      "chapter": 4,
+      "w": 6,
+      "h": 7,
+      "items": [
+        "chair",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "door": [
+        4,
+        6
+      ],
+      "clearance": [
+        4,
+        5
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Rain on the Glass",
+      "chapter": 4,
+      "w": 7,
+      "h": 6,
+      "items": [
+        "desk",
+        "chair",
+        "lamp",
+        "plant"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "door": [
+        5,
+        5
+      ],
+      "clearance": [
+        5,
+        4
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "The Potting Corner",
+      "chapter": 4,
+      "w": 7,
+      "h": 7,
+      "items": [
+        "sofa",
+        "table",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "door": [
+        1,
+        6
+      ],
+      "clearance": [
+        1,
+        5
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "table",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 4,
+          "y": 1,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Green Morning",
+      "chapter": 4,
+      "w": 6,
+      "h": 8,
+      "items": [
+        "desk",
+        "bed",
+        "chair",
+        "lamp",
+        "plant"
+      ],
+      "blocked": [
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "door": [
+        4,
+        7
+      ],
+      "clearance": [
+        4,
+        6
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "The Garden Table",
+      "chapter": 4,
+      "w": 8,
+      "h": 6,
+      "items": [
+        "dining",
+        "stool",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "door": [
+        6,
+        5
+      ],
+      "clearance": [
+        6,
+        4
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "dining",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "stool",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 4,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Botanical Notes",
+      "chapter": 4,
+      "w": 7,
+      "h": 8,
+      "items": [
+        "desk",
+        "chair",
+        "lamp",
+        "shelf",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "door": [
+        5,
+        7
+      ],
+      "clearance": [
+        5,
+        6
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "A Gentle Evening",
+      "chapter": 4,
+      "w": 8,
+      "h": 7,
+      "items": [
+        "sofa",
+        "bed",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "door": [
+        6,
+        6
+      ],
+      "clearance": [
+        6,
+        5
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": false,
+      "optional": "cabinet",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "The Glasshouse",
+      "chapter": 4,
+      "w": 8,
+      "h": 8,
+      "items": [
+        "bed",
+        "desk",
+        "sofa",
+        "lamp",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "door": [
+        6,
+        7
+      ],
+      "clearance": [
+        6,
+        6
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 5,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 3,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Lemon Tree Lane",
+      "chapter": 4,
+      "w": 7,
+      "h": 8,
+      "items": [
+        "desk",
+        "bed",
+        "sofa",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet",
+        "coat"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "door": [
+        1,
+        7
+      ],
+      "clearance": [
+        1,
+        6
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "coat",
+          "x": 0,
+          "y": 4,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Rooted Here",
+      "chapter": 4,
+      "w": 8,
+      "h": 8,
+      "items": [
+        "desk",
+        "bed",
+        "sofa",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet",
+        "coat"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "door": [
+        6,
+        7
+      ],
+      "clearance": [
+        6,
+        6
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 4,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "coat",
+          "x": 0,
+          "y": 4,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "The Maker’s Room",
+      "chapter": 5,
+      "w": 6,
+      "h": 8,
+      "items": [
+        "desk",
+        "chair",
+        "lamp",
+        "shelf",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "door": [
+        4,
+        7
+      ],
+      "clearance": [
+        4,
+        6
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "A Family Morning",
+      "chapter": 5,
+      "w": 8,
+      "h": 6,
+      "items": [
+        "sofa",
+        "bed",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "door": [
+        6,
+        5
+      ],
+      "clearance": [
+        6,
+        4
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": false,
+      "optional": "cabinet",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 1
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "The Open Table",
+      "chapter": 5,
+      "w": 7,
+      "h": 8,
+      "items": [
+        "dining",
+        "stool",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "door": [
+        5,
+        7
+      ],
+      "clearance": [
+        5,
+        6
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": false,
+      "optional": "plant",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "dining",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "stool",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "The Guest’s Window",
+      "chapter": 5,
+      "w": 8,
+      "h": 7,
+      "items": [
+        "bed",
+        "desk",
+        "sofa",
+        "lamp",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ]
+      ],
+      "door": [
+        6,
+        6
+      ],
+      "clearance": [
+        6,
+        5
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 5,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 3,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "A Room Reimagined",
+      "chapter": 5,
+      "w": 8,
+      "h": 8,
+      "items": [
+        "desk",
+        "bed",
+        "chair",
+        "lamp",
+        "plant"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "door": [
+        6,
+        7
+      ],
+      "clearance": [
+        6,
+        6
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "chair",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Quiet Company",
+      "chapter": 5,
+      "w": 7,
+      "h": 8,
+      "items": [
+        "sofa",
+        "table",
+        "lamp",
+        "plant",
+        "shelf"
+      ],
+      "blocked": [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "door": [
+        5,
+        7
+      ],
+      "clearance": [
+        5,
+        6
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": false,
+      "optional": "shelf",
+      "brief": "A restful corner, a useful lamp, and a clear welcome.",
+      "solution": [
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "table",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 1,
+          "y": 0,
+          "r": 1
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Across the Threshold",
+      "chapter": 5,
+      "w": 8,
+      "h": 7,
+      "items": [
+        "desk",
+        "bed",
+        "sofa",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet",
+        "coat"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "door": [
+        6,
+        6
+      ],
+      "clearance": [
+        6,
+        5
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 5,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 4,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 4,
+          "r": 0
+        },
+        {
+          "key": "coat",
+          "x": 0,
+          "y": 5,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "The Last Box",
+      "chapter": 5,
+      "w": 8,
+      "h": 8,
+      "items": [
+        "desk",
+        "bed",
+        "sofa",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet",
+        "coat"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "door": [
+        6,
+        7
+      ],
+      "clearance": [
+        6,
+        6
+      ],
+      "windows": [
+        0,
+        1
+      ],
+      "daylight": true,
+      "optional": "shelf",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 0,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 4,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 2,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 5,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "coat",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Always a Welcome",
+      "chapter": 5,
+      "w": 8,
+      "h": 8,
+      "items": [
+        "bed",
+        "desk",
+        "sofa",
+        "lamp",
+        "plant",
+        "cabinet"
+      ],
+      "blocked": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "door": [
+        6,
+        7
+      ],
+      "clearance": [
+        6,
+        6
+      ],
+      "windows": [
+        1,
+        2
+      ],
+      "daylight": true,
+      "optional": "cabinet",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "desk",
+          "x": 1,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 0,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 5,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 1,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 3,
+          "y": 2,
+          "r": 0
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Room for Tomorrow",
+      "chapter": 5,
+      "w": 8,
+      "h": 8,
+      "items": [
+        "desk",
+        "bed",
+        "sofa",
+        "lamp",
+        "plant",
+        "shelf",
+        "cabinet",
+        "coat"
+      ],
+      "blocked": [
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "door": [
+        6,
+        7
+      ],
+      "clearance": [
+        6,
+        6
+      ],
+      "windows": [
+        2,
+        3
+      ],
+      "daylight": true,
+      "optional": "plant",
+      "brief": "A desk in daylight, a light for reading, and room to move.",
+      "solution": [
+        {
+          "key": "plant",
+          "x": 3,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "desk",
+          "x": 2,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "bed",
+          "x": 0,
+          "y": 2,
+          "r": 0
+        },
+        {
+          "key": "sofa",
+          "x": 5,
+          "y": 0,
+          "r": 0
+        },
+        {
+          "key": "lamp",
+          "x": 0,
+          "y": 3,
+          "r": 0
+        },
+        {
+          "key": "shelf",
+          "x": 0,
+          "y": 4,
+          "r": 0
+        },
+        {
+          "key": "cabinet",
+          "x": 2,
+          "y": 4,
+          "r": 0
+        },
+        {
+          "key": "coat",
+          "x": 0,
+          "y": 5,
+          "r": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Furniture Kit isometric PNGs by Kenney, CC0 1.0. Original filenames mapped in game/furniture.json.
+Interface click from Kenney Interface Sounds, CC0 1.0.
+Quiet Rooms music and all original code/room content: Apache-2.0.

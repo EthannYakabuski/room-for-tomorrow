@@ -1,0 +1,27 @@
+{
+  "schema": "public-screenshot-summary-v1",
+  "scope": "Public image identity and previously recorded observations; this is not an original capture-validator receipt.",
+  "key": "tablet-10-collection",
+  "file": "tablet-10-collection.png",
+  "sha256": "ed4230843feb0f543fe50748454ed139523477723a123927dddfc1a9381228e5",
+  "dimensions": [
+    1600,
+    2560
+  ],
+  "raw_file": "raw/tablet-10-collection.png",
+  "raw_sha256": "ed4230843feb0f543fe50748454ed139523477723a123927dddfc1a9381228e5",
+  "raw_dimensions": [
+    1600,
+    2560
+  ],
+  "package": "com.ethannyakabuski.roomfortomorrow",
+  "source_apk_sha256": "1f1914078c5b0b1976f6dbd1bc126e18b63f041e32b9ff91169911965906f04f",
+  "source_apk_bytes": 184209827,
+  "capture_method": "adb_shell_screencap_png",
+  "pixel_processing": "Exact copies of the original unmodified guest PNG; no resize/crop/rotation/overlays.",
+  "game_state": "Planner journal",
+  "visual_review": "Native operator inspected this exact ordinary frame for legibility, usable controls and absence of notification, ANR, fullscreen ad or modal obstruction. Logical tablet views are emulation. ",
+  "original_native_visual_review_recorded": true,
+  "physical_device_test": false,
+  "physical_tablet_test": false
+}

@@ -1,0 +1,143 @@
+{
+  "game": "Room for Tomorrow",
+  "package": "com.ethannyakabuski.roomfortomorrow",
+  "achievements": [
+    {
+      "key": "first_home",
+      "name": "A Place to Begin",
+      "threshold": 1,
+      "metric": "commissions"
+    },
+    {
+      "key": "five_homes",
+      "name": "Neighbourly",
+      "threshold": 5,
+      "metric": "commissions"
+    },
+    {
+      "key": "ten_homes",
+      "name": "A Little Street",
+      "threshold": 10,
+      "metric": "commissions"
+    },
+    {
+      "key": "twenty_homes",
+      "name": "Open House",
+      "threshold": 20,
+      "metric": "commissions"
+    },
+    {
+      "key": "forty_homes",
+      "name": "A Welcoming Town",
+      "threshold": 40,
+      "metric": "commissions"
+    },
+    {
+      "key": "all_homes",
+      "name": "Room for Everyone",
+      "threshold": 60,
+      "metric": "commissions"
+    },
+    {
+      "key": "request_1",
+      "name": "Thoughtful Detail",
+      "threshold": 1,
+      "metric": "requests"
+    },
+    {
+      "key": "request_10",
+      "name": "Personal Touch",
+      "threshold": 10,
+      "metric": "requests"
+    },
+    {
+      "key": "request_30",
+      "name": "Every Little Wish",
+      "threshold": 30,
+      "metric": "requests"
+    },
+    {
+      "key": "request_60",
+      "name": "The Finishing Touch",
+      "threshold": 60,
+      "metric": "requests"
+    },
+    {
+      "key": "level_3",
+      "name": "Fresh Perspective",
+      "threshold": 3,
+      "metric": "level"
+    },
+    {
+      "key": "level_5",
+      "name": "Space Maker",
+      "threshold": 5,
+      "metric": "level"
+    },
+    {
+      "key": "level_10",
+      "name": "Master Planner",
+      "threshold": 10,
+      "metric": "level"
+    },
+    {
+      "key": "daily_1",
+      "name": "Today’s Little Project",
+      "threshold": 1,
+      "metric": "dailies"
+    },
+    {
+      "key": "daily_7",
+      "name": "A Week of Welcome",
+      "threshold": 7,
+      "metric": "dailies"
+    },
+    {
+      "key": "decorate",
+      "name": "My Quiet Corner",
+      "threshold": 1,
+      "metric": "decorations"
+    },
+    {
+      "key": "rotate_20",
+      "name": "A New Angle",
+      "threshold": 20,
+      "metric": "rotations"
+    },
+    {
+      "key": "undo_10",
+      "name": "Room to Rethink",
+      "threshold": 10,
+      "metric": "undos"
+    },
+    {
+      "key": "chapter_3",
+      "name": "Across the Courtyard",
+      "threshold": 3,
+      "metric": "chapters"
+    },
+    {
+      "key": "chapter_6",
+      "name": "A Brighter Tomorrow",
+      "threshold": 6,
+      "metric": "chapters"
+    }
+  ],
+  "leaderboards": [
+    {
+      "key": "commissions_completed",
+      "name": "Welcoming Homes",
+      "metric": "commissions"
+    },
+    {
+      "key": "optional_requests",
+      "name": "Thoughtful Details",
+      "metric": "requests"
+    },
+    {
+      "key": "planner_xp",
+      "name": "Space Makers",
+      "metric": "xp"
+    }
+  ]
+}

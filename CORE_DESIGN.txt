@@ -1,0 +1,75 @@
+ROOM FOR TOMORROW - CORE DESIGN
+
+The player arranges a small furnished home, preserving an entrance and usable
+walking space. No timer, lives, paid currency, energy or mandatory advertisements.
+Touch a furnishing card; hold over the floor for a footprint ghost; release on a
+cell to place. Tap a placed piece to select and move it. Rotate before placing.
+Lift returns a piece to the tray. Undo and reset are unlimited and reset itself
+can be undone. Paths toggles reachable-floor dots and usable-front indicators.
+Plan tip is always free and explains the most relevant unmet rule.
+
+Rules are modelled on integer grid cells, independent of sprite pixels:
+- Rotating a rectangular footprint swaps its width and height.
+- Furniture must stay inside the floor, avoid all other furniture and structural
+  columns, and leave both the entrance and its inside welcome cell clear.
+- A breadth-first search from the entrance finds reachable four-neighbour floor.
+  At least one cell on each furnishing's facing front must be reachable.
+- A required writing desk must overlap a daylight window cell on the back row.
+- A floor lamp must be within Manhattan distance two of a chair, sofa, bed or
+  dining chair. Distance is measured between the occupied footprints.
+- Optional wishes put a fern beside a window, a shelf against a back wall, or a
+  cabinet within two steps of a bed. They never prevent ordinary completion.
+
+Content is sixty individually specified briefs, not sixty random seeds. Each has
+a name, chapter, dimensions, furnishing list, authored structural cells, windows,
+door and optional wish. Commission1-10 teach simple rectangular rooms and the
+furnishing types. Sunny Studios narrows daylight positions and varies door
+locations. Shared Corners adds interior columns and short dividing walls. Old
+Town includes narrow5x8 and wide8x5 rooms and offsets around beams. Garden Rooms
+adds grouped courtyard obstructions. Tomorrow's Homes combines furniture needs,
+narrow windows and longer stepped structural shapes. It remains a gentle spatial
+puzzle with many solutions, not a unique-answer packing challenge.
+
+game/commissions.json stores every concrete definition and a complete recorded
+arrangement satisfying mandatory and optional rules. tests/content_authoring.py
+contains the explicit briefs and a deterministic arrangement search used during
+authoring. The runtime never invokes Python or searches for a solution. Godot's
+validator independently verifies each recorded arrangement and finds a second
+accepted arrangement for each commission in the model suite. Human testing must
+still assess pacing, challenge, readability and whether the sixty commissions
+feel sufficiently different; solvability does not establish enjoyable difficulty.
+
+Two separate tutorial rooms introduce placing a chair/light, then desk daylight.
+Eight completed commissions open the next chapter. First clear gives35XP and
+45/55/65/75/85/95coins by chapter; first optional detail adds10XP/15coins. Replays
+remain free; repeating claims cannot duplicate rewards. Planner level is
+1+floor(sqrt(XP/40)). Three additional floor palettes cost120/240/360coins and
+never change footprints or puzzle rules. Free decoration offers one of each of
+the twelve furniture types in an8x8 room and persists separately.
+
+A deterministic UTC daily commission changes each day and offers80coins/30XP
+once per day, even when its normal room has already been completed. Two small
+quests reward six arrangement actions and one new commission. A recorded highest
+day prevents clock rewinds from creating earlier claims; local offline software
+cannot prevent deliberate future-clock changes or save editing. Progress,
+optional details, cosmetics, tutorial completion, drafts and decoration persist
+locally in rooms-v1.json using a temporary file and atomic rename. Saves have a
+version, constrained numeric fields and tolerant missing-field defaults.
+
+SharedServices handles native banners, interstitial cadence and Play Games.
+The game calls round_finished once for a newly rewarded commission/daily result.
+It requests a precise placement hint only when can_reward() is true and reveals
+it only after the true earned callback. Tokens make callbacks single-use and
+room checks reject a late callback for a different room. Free tips/undo/reset and
+all progression remain available when ads are unavailable. Web does not simulate
+earned events. Menu layout reserves the actual shared banner height and safe
+inset when the optional menu_bottom_reserve API is available. Home content can
+scroll inside that safe area without rebuilding the active puzzle.
+
+Sprites are the actual Kenney Furniture Kit Isometric directional PNGs, four
+directions per furnishing. Their trimmed frames use one projection scale,
+footprint-centred placement and a floor-front bottom anchor; drawing is sorted
+by grid depth. Geometry and placement ghosts share the same grid projection.
+Furniture/source filenames are mapped in game/furniture.json. Third-party
+notices accompany the assets. Original24-second quiet pad is generated from
+original sine chords; Kenney interface click is CC0. Audio can be muted.

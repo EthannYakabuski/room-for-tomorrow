@@ -1,0 +1,208 @@
+{
+  "title": "Room for Tomorrow",
+  "short_description": "Make small rooms feel like home, one thoughtful arrangement at a time.",
+  "long_description": "A good home begins with room to move.\n\nRoom for Tomorrow is a cozy spatial puzzle about making compact homes work beautifully. Choose furniture, turn it to the right angle, and place each piece where it belongs. A clear doorway and a usable path can matter as much as a lovely sofa.\n\nWork through 60 commissions across six chapters, with two tutorial rooms to introduce the tools. Keep the entrance clear, connect people to useful furniture sides, give a desk some daylight, and place reading light where it can help. Optional household wishes invite a little extra thought.\n\nThere is room to rethink. Undo, reset and try another arrangement freely. The rules check how the room works, so more than one thoughtful layout can fit a commission.\n\nEarn planner experience, open new chapters, and enjoy cosmetic palettes that leave the puzzle rules intact. Try a daily room or spend a quiet moment in free decoration mode. Progress saves locally and core planning works offline.\n\nThe Android edition supports optional earned hints and ads between completed commissions. Google Play Games achievements and leaderboards depend on sign-in and the owner's final configuration. The Web edition keeps local play with Android-service fallbacks and does not simulate earned-ad rewards.",
+  "category": "GAME_PUZZLE",
+  "suggested_tags": [
+    "Puzzle",
+    "Logic",
+    "Decorating",
+    "Single player",
+    "Offline"
+  ],
+  "orientation": "portrait",
+  "developer": "EthannYakabuski",
+  "target_platforms": [
+    "Android",
+    "Web where feasible"
+  ],
+  "feature_graphic": "feature-graphic-1024x500.png",
+  "app_icon": "app-icon-512.png",
+  "achievement_icons": [
+    {
+      "key": "first_home",
+      "name": "A Place to Begin",
+      "description": "",
+      "threshold": 1,
+      "metric": "commissions",
+      "file": "achievements/first_home.png"
+    },
+    {
+      "key": "five_homes",
+      "name": "Neighbourly",
+      "description": "",
+      "threshold": 5,
+      "metric": "commissions",
+      "file": "achievements/five_homes.png"
+    },
+    {
+      "key": "ten_homes",
+      "name": "A Little Street",
+      "description": "",
+      "threshold": 10,
+      "metric": "commissions",
+      "file": "achievements/ten_homes.png"
+    },
+    {
+      "key": "twenty_homes",
+      "name": "Open House",
+      "description": "",
+      "threshold": 20,
+      "metric": "commissions",
+      "file": "achievements/twenty_homes.png"
+    },
+    {
+      "key": "forty_homes",
+      "name": "A Welcoming Town",
+      "description": "",
+      "threshold": 40,
+      "metric": "commissions",
+      "file": "achievements/forty_homes.png"
+    },
+    {
+      "key": "all_homes",
+      "name": "Room for Everyone",
+      "description": "",
+      "threshold": 60,
+      "metric": "commissions",
+      "file": "achievements/all_homes.png"
+    },
+    {
+      "key": "request_1",
+      "name": "Thoughtful Detail",
+      "description": "",
+      "threshold": 1,
+      "metric": "requests",
+      "file": "achievements/request_1.png"
+    },
+    {
+      "key": "request_10",
+      "name": "Personal Touch",
+      "description": "",
+      "threshold": 10,
+      "metric": "requests",
+      "file": "achievements/request_10.png"
+    },
+    {
+      "key": "request_30",
+      "name": "Every Little Wish",
+      "description": "",
+      "threshold": 30,
+      "metric": "requests",
+      "file": "achievements/request_30.png"
+    },
+    {
+      "key": "request_60",
+      "name": "The Finishing Touch",
+      "description": "",
+      "threshold": 60,
+      "metric": "requests",
+      "file": "achievements/request_60.png"
+    },
+    {
+      "key": "level_3",
+      "name": "Fresh Perspective",
+      "description": "",
+      "threshold": 3,
+      "metric": "level",
+      "file": "achievements/level_3.png"
+    },
+    {
+      "key": "level_5",
+      "name": "Space Maker",
+      "description": "",
+      "threshold": 5,
+      "metric": "level",
+      "file": "achievements/level_5.png"
+    },
+    {
+      "key": "level_10",
+      "name": "Master Planner",
+      "description": "",
+      "threshold": 10,
+      "metric": "level",
+      "file": "achievements/level_10.png"
+    },
+    {
+      "key": "daily_1",
+      "name": "Today’s Little Project",
+      "description": "",
+      "threshold": 1,
+      "metric": "dailies",
+      "file": "achievements/daily_1.png"
+    },
+    {
+      "key": "daily_7",
+      "name": "A Week of Welcome",
+      "description": "",
+      "threshold": 7,
+      "metric": "dailies",
+      "file": "achievements/daily_7.png"
+    },
+    {
+      "key": "decorate",
+      "name": "My Quiet Corner",
+      "description": "",
+      "threshold": 1,
+      "metric": "decorations",
+      "file": "achievements/decorate.png"
+    },
+    {
+      "key": "rotate_20",
+      "name": "A New Angle",
+      "description": "",
+      "threshold": 20,
+      "metric": "rotations",
+      "file": "achievements/rotate_20.png"
+    },
+    {
+      "key": "undo_10",
+      "name": "Room to Rethink",
+      "description": "",
+      "threshold": 10,
+      "metric": "undos",
+      "file": "achievements/undo_10.png"
+    },
+    {
+      "key": "chapter_3",
+      "name": "Across the Courtyard",
+      "description": "",
+      "threshold": 3,
+      "metric": "chapters",
+      "file": "achievements/chapter_3.png"
+    },
+    {
+      "key": "chapter_6",
+      "name": "A Brighter Tomorrow",
+      "description": "",
+      "threshold": 6,
+      "metric": "chapters",
+      "file": "achievements/chapter_6.png"
+    }
+  ],
+  "leaderboard_icons": [
+    {
+      "key": "commissions_completed",
+      "name": "Welcoming Homes",
+      "description": "",
+      "metric": "commissions",
+      "file": "leaderboards/commissions_completed.png"
+    },
+    {
+      "key": "optional_requests",
+      "name": "Thoughtful Details",
+      "description": "",
+      "metric": "requests",
+      "file": "leaderboards/optional_requests.png"
+    },
+    {
+      "key": "planner_xp",
+      "name": "Space Makers",
+      "description": "",
+      "metric": "xp",
+      "file": "leaderboards/planner_xp.png"
+    }
+  ],
+  "copy_validation": "Draft aligned to the game brief; confirm against actual implemented build before store submission.",
+  "external_services": "Google Play Games IDs/backend and production AdMob account configuration/final tests are supplied by the owner. First-pass ads use test IDs."
+}

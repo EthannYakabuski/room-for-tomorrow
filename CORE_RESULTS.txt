@@ -1,0 +1,44 @@
+ROOM FOR TOMORROW - CORE VERIFICATION
+Recorded 2026-10-20 07:33:51 UTC
+
+Final canonical Godot4.5.1 checks, actual console process exit codes:
+- Model:799checks,0failures; exit0. All60recorded mandatory+optional layouts
+  validated, all60have an independently found second accepted arrangement.
+- Headless actual-scene UI:95checks,0failures; exit0, no CLI test flag needed.
+- OpenGL actual-scene UI:95checks,0failures; exit0. NVIDIA GeForce GT1030,
+  NVIDIA560.94, OpenGL3.3 Compatibility. Actual dispatched screen-touch events.
+- GPU capture runner:10PNG exports, all result0; process exit0.540x960 pixels.
+- Portable Python helper: read-only verification of all60arrangements; exit0.
+Final four Godot logs contain no ERROR, SCRIPT ERROR or WARNING lines.
+
+Evidence in tests/evidence/: model.log, ui-headless.log, ui-gpu.log, capture.log
+and phone/{home,commissions,planning,pathways,result,courtyard,tomorrow,
+decoration,journal,tutorial}.png. Capture log replaces its machine-specific
+output directory with <qa-capture-directory>; the screenshots are unchanged.
+
+Captures are actual Godot GPU viewport renders of the implemented game with
+transient test fixtures. They do not claim Android hardware, human completion,
+native ads, human playtesting, tablet screenshots or browser proof. Fixture
+progress records one sample result to expose its implemented result view; later
+chapter states are selected directly by the QA harness. They never load or
+overwrite the player's progress. Model persistence tests use a unique temporary
+file and clean it up. All owned Godot test/capture processes finished.
+
+Material recoverable issues fixed during verification: JSON numeric membership,
+blocked authored entrances, optional recorded wishes, actual sprite footprint
+orientation/facing sides, header minimum widths, stale scroll-container heights
+after page changes, deferred button actions, tall-sprite touch hit testing,
+malformed save/draft validation and single-use rewarded-hint callbacks.
+
+Remaining parent pipeline: Android build/install and actual native viewport/input,
+measured banner-safe geometry and consent/ads behavior, Play Games configuration,
+Web export/browser loading (including JSON resources), virtual7/10inch captures,
+final store package audit and any authorized publication. Human playtesting must
+assess enjoyment, difficulty pacing and visual/touch comfort. Local solvability
+and deterministic tests do not prove commercial quality or backend availability.
+
+No active local-core permission blocker remains. Automatic approval review
+intermittently applied the obsolete review-only scope to three canonical actions;
+each known-unexecuted action was stopped, reported to the coordinator and retried
+once only after fresh relevant trusted authorization evidence. Supported retries
+succeeded. Public publication remains outside this task.

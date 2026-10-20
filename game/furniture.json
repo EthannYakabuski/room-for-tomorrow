@@ -1,0 +1,74 @@
+{
+  "desk": {
+    "name": "Writing desk",
+    "art": "desk",
+    "w": 1,
+    "h": 2
+  },
+  "bed": {
+    "name": "Single bed",
+    "art": "bedSingle",
+    "w": 2,
+    "h": 1
+  },
+  "sofa": {
+    "name": "Two-seat sofa",
+    "art": "loungeSofa",
+    "w": 1,
+    "h": 2
+  },
+  "chair": {
+    "name": "Reading chair",
+    "art": "loungeChair",
+    "w": 1,
+    "h": 1
+  },
+  "lamp": {
+    "name": "Floor lamp",
+    "art": "lampRoundFloor",
+    "w": 1,
+    "h": 1
+  },
+  "plant": {
+    "name": "Potted fern",
+    "art": "pottedPlant",
+    "w": 1,
+    "h": 1
+  },
+  "shelf": {
+    "name": "Bookcase",
+    "art": "bookcaseOpen",
+    "w": 1,
+    "h": 1
+  },
+  "table": {
+    "name": "Coffee table",
+    "art": "tableCoffee",
+    "w": 1,
+    "h": 2
+  },
+  "stool": {
+    "name": "Dining chair",
+    "art": "chairCushion",
+    "w": 1,
+    "h": 1
+  },
+  "dining": {
+    "name": "Dining table",
+    "art": "tableRound",
+    "w": 2,
+    "h": 2
+  },
+  "cabinet": {
+    "name": "Bedside cabinet",
+    "art": "cabinetBed",
+    "w": 1,
+    "h": 1
+  },
+  "coat": {
+    "name": "Coat stand",
+    "art": "coatRackStanding",
+    "w": 1,
+    "h": 1
+  }
+}

@@ -1,0 +1,26 @@
+Room for Tomorrow
+
+SHORT DESCRIPTION (70/80 characters)
+Make small rooms feel like home, one thoughtful arrangement at a time.
+
+LONG DESCRIPTION
+A good home begins with room to move.
+
+Room for Tomorrow is a cozy spatial puzzle about making compact homes work beautifully. Choose furniture, turn it to the right angle, and place each piece where it belongs. A clear doorway and a usable path can matter as much as a lovely sofa.
+
+Work through 60 commissions across six chapters, with two tutorial rooms to introduce the tools. Keep the entrance clear, connect people to useful furniture sides, give a desk some daylight, and place reading light where it can help. Optional household wishes invite a little extra thought.
+
+There is room to rethink. Undo, reset and try another arrangement freely. The rules check how the room works, so more than one thoughtful layout can fit a commission.
+
+Earn planner experience, open new chapters, and enjoy cosmetic palettes that leave the puzzle rules intact. Try a daily room or spend a quiet moment in free decoration mode. Progress saves locally and core planning works offline.
+
+The Android edition supports optional earned hints and ads between completed commissions. Google Play Games achievements and leaderboards depend on sign-in and the owner's final configuration. The Web edition keeps local play with Android-service fallbacks and does not simulate earned-ad rewards.
+
+CATEGORY
+GAME_PUZZLE
+
+SUGGESTED TAGS
+Puzzle, Logic, Decorating, Single player, Offline
+
+PUBLICATION NOTE
+This is store copy for the implemented candidate, not a claim of publication or production-service verification. Check feature claims against the final build before uploading. The owner completes backend configuration, final testing, privacy/Data safety declarations, audience/content-rating questionnaires, support/privacy URLs, and Google Play publication.

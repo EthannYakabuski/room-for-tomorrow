@@ -1,0 +1,34 @@
+{
+  "schema": "public-local-qa-summary-v1",
+  "scope": "Dated local verification summary, not a machine ledger, original validation receipt or production acceptance.",
+  "package": "com.ethannyakabuski.roomfortomorrow",
+  "source_apk_sha256": "1f1914078c5b0b1976f6dbd1bc126e18b63f041e32b9ff91169911965906f04f",
+  "apk_bytes": 184209827,
+  "diagnostic_hooks_used": false,
+  "verified_observations": [
+    "Ordinary room0 placement, rotation, lift/re-place, undo and completion paid60coins/45XP. Daily room13 first clear/detail/bonus paid150coins/75XP; replay paid zero and preserved all22 groups.",
+    "An actual earned hint selected the Reading chair suggestion without automatic placement or immediate currency/XP. The unearned early-close SDK branch remains unverified.",
+    "The Home action quest paid25coins/10XP once with repeat disabled. Two eligible completions triggered an observed interstitial; the banked daily save was unchanged across dismissal.",
+    "In-game Back preserved the arrangement. Actual system Back exited to launcher and normal cold relaunch retained it. Offline cold/restart checks preserved all22 groups, with genuine planning edits in each logical profile and no duplicate payout.",
+    "Nine unmodified guest frames were reviewed. A normal Home test banner left primary controls usable; lower content scrolls. Original network/display settings were restored and the known package stopped."
+  ],
+  "saved_groups_checked": 22,
+  "reviewed_guest_screenshot_count": 9,
+  "physical_device_test": false,
+  "physical_tablet_test": false,
+  "limits": [
+    "One Android11/API30 x86 emulator with logical phone/tablet display profiles was tested; no physical phone or tablet acceptance.",
+    "Godot4.5.1 Compatibility exports use minAPI24/targetAPI35 under the recorded engine constraint; current Google Play release eligibility remains owner work.",
+    "Emulator audio was disabled. Audible Android sound, interactive Web/audio/WebGL, production services and human acceptance remain unverified.",
+    "Official Google test IDs only. Real backend/service IDs, consent, signing, production checks and Google Play publication remain owner work.",
+    "Short QA does not establish all content/equipment combinations, broad ad-fill reliability, long sessions, midnight rollover, multi-day login or human balance.",
+    "Source publication does not establish a successful hosted CI run or live deployment. Pages deployment remains explicitly disabled pending separate authorization.",
+    "The native unearned/early-dismiss reward branch remains UNVERIFIED: the SDK ignored early AndroidBack attempts. Later earned hints were distinct requests, not duplicate first callbacks. No forced callback or result was used.",
+    "An earned hint identifies a placement without applying furniture or immediately changing coins/XP. Hint highlight/token are transient; placed furniture and banked progress are the durable checkpoint. No assisted-score exclusion exists.",
+    "Hint callbacks check matching token and room ID but have no explicit page/visit nonce; broad delayed same-room/navigation immunity remains unverified.",
+    "In-game Back saves the draft and returns Home. A separately observed Android system Back exited to launcher; cold relaunch retained the layout. No generalized system-Back-to-Home behavior is claimed.",
+    "Recorded Android/Web export pre/post guards cover main and Services only (2 inputs); other project/preset/model hashes are snapshot-only. Do not claim a full-source reproducible APK binding.",
+    "The app was initially absent and genuine ordinary placement established the first save; no preinstall retention is claimed. Lower Home quests/Journal and further Journal content use ordinary scrolling.",
+    "Model/desktop captures may choose later content directly and do not establish native SDK behavior, human puzzle enjoyment or pacing."
+  ]
+}

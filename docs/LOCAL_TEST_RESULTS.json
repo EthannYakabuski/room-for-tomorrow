@@ -1,0 +1,67 @@
+{
+  "schema": "public-local-test-summary-v1",
+  "status": "Dated local package ready for owner local-test review; no production acceptance.",
+  "engine": "Godot4.5.1 Compatibility",
+  "android": {
+    "sha256": "1f1914078c5b0b1976f6dbd1bc126e18b63f041e32b9ff91169911965906f04f",
+    "bytes": 184209827,
+    "debug": true
+  },
+  "web": {
+    "html_sha256": "e47c87e0526902e1a53132ad0fc7a44a6736d16abd220f85c6c593f9d8202ddd",
+    "html_bytes": 5491,
+    "pck_sha256": "c3ffb651c6ea92b5261816edb79dfb7cbe414c160cb2e3a128a2569eee7e18e2",
+    "pck_bytes": 3544916,
+    "runtime_files": 9,
+    "packed_entries": 461,
+    "interactive_browser_verified": false,
+    "source_freeze_verified_as_recorded": true
+  },
+  "source_hashes": {
+    "export_presets.cfg": "3f68a014eda31d2e2360f73f7c12af1af85ad4b9d7c0606ddf00a2651d7df8ec",
+    "game/catalog.json": "09f0f3f07e6708d25bf3aace62ef5f6b8d35b250d04dab36f940f50d5ab169bd",
+    "game/commissions.json": "d3532e32745e015d7fec8b39869afb793a5545efaf3f6f585f2ed65b7b978334",
+    "game/furniture.json": "4fcd3d230862b38f3bd77526a75812dd3c4743bf8ef2ca36a40dc4f2dc5beebb",
+    "game/main.gd": "bb55eefd4f31a1821c4608985c1e7ec6a42ea57d0c9da234f30300548cc37f2b",
+    "game/progress.gd": "68f1bc0262084bbd6bbc1ebd5020bdc80277a2d16e245a6ff6c46f85037613bf",
+    "game/puzzle.gd": "c86f46d842023744072aa20a091eac0a55e0fdc1577d2b065dc7dad7a3a95683",
+    "game/room_view.gd": "43ef7982a86fafacd4cecd9880f0ad38e28ff29ff78aa895e13ad7646ac9c90f",
+    "platform/config.json": "421a066738f562bd2f2c046bf1f6b88ce07ad1b5ef26449d53604ebdad97eed3",
+    "platform/services.gd": "4b4c6e6751524097dee623825b3384192ac0be5251f2829fcfaadd293cf03356",
+    "project.godot": "a1cdb5563eed88453aee8e21f6fdecbead8221a4e19ae430a29d48ec2715cc00"
+  },
+  "source_coverage": "Recorded Android/Web export pre/post guards cover main and Services only (2 inputs); other project/preset/model hashes are snapshot-only. Do not claim a full-source reproducible APK binding.",
+  "core_test_summary": "799 model checks, 95 headless actual-scene UI checks and 95 GPU actual-scene UI checks passed, with recorded exit 0. Ten desktop GPU fixture captures and a separate read-only all-60 arrangement helper were recorded.",
+  "test_scope": "Deterministic models, actual desktop scenes and explicit service/capture fixtures have their recorded scope; actual Android observations are summarized separately.",
+  "native_report": {
+    "file": "docs/NATIVE_QA.json",
+    "sha256": "b115a4fb772b533a42285045d7c881ad6a7639826715638a7e9af27c1407629d"
+  },
+  "captures": {
+    "manifest": "marketing/screenshots/capture-manifest.json",
+    "count": 9,
+    "raw_guest_pngs_unchanged": true,
+    "physical_device_test": false,
+    "physical_tablet_test": false
+  },
+  "licenses": {
+    "source_index": "LICENSES/INDEX.txt",
+    "recorded_packaged_notice_count": 16,
+    "third_party_terms_retained": true
+  },
+  "limits": [
+    "One Android11/API30 x86 emulator with logical phone/tablet display profiles was tested; no physical phone or tablet acceptance.",
+    "Godot4.5.1 Compatibility exports use minAPI24/targetAPI35 under the recorded engine constraint; current Google Play release eligibility remains owner work.",
+    "Emulator audio was disabled. Audible Android sound, interactive Web/audio/WebGL, production services and human acceptance remain unverified.",
+    "Official Google test IDs only. Real backend/service IDs, consent, signing, production checks and Google Play publication remain owner work.",
+    "Short QA does not establish all content/equipment combinations, broad ad-fill reliability, long sessions, midnight rollover, multi-day login or human balance.",
+    "Source publication does not establish a successful hosted CI run or live deployment. Pages deployment remains explicitly disabled pending separate authorization.",
+    "The native unearned/early-dismiss reward branch remains UNVERIFIED: the SDK ignored early AndroidBack attempts. Later earned hints were distinct requests, not duplicate first callbacks. No forced callback or result was used.",
+    "An earned hint identifies a placement without applying furniture or immediately changing coins/XP. Hint highlight/token are transient; placed furniture and banked progress are the durable checkpoint. No assisted-score exclusion exists.",
+    "Hint callbacks check matching token and room ID but have no explicit page/visit nonce; broad delayed same-room/navigation immunity remains unverified.",
+    "In-game Back saves the draft and returns Home. A separately observed Android system Back exited to launcher; cold relaunch retained the layout. No generalized system-Back-to-Home behavior is claimed.",
+    "Recorded Android/Web export pre/post guards cover main and Services only (2 inputs); other project/preset/model hashes are snapshot-only. Do not claim a full-source reproducible APK binding.",
+    "The app was initially absent and genuine ordinary placement established the first save; no preinstall retention is claimed. Lower Home quests/Journal and further Journal content use ordinary scrolling.",
+    "Model/desktop captures may choose later content directly and do not establish native SDK behavior, human puzzle enjoyment or pacing."
+  ]
+}

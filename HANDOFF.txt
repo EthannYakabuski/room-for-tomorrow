@@ -1,0 +1,85 @@
+ROOM FOR TOMORROW - LOCAL TEST HANDOFF
+Status: READY FOR OWNER LOCAL TEST REVIEW (2026-10-20T15:10:41.617450+00:00).
+
+APK: build/android/game-debug.apk (184,209,827 bytes)
+SHA256: 1f1914078c5b0b1976f6dbd1bc126e18b63f041e32b9ff91169911965906f04f
+APK plus matching LICENSES: build/android/room-for-tomorrow-test-package.zip
+ZIP SHA256: e95b92478bf107791af023880aff8ccf9861cd37678bb729fc7a94e3a22d5454
+Keep accompanying notices with redistributed binaries. README contains build/run
+instructions; docs/LOCAL_TEST_RESULTS.json records exact hashes and limitations.
+
+WHAT IS READY
+A cozy spatial puzzle about furniture, usable space and clear doorways, with sixty commissions across six chapters, daily rooms and a personal decoration space. Select and rotate furniture, preserve walking routes and reading light, and pursue optional household wishes using free undo/reset. Planner XP, chapter unlocks, quests and cosmetic palettes provide progression. An optional earned hint identifies, selects and highlights a suggested placement; the player still places the piece. The hint itself neither applies the placement nor awards coins or XP. Catalog: 20 achievement and 3 leaderboard definitions. Official Google test ads are integrated; production Play Games IDs remain disabled pending owner configuration.
+Store art/copy, nine actual normal-play emulator captures and local Web export
+are included. See marketing/screenshots/capture-manifest.json for provenance.
+
+VERIFICATION
+799 model checks, 95 headless actual-scene UI checks and 95 GPU actual-scene UI checks passed, with recorded exit 0. Ten desktop GPU fixture captures and a separate read-only all-60 arrangement helper were recorded.
+Actual native QA used the current 1F191407 APK through normal Android gameplay,
+without diagnostic hooks, save injection or forced results. The app was initially
+absent; an ordinary plant placement established its first genuine saved state.
+No preinstall save retention is claimed.
+
+The first earned SDK and service callback selected the Reading chair and its
+suggested placement without applying furniture or granting immediate coins/XP.
+All 22 saved groups stayed unchanged. Separate later earned hint requests are
+legitimate requests, not duplicate callbacks. The SDK ignored early Android Back
+attempts; an unearned early dismissal remains UNVERIFIED. No blind close or
+forced callback was used.
+
+Normal placement, rotate, lift/re-place, undo and Welcome home completed room 0
+for exactly 60 coins and 45 XP. Daily room 13 added exactly 150 coins and 75 XP
+for first clear, optional detail and daily bonus. Its ordinary replay paid zero
+and preserved all 22 groups. The Home action quest added 25 coins and 10 XP once;
+repeat stayed disabled with an unchanged save. Two eligible new completions in
+the same native process triggered an observed interstitial and normal dismissal.
+The banked daily save stayed unchanged across that ad.
+
+In-game Back preserved the arrangement and returned Home. A separately observed
+single Android system Back exited to the launcher; normal cold relaunch retained
+the genuine layout and all saved groups. Home's real 320x50 Google test banner
+left its main controls usable; lower quests and Journal use ordinary scrolling.
+
+The original offline batch completed with all 22 typed groups identical at cold
+launch and restart, and 20 actual disconnected-network snapshots. Each of three
+profiles recorded a real placement edit, adding two action counts and zero
+duplicate coins/XP. All nine unmodified guest PNGs were personally reviewed by
+the native operator; root separately reviewed phone play, logical 7-inch Home
+and logical 10-inch Journal. Effective sizes were 1080x1920, 1200x1920 and
+1600x2560. Further Journal content naturally scrolls.
+
+Physical 1080x1920/density420 and original Wi-Fi/mobile-data settings were
+restored with no errors. A fresh online Home showed the real test banner before
+safe stop at 15:02:28 UTC. Final genuine state: 235 coins, 130 XP, two cleared
+rooms, two optional details, one daily and 18 action counts.
+
+One API30 Android11 emulator was tested. Physical devices, audible sound,
+interactive Web, production services, daily rollover and human balance/content
+acceptance remain unverified. Actual export min24/target35 remains a release
+limitation for the owner to revisit. Public publication remains paused.
+
+SOURCE / WEB EVIDENCE
+PASS local final-native export/static PCK+9-sidecar validation. Recorded main+Services hashes byte-identical pre/post (2 inputs); current recorded inputs match. Project/preset/model hash coverage is snapshot-only. Browser interaction unverified; hosted CI/Pages not run.
+
+LIMITS / OWNER WORK
+- One API30 Android11 x86 host-GPU emulator; logical tablet profiles are not physical tablets.
+- Godot4.5.1 Compatibility export uses actual min24/target35; owner must revisit release eligibility.
+- Emulator audio disabled; audible Android sound and physical-device behavior unverified.
+- Official Google test ads only; production Play Games/AdMob IDs, backend, consent, signing and publication remain owner work.
+- Short native QA does not establish every puzzle, long-session balance, midnight rollover, multi-day login or broad ad-fill reliability.
+- Interactive browser/audio/WebGL, hosted CI/Pages and human acceptance remain unverified; public publishing paused.
+- Native unearned/early-dismiss rewarded branch remains unverified: Normal SDK video ignored early AndroidBack at2s and4s. Later actual earned and dismissed events retained as distinct earned requests. No blind X, forced callbacks, save injection or synthetic result used. Offline sponsor-unavailable behavior, if separately observed, is a distinct scenario and does not establish early-close SDK acceptance.
+- The recorded model, scene and desktop fixture checks establish their documented scope; they do not establish human puzzle enjoyment, pacing, native SDK callbacks or browser acceptance. Desktop capture fixtures can directly choose later chapters and are separate from the final normal-play Android capture evidence.
+- Room has no assisted-score exclusion. An earned hint identifies a placement without applying it or changing coins/XP. The highlight and pending token are transient; actual placed furniture and banked progression, across all 22 typed saved groups, are the appropriate relaunch checkpoint.
+- The hint callback guard checks a matching token and room ID, but has no explicit page/visit nonce. Broad delayed same-room/navigation immunity requires verification rather than inference.
+- The in-game Back arrow saves the draft and returns home. Frozen main/Services have no explicit Android system-Back handler; the actual system Back result and banked retention are documented in the bound native receipt; no generalized app-exit behavior is inferred.
+- Current native gameplay, earned hint, daily observation, Android Back, banked-save/offline retention and nine-image approval are documented in docs/NATIVE_QA.json and its bound frozen private receipt. Actual observation limits, including any unverified SDK early-dismiss branch, remain explicit; source/model checks alone confer no native acceptance.
+- The final three logical guest viewport profiles use one API30 Android11 x86 host-GPU emulator; they do not establish physical phone or tablet acceptance. Emulator audio output is disabled; audible Android sound remains unverified. Interactive Web/audio/WebGL, hosted CI/Pages and production services remain unverified.
+- This Godot 4.5.1 export uses min API 24 and target API 35 because of the actual engine export constraint. The local package does not establish current Google Play release eligibility; the owner must verify current requirements and update the engine/export configuration if necessary.
+- Native unearned/early-dismiss rewarded branch remains unverified: Normal SDK video ignored early AndroidBack at2s and4s. Later actual earned and dismissed events retained as distinct earned requests. No blind X, forced callbacks, save injection or synthetic result used. Offline sponsor-unavailable behavior, if separately observed, is a distinct scenario and does not establish early-close SDK acceptance.
+- One API30 Android11 x86 host-GPU emulator; authenticated guest PNGs use confirmed effective wm dimensions: phone1080x1920, logical7 1200x1920, logical10 1600x2560. No physical phone/tablet acceptance.
+- Emulator audio is disabled (-no-audio); audible Android sound is unverified.
+- Interactive browser/audio/WebGL, hosted CI/Pages and production services remain unverified; public publishing remains paused.
+- Configure final backend IDs/account settings for AdMob and Play Games, and complete consent and final production-service verification.
+- Finalize release/signing, support/privacy URLs, audience/content rating, ads/Data safety and SDK disclosures and current Play eligibility. This Godot 4.5.1 export uses min API 24 and target API 35 because of the actual engine export constraint. The local package does not establish current Google Play release eligibility; the owner must verify current requirements and update the engine/export configuration if necessary.
+- Complete human puzzle/touch-comfort and physical-device review, retain accompanying notices, and perform owner Google Play submission/publication.

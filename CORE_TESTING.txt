@@ -1,0 +1,42 @@
+ROOM FOR TOMORROW - LOCAL CORE CHECKS
+
+Run from canonical project with Godot4.5.1 console:
+  --headless --path <project> --script res://tests/test_model.gd -- --test-mode
+  --headless --path <project> --script res://tests/test_ui.gd -- --test-mode
+  --path <project> --script res://tests/test_ui.gd -- --test-mode
+  --path <project> --script res://tests/capture_screens.gd -- --test-mode --out=<dir>
+
+Use a caller-chosen writable --log-file, --disable-crash-handler and a bounded
+process timeout when automating. Check actual console exit codes and log errors;
+an editor import exit0 does not prove script compilation succeeded.
+
+Model suite verifies every concrete solution with the runtime validator, all
+optional wishes, distinct room definitions, a second accepted layout for every
+commission, footprint rotation, collisions/bounds, blocked usable fronts and
+disconnected circulation, undo/reset, chapter gating, first-clear/detail reward
+idempotency, daily rollover/rewind behavior, quests, reward callbacks, cosmetics,
+save roundtrip/partial/corrupt data and atomic isolated file persistence.
+
+UI suite sets isolated test mode before instantiating the actual main scene;
+--test-mode is optional for the test harness itself. It dispatches
+screen touches to the real viewport to navigate the book and place a piece,
+then tests chapter locks, portrait fit, rotate/lift/reset/undo, completion/replay,
+both tutorials, daily completion, decoration persistence, rewarded hint rejection
+and single-use acceptance, journal/cosmetics construction, sprite hit-testing,
+and portrait geometry for all60commissions. Test mode never
+loads or writes player progress, starts music or submits native score data.
+The model persistence test writes one uniquely named file in the system Temp
+directory and removes it. No existing player save is changed by QA.
+
+Capture runner builds actual implemented game states and reads the GPU viewport
+to ten PNGs, including later courtyard and final-chapter rooms. Its transient
+fixture progresses a sample result to show the
+implemented result view. These are actual renders, not mockups or evidence of
+human completion. Parent coordinates actual Android phone/emulator/tablet sizes,
+Web export/browser playability, native ads/consent/Play Games and build artifacts.
+No desktop export, Android build, installation or publication is performed by
+the core task. Public scope remains a separate parent approval issue.
+
+The portable Python helper tests/content_authoring.py uses included project data
+and validates all60recorded solutions read-only by default. Its explicit --write
+option rebuilds authored commission JSON; normal tests do not regenerate data.

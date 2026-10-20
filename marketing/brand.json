@@ -1,0 +1,73 @@
+{
+  "title": "Room for Tomorrow",
+  "display": [
+    "ROOM FOR",
+    "TOMORROW"
+  ],
+  "kind": "room",
+  "staging_folder": "room-for-tomorrow-source",
+  "short": "Make small rooms feel like home, one thoughtful arrangement at a time.",
+  "palette": {
+    "ink": "#234A43",
+    "paper": "#F4EFE3",
+    "primary": "#9ABDA7",
+    "light": "#E5D7BF",
+    "gold": "#D7AB62",
+    "accent": "#CB775C"
+  },
+  "strap": "A little room. A brighter way to live.",
+  "feature_chips": [
+    "ARRANGE",
+    "MAKE SPACE",
+    "WELCOME"
+  ],
+  "achievements": [
+    "first_home",
+    "five_homes",
+    "ten_homes",
+    "twenty_homes",
+    "forty_homes",
+    "all_homes",
+    "request_1",
+    "request_10",
+    "request_30",
+    "request_60",
+    "level_3",
+    "level_5",
+    "level_10",
+    "daily_1",
+    "daily_7",
+    "decorate",
+    "rotate_20",
+    "undo_10",
+    "chapter_3",
+    "chapter_6"
+  ],
+  "leaderboards": [
+    "commissions_completed",
+    "optional_requests",
+    "planner_xp"
+  ],
+  "cards": [
+    [
+      "Make a small room work beautifully",
+      "Arrange useful furniture in compact spaces, meet the commission needs, and make room for the finishing touches."
+    ],
+    [
+      "Every doorway deserves a clear path",
+      "Keep entrances and usable furniture sides connected. Daylight and reading light add thoughtful little constraints."
+    ],
+    [
+      "Find your own perfect arrangement",
+      "Try a new angle, undo freely, and discover a layout that feels right. Daily rooms and free decorating keep the ideas coming."
+    ]
+  ],
+  "category": "GAME_PUZZLE",
+  "tags": [
+    "Puzzle",
+    "Logic",
+    "Decorating",
+    "Single player",
+    "Offline"
+  ]
+}
