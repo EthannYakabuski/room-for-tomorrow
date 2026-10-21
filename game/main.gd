@@ -577,6 +577,17 @@ func sync_metrics() -> void:
 	for leaderboard in catalog.leaderboards: call_service("submit",[str(leaderboard.key),int(metrics.get(leaderboard.metric,0))])
 	save()
 
+func badge_icon(path: String, id: String) -> TextureRect:
+	var image := TextureRect.new()
+	image.name = "Badge" + id
+	image.texture = load(path)
+	image.custom_minimum_size = Vector2(64,64)
+	image.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	image.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	image.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	image.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	return image
+
 func show_journal() -> void:
 	clear_page("journal")
 	header(show_home)
@@ -605,15 +616,22 @@ func show_journal() -> void:
 	for ach in catalog.achievements:
 		var met: bool = int(metrics.get(ach.metric,0)) >= int(ach.threshold)
 		var card: VBoxContainer = panel(list,Color("dce7d8") if met else Color("e8e5d7"))
-		card.add_child(label(("✦ " if met else "○ ")+str(ach.name),20))
-		card.add_child(label("%s · %d / %d" % [str(ach.metric).capitalize(),mini(int(ach.threshold),int(metrics.get(ach.metric,0))),int(ach.threshold)],16,MUTED))
+		var heading: HBoxContainer = row(card)
+		heading.add_child(badge_icon(str(ach.icon),str(ach.key)))
+		var details := VBoxContainer.new()
+		details.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		heading.add_child(details)
+		details.add_child(label(("✦ " if met else "○ ")+str(ach.name),20))
+		details.add_child(label("%s · %d / %d" % [str(ach.metric).capitalize(),mini(int(ach.threshold),int(metrics.get(ach.metric,0))),int(ach.threshold)],16,MUTED))
 	list.add_child(label("Play services",24))
 	var native_status: Variant = call_service("status")
 	list.add_child(label(str(native_status) if native_status != null else "Local progress is available offline. Online play services are unavailable on this platform.",16,MUTED))
 	list.add_child(button("Sign in to Play Games",func() -> void: call_service("sign_in")))
 	list.add_child(button("Online achievements",func() -> void: call_service("open_achievements")))
 	for b in catalog.leaderboards:
-		list.add_child(button(str(b.name),func() -> void: call_service("open_leaderboards",[str(b.key)])))
+		var board_row: HBoxContainer = row(list)
+		board_row.add_child(badge_icon(str(b.icon),str(b.key)))
+		board_row.add_child(button(str(b.name),func() -> void: call_service("open_leaderboards",[str(b.key)])))
 	list.add_child(button("Privacy options",func() -> void: call_service("privacy_options")))
 	list.add_child(button("Music: "+("on" if bool(progress.data.music) else "off"),toggle_music,false,"Music"))
 	list.add_child(label("Room for Tomorrow · original work Apache-2.0\nFurniture Kit & Interface Sounds by Kenney · CC0\nDaily commissions use UTC. A clock rewind cannot claim an earlier day. Your progress stays on this device.",15,MUTED))

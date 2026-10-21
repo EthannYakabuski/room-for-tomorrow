@@ -62,6 +62,376 @@
     }
   ],
   "visual_review": "Final512px icons,64px thumbnails and1024x500 feature graphics visually inspected by AIoperator. All titles fully visible.",
-  "shipping": "Only512px launcher PNG ships; marketing/source art excluded by export filters.",
-  "native_export_verification": "Pending new Android/Web exports and native package review; no new native acceptance claimed."
+  "shipping": "Only runtime launcher and catalogue-linked512px badges ship; marketing originals/provenance/store art excluded by export filters.",
+  "native_export_verification": "Pending new Android/Web exports and native package review; no new native acceptance claimed.",
+  "badges": [
+    {
+      "id": "first_home",
+      "kind": "achievement",
+      "name": "A Place to Begin",
+      "runtime_png": "assets/badges/first_home.png",
+      "store_png": "marketing/achievements/first_home.png",
+      "sha256": "255FE82C65F1145BBEFBF3EEA0237E732FF22E29F78D2AE305640416264E8806",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "E305C8C88B312B046EAB6EBAAA9FA5D544C6AC58A3DCFC8CC0E1300A93ABDBCA",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "five_homes",
+      "kind": "achievement",
+      "name": "Neighbourly",
+      "runtime_png": "assets/badges/five_homes.png",
+      "store_png": "marketing/achievements/five_homes.png",
+      "sha256": "4E7F853D32A473C00B92C4A0E74BCFB98D451C05274E9B1F676EE00E8214E11A",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "239EF04B7A77F2C3C1F9726D1F86593155D43D3565CDE97151B790FC4EACB0E0",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "ten_homes",
+      "kind": "achievement",
+      "name": "A Little Street",
+      "runtime_png": "assets/badges/ten_homes.png",
+      "store_png": "marketing/achievements/ten_homes.png",
+      "sha256": "90307AE32343B2A9149A15169E004511A788293155E774527C58C8CDE3A63B4F",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "FFF6CED79461A1DB7B6208D7FB4B855763C6A9677587265AE192B33E475800CB",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "twenty_homes",
+      "kind": "achievement",
+      "name": "Open House",
+      "runtime_png": "assets/badges/twenty_homes.png",
+      "store_png": "marketing/achievements/twenty_homes.png",
+      "sha256": "38CB1B90F46866B8C2BD101FDF48A66395084604CA9DB2394651F5FC8AA5CB78",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "109EE9CB72ACD1E9FA555C289A5F3B141F8E16954F1F2182D7CF6CEC9105009F",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "forty_homes",
+      "kind": "achievement",
+      "name": "A Welcoming Town",
+      "runtime_png": "assets/badges/forty_homes.png",
+      "store_png": "marketing/achievements/forty_homes.png",
+      "sha256": "17D69598D4E53756ABBD67C0AF8CBC3264A3C1D8D0343FFC8F66A43171349B48",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "2FE5751DBA4CF7346F8CD64BC70A2C63AD1E7B36AD370D7B924A1719C6A11348",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "all_homes",
+      "kind": "achievement",
+      "name": "Room for Everyone",
+      "runtime_png": "assets/badges/all_homes.png",
+      "store_png": "marketing/achievements/all_homes.png",
+      "sha256": "7578CA666DD55C823B9F699BD4E85DF3D1D23FA2E0748AAEEEB0FFB8A29978E0",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "0F98B95C9C64E2D9D2829271A677F889102AE4912E1746D6A834951208EF7311",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "request_1",
+      "kind": "achievement",
+      "name": "Thoughtful Detail",
+      "runtime_png": "assets/badges/request_1.png",
+      "store_png": "marketing/achievements/request_1.png",
+      "sha256": "C13730B8E8DC9A4B35196CD1CBE32ACDA2B48379A02A1AD8D532F5471BAB1D93",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "1F6CE6A6638BE2258DB4A969E295AEA00C147C83551096A05C4787234FCFA3DC",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "request_10",
+      "kind": "achievement",
+      "name": "Personal Touch",
+      "runtime_png": "assets/badges/request_10.png",
+      "store_png": "marketing/achievements/request_10.png",
+      "sha256": "A8B863D101380E5348640883CE6216B546A1E3961926125DD8F238589F122E4D",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "B8C9EC2F700ADD6D365A81FA48190DA3D5F21CAC28E8390450B3201EEDD84DA9",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "request_30",
+      "kind": "achievement",
+      "name": "Every Little Wish",
+      "runtime_png": "assets/badges/request_30.png",
+      "store_png": "marketing/achievements/request_30.png",
+      "sha256": "939EC525116B28705AEFC3C4BF010D4CB5718C586B4BE4166DE33CDEC2F89866",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "4364075CCE863A3DAAA4C1B48D6A735D22DFBEDED9B77DD77BE3F05683E49D2C",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "request_60",
+      "kind": "achievement",
+      "name": "The Finishing Touch",
+      "runtime_png": "assets/badges/request_60.png",
+      "store_png": "marketing/achievements/request_60.png",
+      "sha256": "3410212B81D31AC95E2FBAC8722194DB5338FB9502BFFEDEE57D99DA06E6750F",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "B61FC4E80E12C381720E9E02136BF1F87B1203243556949586D89F8CDA4CADEB",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "level_3",
+      "kind": "achievement",
+      "name": "Fresh Perspective",
+      "runtime_png": "assets/badges/level_3.png",
+      "store_png": "marketing/achievements/level_3.png",
+      "sha256": "A1323FB32642A73D4007BAFA4B6EC72ED607DF66F784DC3080D73C9DEF635EAF",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "38EFE7CE0B43C591059FCBADA68B3235D8A5031129EC6009A991A549A0D33ED8",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "level_5",
+      "kind": "achievement",
+      "name": "Space Maker",
+      "runtime_png": "assets/badges/level_5.png",
+      "store_png": "marketing/achievements/level_5.png",
+      "sha256": "63E14D13EAB3DABEA614301BDFCCE9C2E67B801F44C5FEA2175E0A4BB105B8A3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "D9797EF55518697B50032D0EC8648D3BBB1E0129AFE0AC2706B1B2194F67C399",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "level_10",
+      "kind": "achievement",
+      "name": "Master Planner",
+      "runtime_png": "assets/badges/level_10.png",
+      "store_png": "marketing/achievements/level_10.png",
+      "sha256": "10E4475DA504CC686C11BF06BE11DFB70A6F249D85CE10BF026034F3F74E83D4",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "FDA26F53DA99E6A26FEB835806B866E4F3162B7E3805243242353166785DF71E",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "daily_1",
+      "kind": "achievement",
+      "name": "Todayâ€™s Little Project",
+      "runtime_png": "assets/badges/daily_1.png",
+      "store_png": "marketing/achievements/daily_1.png",
+      "sha256": "70EB99190205BF229D9496B3616C0D66D3ADD233D8C8BBA6A2AEBBE06B43F7ED",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "B11680DB7781300B56F07ED70810E3B3CE428E6497DE0DD3FD0092DCC84166C5",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "daily_7",
+      "kind": "achievement",
+      "name": "A Week of Welcome",
+      "runtime_png": "assets/badges/daily_7.png",
+      "store_png": "marketing/achievements/daily_7.png",
+      "sha256": "BED79889A368CE33DC5455BA52C119C4A9C1FD951C19949F80BF73642E2708C3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "8939CEF1309922130C97D3C0905745A94F873CB07161215B5FC887ACF753CA16",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "decorate",
+      "kind": "achievement",
+      "name": "My Quiet Corner",
+      "runtime_png": "assets/badges/decorate.png",
+      "store_png": "marketing/achievements/decorate.png",
+      "sha256": "D93FC0BD445BBD0BCDEDCED6B0D165E08958C17E931CEFE54970AC2A5051C5A7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "866C95BE971E05A957C49AC76563CA54402684134972EE53C800655F74479A81",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "rotate_20",
+      "kind": "achievement",
+      "name": "A New Angle",
+      "runtime_png": "assets/badges/rotate_20.png",
+      "store_png": "marketing/achievements/rotate_20.png",
+      "sha256": "F34544B406E4DB3E51FE289876278F0F52F127BF27BF299A87F899DB740C731C",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "868D3D22CDB819BB67BFCE55191A11930B773D09FC2E9A67FC85C9642A093330",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "undo_10",
+      "kind": "achievement",
+      "name": "Room to Rethink",
+      "runtime_png": "assets/badges/undo_10.png",
+      "store_png": "marketing/achievements/undo_10.png",
+      "sha256": "6B5BFDEB51C68A61338E17C027AA9F00C0F54C5ABAD55A83947EFE8C8FD96EC8",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "0FC179373602C01EDA19B1BDB1CE67372F2AB92B468A08C92CFD542DF68495BA",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "chapter_3",
+      "kind": "achievement",
+      "name": "Across the Courtyard",
+      "runtime_png": "assets/badges/chapter_3.png",
+      "store_png": "marketing/achievements/chapter_3.png",
+      "sha256": "CFBEC1AB5419914C207476507E625098570DA866EE5DC1D6844CF191CCF89D89",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "27B526457246291B17704CD9D4D5E47958CFB75FACE5E6D63B58AC77E3A6F4ED",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "chapter_6",
+      "kind": "achievement",
+      "name": "A Brighter Tomorrow",
+      "runtime_png": "assets/badges/chapter_6.png",
+      "store_png": "marketing/achievements/chapter_6.png",
+      "sha256": "86CCCF6F30F928CE35F33224D073448151388CC6C6DBBC409B60B1F8A7BA8450",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "791C4B0EE5B781B25E8F1E3253FF4B1F0758413026DEC46343E122468BED3861",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "commissions_completed",
+      "kind": "leaderboard",
+      "name": "Welcoming Homes",
+      "runtime_png": "assets/badges/commissions_completed.png",
+      "store_png": "marketing/leaderboards/commissions_completed.png",
+      "sha256": "691F35728C08319561EE21BDC9D713EDD98904A83CEF0F67E51EC18155C4526F",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "135261B29DAD70498DF35291941425C150937688E483DA8BC029EC182A31214F",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "optional_requests",
+      "kind": "leaderboard",
+      "name": "Thoughtful Details",
+      "runtime_png": "assets/badges/optional_requests.png",
+      "store_png": "marketing/leaderboards/optional_requests.png",
+      "sha256": "1D6A446AFCC1555FF02C35F26DAB28E5C1445C57F23667F51BC59E8050D4928B",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "DD4424D5EFC10C27F26C0CBA800E02FDBB6896A134FD0D737D1CA9FCC7855318",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    },
+    {
+      "id": "planner_xp",
+      "kind": "leaderboard",
+      "name": "Space Makers",
+      "runtime_png": "assets/badges/planner_xp.png",
+      "store_png": "marketing/leaderboards/planner_xp.png",
+      "sha256": "FC053E429B9C47B1C355388F96666053C88EB5572AD055225801305704EBE8DA",
+      "dimensions": [
+        512,
+        512
+      ],
+      "original_sha256": "BE20C27DA944FA5ACAA5BE6DE28DEC6C9527F100270FB03AAD65DB699BE0AC2D",
+      "license": "Original generated illustration; project Apache-2.0",
+      "method": "One distinct built-in imagegen call per catalogue badge; exact original+prompt retained; Godot LANCZOS resize only",
+      "visual_review": "512px asset and64px thumbnail inspected by AIoperator; illustrative badge, not gameplay proof"
+    }
+  ]
 }

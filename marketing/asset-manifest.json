@@ -6,7 +6,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "05460c01968fd89cdcce312b0fb9a81dfbbd6484524c0532c83b81fe91a5fc95"
+    "sha256": "7578ca666dd55c823b9f699bd4e85df3d1d23fa2e0748aaeeeb0ffb8a29978e0"
   },
   {
     "file": "achievements/chapter_3.png",
@@ -15,7 +15,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "e17ddd21e7879fcdb775e77e9edf3d3306049a4953ad0b798c30d049d3e6076f"
+    "sha256": "cfbec1ab5419914c207476507e625098570da866ee5dc1d6844cf191ccf89d89"
   },
   {
     "file": "achievements/chapter_6.png",
@@ -24,7 +24,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "b21bdc17558ce86d2eb76592addf5a1f167eed9b9004f8e4e441336893cd45d0"
+    "sha256": "86cccf6f30f928ce35f33224d073448151388cc6c6dbbc409b60b1f8a7ba8450"
   },
   {
     "file": "achievements/daily_1.png",
@@ -33,7 +33,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "df417a64cae513fec4b4dd7b00e3601d3f6a8fb7876b3e92efac17d93653dacb"
+    "sha256": "70eb99190205bf229d9496b3616c0d66d3add233d8c8bba6a2aebbe06b43f7ed"
   },
   {
     "file": "achievements/daily_7.png",
@@ -42,7 +42,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "bca4a3ce1c8cdcadc3e51d3c6582383532fa11294018c72028fde7c416bcd9b9"
+    "sha256": "bed79889a368ce33dc5455ba52c119c4a9c1fd951c19949f80bf73642e2708c3"
   },
   {
     "file": "achievements/decorate.png",
@@ -51,7 +51,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "a2f167200a60e1bc6236a86271b5046644e02fe204e748f78666820e37b114d8"
+    "sha256": "d93fc0bd445bbd0bcdedced6b0d165e08958c17e931cefe54970ac2a5051c5a7"
   },
   {
     "file": "achievements/first_home.png",
@@ -60,7 +60,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "d1beece2856b971936b4c66665c8bdf0775560028c1ca41370b15718e5c6c147"
+    "sha256": "255fe82c65f1145bbefbf3eea0237e732ff22e29f78d2ae305640416264e8806"
   },
   {
     "file": "achievements/five_homes.png",
@@ -69,7 +69,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "70ab55f06aa924f8d71a1d759e4f970b580dbd9c9f354f7382514e8b40c5885f"
+    "sha256": "4e7f853d32a473c00b92c4a0e74bcfb98d451c05274e9b1f676ee00e8214e11a"
   },
   {
     "file": "achievements/forty_homes.png",
@@ -78,7 +78,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "62310f954d8b0a978fc712bab4bbe613b42955ea97c63367bb72c6d574217484"
+    "sha256": "17d69598d4e53756abbd67c0af8cbc3264a3c1d8d0343ffc8f66a43171349b48"
   },
   {
     "file": "achievements/level_10.png",
@@ -87,7 +87,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "5765b26bfaef9fd5c19ed3afd43bb466db1fd1493906926c713e1c1905b030db"
+    "sha256": "10e4475da504cc686c11bf06be11dfb70a6f249d85ce10bf026034f3f74e83d4"
   },
   {
     "file": "achievements/level_3.png",
@@ -96,7 +96,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "421b6bd0ebf73ba90ba2c5009b62d42e4d7e2795083db79fc92e4219386392a0"
+    "sha256": "a1323fb32642a73d4007bafa4b6ec72ed607df66f784dc3080d73c9def635eaf"
   },
   {
     "file": "achievements/level_5.png",
@@ -105,7 +105,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "eee0eca4218af3af948b2e3ea3ba699c0fc41b78a96cd959020b0c17d659c69d"
+    "sha256": "63e14d13eab3dabea614301bdfcce9c2e67b801f44c5fea2175e0a4bb105b8a3"
   },
   {
     "file": "achievements/request_1.png",
@@ -114,7 +114,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "cbdadbb6d411a4c340994ff97dd8336785d768a5d97e1827d70c7b2b94194506"
+    "sha256": "c13730b8e8dc9a4b35196cd1cbe32acda2b48379a02a1ad8d532f5471bab1d93"
   },
   {
     "file": "achievements/request_10.png",
@@ -123,7 +123,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "d43c1feae8059761236bd34962f15920b47918bfea442276b5a2dbba3f19571e"
+    "sha256": "a8b863d101380e5348640883ce6216b546a1e3961926125dd8f238589f122e4d"
   },
   {
     "file": "achievements/request_30.png",
@@ -132,7 +132,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "a026dcb676644e882dd13bf2ad55e123ecdadf906a8f8e6774607b77ee6e59e6"
+    "sha256": "939ec525116b28705aefc3c4bf010d4cb5718c586b4be4166de33cdec2f89866"
   },
   {
     "file": "achievements/request_60.png",
@@ -141,7 +141,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "219395fa507ecd266bfd7de7c56ad2ce34fc3bdb3af90f51c4dd7be95e86b030"
+    "sha256": "3410212b81d31ac95e2fbac8722194db5338fb9502bffedee57d99da06e6750f"
   },
   {
     "file": "achievements/rotate_20.png",
@@ -150,7 +150,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "10b5e729a522fd45734f92bff9aa38a0ee896e92d69d11610a5e10f898f3f86f"
+    "sha256": "f34544b406e4db3e51fe289876278f0f52f127bf27bf299a87f899db740c731c"
   },
   {
     "file": "achievements/ten_homes.png",
@@ -159,7 +159,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "a7b38ca7249e543e10eb2abba6e9d13dd1f20533ee4e71204048abf9c8a3a292"
+    "sha256": "90307ae32343b2a9149a15169e004511a788293155e774527c58c8cde3a63b4f"
   },
   {
     "file": "achievements/twenty_homes.png",
@@ -168,7 +168,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "dc6a4ae7e9ebb4d7b7819f73044a16cefd7639bbd70a6fc7dccd960774b3c878"
+    "sha256": "38cb1b90f46866b8c2bd101fdf48a66395084604ca9db2394651f5fc8aa5cb78"
   },
   {
     "file": "achievements/undo_10.png",
@@ -177,7 +177,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "6db7702f46d27031ba153eeb56971221c115e2ee5a0b5729986e05c81d6aeac1"
+    "sha256": "6b5bfdeb51c68a61338e17c027aa9f00c0f54c5abad55a83947efe8c8fd96ec8"
   },
   {
     "file": "app-icon-192.png",
@@ -213,7 +213,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "86f79bf08a82bb60b9f6a8dc304d72cafc60139ba850142292aa386f80eb7947"
+    "sha256": "691f35728c08319561ee21bdc9d713edd98904a83cef0f67e51ec18155c4526f"
   },
   {
     "file": "leaderboards/optional_requests.png",
@@ -222,7 +222,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "cf46e743bab264749b36d34f8ea903712db01cd59e7c915adf2801331a9e349e"
+    "sha256": "1d6a446afcc1555ff02c35f26dab28e5c1445c57f23667f51bc59e8050d4928b"
   },
   {
     "file": "leaderboards/planner_xp.png",
@@ -231,7 +231,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "d6f28c4f5f6d00f44ba46595a94db3fb38079db00ec9495e422393c6ce925326"
+    "sha256": "fc053e429b9c47b1c355388f96666053c88eb5572ad055225801305704ebe8da"
   },
   {
     "file": "screenshots/phone-collection.png",

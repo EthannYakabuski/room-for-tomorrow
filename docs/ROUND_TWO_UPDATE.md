@@ -18,4 +18,10 @@ Godot 4.5.1 disposable-data tests passed: model 1,579/1,579 including all 120 re
 
 Version-one saves keep legacy banked progress, identifiers and drafts. New commission IDs, model options and expanded decoration layouts roundtrip through the same bounded sanitizer. Existing achievement/service IDs and already earned unlocks remain; the old sixty-home achievement now explicitly describes the original sixty homes. Earned-hint callback handling and native services are unchanged.
 
-Android/Web rebuilds, native SDK/Back/save/offline regression, fresh native screenshot packaging and the marketing artwork redo remain pending with the coordinator. Preserved original APK/native records are historical and do not verify this revision. Production IDs, physical devices, audible output, interactive Web and human content/balance acceptance remain unverified. Pages stays disabled.
+Android/Web rebuilds, native SDK/Back/save/offline regression, fresh native screenshot packaging and native review of the updated artwork remain pending with the coordinator. Preserved original APK/native records are historical and do not verify this revision. Production IDs, physical devices, audible output, interactive Web and human content/balance acceptance remain unverified. Pages stays disabled.
+
+## Illustrated branding and collection
+
+A new cozy illustrated app icon and full-title feature graphic replace the original branding. All 20 achievement and 3 leaderboard badges were generated individually with distinct catalogue subjects, retained originals/prompts, and standard Godot resize to 512px. Their 512px outputs and 64px thumbnails were visually inspected. Runtime catalogue links now show the actual images beside milestone progress and leaderboard controls; service IDs, thresholds and progress are unchanged. Marketing source art remains outside runtime exports.
+
+The actual Compatibility journal fixture passed 67/67 checks with empty stderr: ordinary paired Journal input, all 23 full 512px textures, non-intercepting art, unchanged typed synthetic progress and phone/two-tablet scroll/width presentation. Actual rendered collection views were inspected. This is isolated desktop development evidence; updated native captures remain pending.

@@ -6,139 +6,162 @@
       "key": "first_home",
       "name": "A Place to Begin",
       "threshold": 1,
-      "metric": "commissions"
+      "metric": "commissions",
+      "icon": "res://assets/badges/first_home.png"
     },
     {
       "key": "five_homes",
       "name": "Neighbourly",
       "threshold": 5,
-      "metric": "commissions"
+      "metric": "commissions",
+      "icon": "res://assets/badges/five_homes.png"
     },
     {
       "key": "ten_homes",
       "name": "A Little Street",
       "threshold": 10,
-      "metric": "commissions"
+      "metric": "commissions",
+      "icon": "res://assets/badges/ten_homes.png"
     },
     {
       "key": "twenty_homes",
       "name": "Open House",
       "threshold": 20,
-      "metric": "commissions"
+      "metric": "commissions",
+      "icon": "res://assets/badges/twenty_homes.png"
     },
     {
       "key": "forty_homes",
       "name": "A Welcoming Town",
       "threshold": 40,
-      "metric": "commissions"
+      "metric": "commissions",
+      "icon": "res://assets/badges/forty_homes.png"
     },
     {
       "key": "all_homes",
       "name": "Room for Everyone",
       "threshold": 60,
       "metric": "commissions",
-      "description": "Welcome the original sixty homes."
+      "description": "Welcome the original sixty homes.",
+      "icon": "res://assets/badges/all_homes.png"
     },
     {
       "key": "request_1",
       "name": "Thoughtful Detail",
       "threshold": 1,
-      "metric": "requests"
+      "metric": "requests",
+      "icon": "res://assets/badges/request_1.png"
     },
     {
       "key": "request_10",
       "name": "Personal Touch",
       "threshold": 10,
-      "metric": "requests"
+      "metric": "requests",
+      "icon": "res://assets/badges/request_10.png"
     },
     {
       "key": "request_30",
       "name": "Every Little Wish",
       "threshold": 30,
-      "metric": "requests"
+      "metric": "requests",
+      "icon": "res://assets/badges/request_30.png"
     },
     {
       "key": "request_60",
       "name": "The Finishing Touch",
       "threshold": 60,
-      "metric": "requests"
+      "metric": "requests",
+      "icon": "res://assets/badges/request_60.png"
     },
     {
       "key": "level_3",
       "name": "Fresh Perspective",
       "threshold": 3,
-      "metric": "level"
+      "metric": "level",
+      "icon": "res://assets/badges/level_3.png"
     },
     {
       "key": "level_5",
       "name": "Space Maker",
       "threshold": 5,
-      "metric": "level"
+      "metric": "level",
+      "icon": "res://assets/badges/level_5.png"
     },
     {
       "key": "level_10",
       "name": "Master Planner",
       "threshold": 10,
-      "metric": "level"
+      "metric": "level",
+      "icon": "res://assets/badges/level_10.png"
     },
     {
       "key": "daily_1",
       "name": "Today’s Little Project",
       "threshold": 1,
-      "metric": "dailies"
+      "metric": "dailies",
+      "icon": "res://assets/badges/daily_1.png"
     },
     {
       "key": "daily_7",
       "name": "A Week of Welcome",
       "threshold": 7,
-      "metric": "dailies"
+      "metric": "dailies",
+      "icon": "res://assets/badges/daily_7.png"
     },
     {
       "key": "decorate",
       "name": "My Quiet Corner",
       "threshold": 1,
-      "metric": "decorations"
+      "metric": "decorations",
+      "icon": "res://assets/badges/decorate.png"
     },
     {
       "key": "rotate_20",
       "name": "A New Angle",
       "threshold": 20,
-      "metric": "rotations"
+      "metric": "rotations",
+      "icon": "res://assets/badges/rotate_20.png"
     },
     {
       "key": "undo_10",
       "name": "Room to Rethink",
       "threshold": 10,
-      "metric": "undos"
+      "metric": "undos",
+      "icon": "res://assets/badges/undo_10.png"
     },
     {
       "key": "chapter_3",
       "name": "Across the Courtyard",
       "threshold": 3,
-      "metric": "chapters"
+      "metric": "chapters",
+      "icon": "res://assets/badges/chapter_3.png"
     },
     {
       "key": "chapter_6",
       "name": "A Brighter Tomorrow",
       "threshold": 6,
-      "metric": "chapters"
+      "metric": "chapters",
+      "icon": "res://assets/badges/chapter_6.png"
     }
   ],
   "leaderboards": [
     {
       "key": "commissions_completed",
       "name": "Welcoming Homes",
-      "metric": "commissions"
+      "metric": "commissions",
+      "icon": "res://assets/badges/commissions_completed.png"
     },
     {
       "key": "optional_requests",
       "name": "Thoughtful Details",
-      "metric": "requests"
+      "metric": "requests",
+      "icon": "res://assets/badges/optional_requests.png"
     },
     {
       "key": "planner_xp",
       "name": "Space Makers",
-      "metric": "xp"
+      "metric": "xp",
+      "icon": "res://assets/badges/planner_xp.png"
     }
   ]
 }
