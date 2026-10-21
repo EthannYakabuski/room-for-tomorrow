@@ -1,0 +1,67 @@
+{
+  "revision": "Round Two 2026-10-21",
+  "art_type": "Original illustrated promotional key art; not gameplay screenshots",
+  "outputs": [
+    {
+      "file": "marketing/app-icon-512.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "sha256": "3C5F4501E62D1DC18A1E4E02627BFED4F704E330B26EAF3CCCEBCDD35CF71A6A"
+    },
+    {
+      "file": "marketing/feature-graphic-1024x500.png",
+      "dimensions": [
+        1024,
+        500
+      ],
+      "mode": "RGB",
+      "sha256": "A6E663E98FE941873FDF3B5DA59F5B0F3DDCF170D8ABAAEC6E9DEF1DAE97A382"
+    },
+    {
+      "file": "platform/app-icon-512.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "sha256": "3C5F4501E62D1DC18A1E4E02627BFED4F704E330B26EAF3CCCEBCDD35CF71A6A"
+    },
+    {
+      "file": "marketing/app-icon-192.png",
+      "dimensions": [
+        192,
+        192
+      ],
+      "mode": "RGB",
+      "sha256": "F5B2E0C6E54AA2C28EB48DC0C0B4E1708AAA8148C1DE7AD43A60A6CD194C5845"
+    }
+  ],
+  "original_provenance": [
+    {
+      "kind": "app-icon",
+      "original_sha256": "B22627A7809E82E815E234363A548732C9DCC52D4BB2A08B32674372D13ED528",
+      "original_dimensions": [
+        1254,
+        1254
+      ],
+      "prompt": "Create a finished premium mobile game app icon, square full-bleed raster illustration, no rounded corners, no frame and NO text. Game: Room for Tomorrow, a warm spatial furniture arrangement puzzle. Elegant richly rendered isometric cutaway of a tiny cozy reading room with an irregular corner and a clearly open doorway: plush muted terracotta armchair, leafy green plant, small walnut side table with teacup, warm cream reading lamp, tiny blue rug, bookshelf, sunny window with golden light. A welcoming fresh mint doorway path remains visibly clear across the warm herringbone wood floor, conveying thoughtful useful room design. Charming tactile handcrafted pixel-art style with carefully clustered tiny pixels and sophisticated materials, ambient shadows, richly detailed yet disciplined composition, homely warmth, teal shadows, apricot highlights. Strong distinctive large chair/lamp/window silhouette at 64px thumbnail. Fill icon with room rather than excessive surrounding empty space. Editorial-quality cozy game artwork, not an instruction diagram, not generic vector furniture symbols, not photorealistic, no people, no UI, no stars.\n",
+      "method": "Built-in image generation, one distinct call; original retained privately; standard Godot LANCZOS resize only. Full feature wordmark retained with quiet teal padding."
+    },
+    {
+      "kind": "feature",
+      "original_sha256": "F768DC1D5F148F5A1F823BF68021453C34BD2154AFE7C9C3EA9912FA219A0DAB",
+      "original_dimensions": [
+        1774,
+        887
+      ],
+      "prompt": "Make a beautiful finished Google Play feature graphic for original mobile spatial furniture puzzle ROOM FOR TOMORROW. Wide landscape raster canvas close to 1024:500 (2.048:1), composition safely crops to that ratio. Rich crafted isometric pixel-art illustration of an inviting small home viewed as a dollhouse cutaway, two connected irregularly shaped rooms with a sunny reading nook, walnut desk, teal sofa, terracotta armchair, leafy plants, honey wood parquet, lamps, cozy shelves and carefully open usable doorways. A subtle mint light route flows across the clear floor between doorways, suggesting thoughtful furniture placement without looking like a UI overlay. Golden late-afternoon window light with cool teal ambient shadows; finely shaded tactile materials, beautifully controlled pixel clusters, lots of visual personality. Leave intentional dark teal negative area on right with large highly legible custom title 'ROOM FOR TOMORROW' in warm cream dimensional lettering; small tagline 'Make space for a good day.' below. Room scene occupies left two-thirds, title remains crisp and readable at thumbnail. Sophisticated cozy game key art, no screenshot borders, no store badges, no fake review text, no generic vector geometry, no photorealism.\n",
+      "method": "Built-in image generation, one distinct call; original retained privately; standard Godot LANCZOS resize only. Full feature wordmark retained with quiet teal padding."
+    }
+  ],
+  "visual_review": "Final512px icons,64px thumbnails and1024x500 feature graphics visually inspected by AIoperator. All titles fully visible.",
+  "shipping": "Only512px launcher PNG ships; marketing/source art excluded by export filters.",
+  "native_export_verification": "Pending new Android/Web exports and native package review; no new native acceptance claimed."
+}

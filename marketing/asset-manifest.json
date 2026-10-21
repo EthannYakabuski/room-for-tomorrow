@@ -186,7 +186,7 @@
       192
     ],
     "mode": "RGB",
-    "sha256": "1f1bb8667514babb16019c528ca357b35c0f50f82b0ae7741d6c54e42a71099c"
+    "sha256": "F5B2E0C6E54AA2C28EB48DC0C0B4E1708AAA8148C1DE7AD43A60A6CD194C5845"
   },
   {
     "file": "app-icon-512.png",
@@ -195,7 +195,7 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "f724b0a7cb29dbbf70ff2a6c57284f06c9f62b87601a0d7210e5e464c4619bf4"
+    "sha256": "3C5F4501E62D1DC18A1E4E02627BFED4F704E330B26EAF3CCCEBCDD35CF71A6A"
   },
   {
     "file": "feature-graphic-1024x500.png",
@@ -204,7 +204,7 @@
       500
     ],
     "mode": "RGB",
-    "sha256": "56cbb457f15f7dd05f731957d0d7b8099bd35412d63f5fe2d52f740799ac384e"
+    "sha256": "A6E663E98FE941873FDF3B5DA59F5B0F3DDCF170D8ABAAEC6E9DEF1DAE97A382"
   },
   {
     "file": "leaderboards/commissions_completed.png",
