@@ -13,14 +13,14 @@ func _initialize() -> void:
 	var puzzle: RefCounted = Puzzle.new()
 	var shapes: Dictionary = {}
 	var optional_count: int = 0
-	for id in range(60):
+	for id in range(puzzle.content.rooms.size()):
 		puzzle.load_room(id)
 		var solution: Array = puzzle.room.solution
 		check(puzzle.evaluate(solution).complete,"Recorded arrangement must solve commission %d" % id)
 		check(not puzzle.evaluate().complete,"An empty commission cannot complete: %d"%id)
 		check(solution.size() == puzzle.room.items.size(),"Every specified piece occurs: %d"%id)
 		if puzzle.evaluate(solution).optional: optional_count += 1
-		var signature: String = JSON.stringify([puzzle.room.w,puzzle.room.h,puzzle.room.items,puzzle.room.blocked,puzzle.room.daylight,puzzle.room.optional])
+		var signature: String = JSON.stringify([puzzle.room.w,puzzle.room.h,puzzle.room.items,puzzle.room.blocked,puzzle.room.get("floor",[]),puzzle.room.daylight,puzzle.room.optional])
 		check(not shapes.has(signature),"Commission geometry/brief must be distinct: %d"%id)
 		shapes[signature] = true
 		for p in solution: check(puzzle.place(str(p.key),int(p.x),int(p.y),int(p.r)),"Recorded furniture can be placed %d"%id)
@@ -40,7 +40,7 @@ func _initialize() -> void:
 		var snapshot: String = JSON.stringify(puzzle.placed)
 		puzzle.reset()
 		check(puzzle.placed.is_empty() and puzzle.undo() and JSON.stringify(puzzle.placed)==snapshot,"Reset is fully undoable: %d"%id)
-	check(optional_count == 60,"All recorded arrangements include their optional wish (observed %d)"%optional_count)
+	check(optional_count == puzzle.content.rooms.size(),"All recorded arrangements include their optional wish (observed %d)"%optional_count)
 	puzzle.load_room(1)
 	check(not puzzle.place("desk",-1,0,0),"Negative coordinates rejected")
 	check(not puzzle.place("desk",4,4,0),"Bounds and doorway rejected")

@@ -2,11 +2,11 @@
 
 Make a small room work beautifully.
 
-A cozy spatial puzzle about furniture, usable space and clear doorways. Complete sixty commissions across six chapters, try daily rooms and arrange a decoration space of your own.
+A cozy spatial puzzle about furniture, usable space and clear doorways. Complete 120 commissions across twelve chapters, try daily rooms and arrange a decoration space of your own.
 
 ## Play
 
-Select furniture, rotate it and place it on the room grid. Read each household request, keep useful walking routes clear and try another arrangement with free undo/reset. Complete commissions to earn planner experience and open new chapters.
+Select furniture, rotate it and place it on the room grid. Read each household request, keep useful walking routes clear and try another arrangement with free undo/reset. Complete commissions to earn planner experience and open new chapters. New L-shaped, stepped, courtyard and cross-hall floors share the same placement and route rules. All 140 supplied Furniture Kit models are available through directional artwork and a categorized decoration palette.
 
 Portrait touch/mouse controls and local offline saves. Native ads and Play Games are optional services; Web keeps gameplay and progress functional when they are unavailable. Optional ad benefits require the actual native earned-reward callback. No browser simulation grants an ad reward.
 
@@ -42,6 +42,10 @@ AdMob uses Google's official test app/unit IDs. Main menus offer a banner, every
 Original code is Apache-2.0. Developer: [EthannYakabuski](https://github.com/EthannYakabuski). Third-party assets/plugins retain their supplied licenses and required notices. Hosted CI runs game/service tests and exports Android/Web; Pages deployment remains explicitly disabled. Build artifacts, caches and keys are excluded from source. See HANDOFF.txt for actual results and blockers; file/workflow presence alone does not establish verification.
 
 Marketing assets, store/web copy, icons and screenshot provenance belong under marketing/. Human-owned next steps include final backend IDs/account setup, release signing, current Play eligibility checks, production service tests, human playtesting and Play publication. The first package is test-configured and must not be treated as Play-ready.
+
+## Round two
+
+See [the engineering update](docs/ROUND_TWO_UPDATE.md) for the exact access rules, content additions, verified tests and pending native/artwork work. Existing native QA applies only to its dated original APK.
 
 ## Future content
 

@@ -30,6 +30,7 @@ var click_sound: AudioStreamPlayer
 var now_override: int = -1
 var page_margin: MarginContainer
 var page_scroll: ScrollContainer
+var catalogue_category: String = "All pieces"
 
 func _ready() -> void:
 	test_mode = test_mode or OS.get_cmdline_user_args().has("--test-mode")
@@ -219,7 +220,7 @@ func show_home() -> void:
 	demo.placed = demo.room.solution.duplicate(true)
 	board = make_board(body,demo,275,true)
 	var welcome: HBoxContainer = row(body)
-	welcome.add_child(label("%d / 60 homes welcomed" % progress.completed(),18))
+	welcome.add_child(label("%d / 120 homes welcomed" % progress.completed(),18))
 	var xp: Label = label("%d planner XP" % int(progress.data.xp),16,MUTED)
 	xp.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	xp.horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
@@ -265,7 +266,7 @@ func show_commissions() -> void:
 	list.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	list.add_theme_constant_override("separation",8)
 	scroll.add_child(list)
-	for chapter in range(6):
+	for chapter in range(puzzle.content.chapters.size()):
 		var unlocked: bool = progress.chapter_unlocked(chapter)
 		list.add_child(label("%02d  %s%s" % [chapter+1,puzzle.content.chapters[chapter],"" if unlocked else "  ·  opens at %d homes" % (chapter*8)],23))
 		for i in range(chapter*10,chapter*10+10):
@@ -278,7 +279,7 @@ func show_commissions() -> void:
 			list.add_child(entry)
 
 func start_room(id: int, daily: bool = false) -> void:
-	active_id = clampi(id,0,59)
+	active_id = clampi(id,0,puzzle.content.rooms.size()-1)
 	daily_mode = daily
 	tutorial = -1
 	puzzle.load_room(active_id)
@@ -326,7 +327,7 @@ func show_puzzle() -> void:
 	clear_page("decoration" if decoration else "puzzle")
 	header(leave_room)
 	body.add_child(label(str(puzzle.room.name),28))
-	var context: String = "YOUR QUIET CORNER" if decoration else ("TUTORIAL %d OF 2" % (tutorial+1) if tutorial >= 0 else ("TODAY’S COMMISSION" if daily_mode else "%s  ·  %02d / 60" % [puzzle.content.chapters[int(puzzle.room.chapter)],active_id+1]))
+	var context: String = "YOUR QUIET CORNER" if decoration else ("TUTORIAL %d OF 2" % (tutorial+1) if tutorial >= 0 else ("TODAY’S COMMISSION" if daily_mode else "%s  ·  %02d / 120" % [puzzle.content.chapters[int(puzzle.room.chapter)],active_id+1]))
 	body.add_child(label(context,13,MUTED))
 	criteria = VBoxContainer.new()
 	criteria.add_theme_constant_override("separation",2)
@@ -339,6 +340,21 @@ func show_puzzle() -> void:
 	tools.add_child(button("Lift",remove_selected,false,"Lift"))
 	tools.add_child(button("Undo",undo_move,false,"Undo"))
 	tools.add_child(button("Reset",reset_room,false,"Reset"))
+	if decoration:
+		var filter: OptionButton=OptionButton.new()
+		filter.name="FurnitureCategory"
+		filter.custom_minimum_size.y=40
+		var categories: Array[String]=["All pieces"]
+		for key in puzzle.furniture:
+			var category: String=str(puzzle.furniture[key].get("category","Decor"))
+			if not categories.has(category): categories.append(category)
+		for category in categories: filter.add_item(category)
+		filter.select(maxi(0,categories.find(catalogue_category)))
+		filter.item_selected.connect(func(index: int) -> void:
+			catalogue_category=categories[index]
+			refresh_tray()
+		)
+		body.add_child(filter)
 	var scroll: ScrollContainer = ScrollContainer.new()
 	scroll.custom_minimum_size.y = 105
 	scroll.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
@@ -369,12 +385,14 @@ func select_item(key: String) -> void:
 	board.selected = selected
 	board.quarter_turn = quarter_turn
 	board.hover = Vector2i(-1,-1)
-	message_label.text = "%s selected · tap a floor tile, or rotate before placing." % puzzle.furniture[key].name
+	message_label.text = "%s · %d×%d tiles. %s" % [puzzle.furniture[key].name,puzzle.dimensions(key,quarter_turn).x,puzzle.dimensions(key,quarter_turn).y,puzzle.access_rule(key)]
+	board.show_paths = true
 	refresh_tray()
 
 func refresh_tray() -> void:
 	for child in tray.get_children(): tray.remove_child(child); child.queue_free()
 	for key in puzzle.room.items:
+		if int(puzzle.room.id)==-1 and catalogue_category!="All pieces" and str(puzzle.furniture[key].get("category","Decor"))!=catalogue_category: continue
 		var card: Button = button("",select_item.bind(str(key)),false,"Furniture"+str(key))
 		card.custom_minimum_size = Vector2(94,91)
 		card.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
@@ -392,7 +410,7 @@ func refresh_tray() -> void:
 		art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 		art.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		contents.add_child(art)
-		var name_label: Label = label(("✓ " if puzzle.has_item(str(key)) else "")+str(key).capitalize(),14)
+		var name_label: Label = label(("✓ " if puzzle.has_item(str(key)) else "")+str(puzzle.furniture[key].name),12)
 		name_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		name_label.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		contents.add_child(name_label)
@@ -434,7 +452,7 @@ func place_selected(cell: Vector2i) -> void:
 		board.flash_time = .65
 		if is_instance_valid(click_sound): click_sound.play()
 		progress.action("place",now())
-		message_label.text = "%s placed. Green dots show reachable usable fronts." % puzzle.furniture[selected].name
+		message_label.text = "%s placed. Paths shows which access tiles connect to the door." % puzzle.furniture[selected].name
 		board.hints = {}
 		selected = ""
 		remember_draft()
@@ -475,13 +493,15 @@ func reset_room() -> void:
 
 func toggle_paths() -> void:
 	board.show_paths = not board.show_paths
-	message_label.text = "Dots show floor reachable from the entrance; green front dots mean furniture can be used." if board.show_paths else "Paths hidden. The room rules still check every usable front."
+	message_label.text = "Green access tiles connect to the door. Red means blocked; amber means empty but disconnected. Only one access tile is needed per piece." if board.show_paths else "Paths hidden. Select a piece or Plan tip to inspect its exact access rule."
 
 func plan_tip() -> void:
 	board.show_paths = true
 	var result: Dictionary = puzzle.evaluate()
 	if not result.all_placed: message_label.text = "Give large pieces a home near the edges, leaving a path through the middle."
-	elif not result.paths: message_label.text = "A piece’s usable front is blocked. Rotate it toward open floor, or make a gap."
+	elif not result.paths:
+		var issue: Dictionary=result.front_issues[0]
+		message_label.text = str(issue.name)+": "+str(issue.reason)+" "+str(issue.rule)
 	elif not result.reading: message_label.text = "Bring the floor lamp within two steps of the chair, sofa, bed, or dining chair."
 	elif not result.daylight: message_label.text = "The writing desk needs the top window row. Its front still needs a path."
 	else: message_label.text = "The required needs are met. Try the optional wish, or welcome this household home."
@@ -543,7 +563,7 @@ func finish_room() -> void:
 	card.add_child(label("★ Thoughtful detail included" if result.optional else "☆ Revisit anytime for the optional wish",19))
 	card.add_child(label("+%d coins    +%d planner XP" % [int(reward.coins),int(reward.xp)],24))
 	card.add_child(label("Rewards are saved once; new optional details earn their own bonus.",15,MUTED))
-	if active_id < 59 and progress.chapter_unlocked(int((active_id+1)/10)):
+	if active_id < puzzle.content.rooms.size()-1 and progress.chapter_unlocked(int((active_id+1)/10)):
 		body.add_child(button("The next little room  →",start_room.bind(active_id+1,false),true,"NextRoom"))
 	body.add_child(button("Back to the commission book",show_commissions,false,"Book"))
 	body.add_child(button("Return to my doorstep",show_home,false,"Home"))

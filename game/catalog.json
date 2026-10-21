@@ -36,7 +36,8 @@
       "key": "all_homes",
       "name": "Room for Everyone",
       "threshold": 60,
-      "metric": "commissions"
+      "metric": "commissions",
+      "description": "Welcome the original sixty homes."
     },
     {
       "key": "request_1",

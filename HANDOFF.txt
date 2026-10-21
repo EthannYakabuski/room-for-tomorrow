@@ -1,3 +1,6 @@
+ROUND TWO SOURCE UPDATE — 2026-10-21
+Engineering tests passed for 120 rooms, all 140 furniture models, shaped floors and explained access fronts. New Android/Web exports/native acceptance and marketing integration are pending; preserved original QA below applies only to its named APK. See docs/ROUND_TWO_UPDATE.md.
+
 ROOM FOR TOMORROW - CONTINUATION HANDOFF
 Updated 2026-10-21. Ready for owner local review; production release remains owner work.
 

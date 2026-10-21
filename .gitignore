@@ -28,3 +28,6 @@ CHECKPOINT.txt
 /local-backups/
 **/*-stopped-save.json
 **/runtime-receipt.json
+
+# Generated Godot import sidecars for private/restored store captures.
+/marketing/screenshots/**/*.import

@@ -1,0 +1,3233 @@
+{
+  "pack": "Kenney Furniture Kit 2.0",
+  "license": "CC0; original KENNEY_LICENSE.txt preserved",
+  "directions": [
+    "SE",
+    "SW",
+    "NW",
+    "NE"
+  ],
+  "grid_units": "Approximate 0.65 model units per cell; original twelve footprint conventions retained for legacy drafts. Width follows model depth; height follows model width in SE isometric projection.",
+  "items": [
+    {
+      "key": "kit_bathroomCabinet",
+      "model": "Models/GLTF format/bathroomCabinet.glb",
+      "model_sha256": "9db540227acaaedbbadc6a085f4a00460b73944e608afaad4770e53238a3b7f8",
+      "model_extent_xyz": [
+        0.23,
+        0.39,
+        0.13
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bathroomCabinet_SE.png",
+        "Isometric/bathroomCabinet_SW.png",
+        "Isometric/bathroomCabinet_NW.png",
+        "Isometric/bathroomCabinet_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bathroomCabinetDrawer",
+      "model": "Models/GLTF format/bathroomCabinetDrawer.glb",
+      "model_sha256": "f32d09c6dab20fe823d238310f75ce81f24e893a91c2078b12efd3f7fe6c6b10",
+      "model_extent_xyz": [
+        0.43,
+        0.4718,
+        0.32
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bathroomCabinetDrawer_SE.png",
+        "Isometric/bathroomCabinetDrawer_SW.png",
+        "Isometric/bathroomCabinetDrawer_NW.png",
+        "Isometric/bathroomCabinetDrawer_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bathroomMirror",
+      "model": "Models/GLTF format/bathroomMirror.glb",
+      "model_sha256": "940b986894101ea59b50541554b6dc608a22b133057975849259009012984175",
+      "model_extent_xyz": [
+        0.3013,
+        0.4346,
+        0.1444
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bathroomMirror_SE.png",
+        "Isometric/bathroomMirror_SW.png",
+        "Isometric/bathroomMirror_NW.png",
+        "Isometric/bathroomMirror_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bathroomSink",
+      "model": "Models/GLTF format/bathroomSink.glb",
+      "model_sha256": "39d4f19608cab7e0fed52303b2c689f5f51fae1bad9b6913cb53d838875e797e",
+      "model_extent_xyz": [
+        0.34,
+        0.56,
+        0.29
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bathroomSink_SE.png",
+        "Isometric/bathroomSink_SW.png",
+        "Isometric/bathroomSink_NW.png",
+        "Isometric/bathroomSink_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bathroomSinkSquare",
+      "model": "Models/GLTF format/bathroomSinkSquare.glb",
+      "model_sha256": "360853c822f268e7267c62ef20cf646f170a13d76254cc0804a1d397a4a3ea67",
+      "model_extent_xyz": [
+        0.43,
+        0.58,
+        0.3
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bathroomSinkSquare_SE.png",
+        "Isometric/bathroomSinkSquare_SW.png",
+        "Isometric/bathroomSinkSquare_NW.png",
+        "Isometric/bathroomSinkSquare_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bathtub",
+      "model": "Models/GLTF format/bathtub.glb",
+      "model_sha256": "54c405c7035aab63dc41e709dc3c50fc5bcfbc4cddc91ffc54188075a6d25d01",
+      "model_extent_xyz": [
+        1.19,
+        0.42,
+        0.56
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bathtub_SE.png",
+        "Isometric/bathtub_SW.png",
+        "Isometric/bathtub_NW.png",
+        "Isometric/bathtub_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bear",
+      "model": "Models/GLTF format/bear.glb",
+      "model_sha256": "fd87c08f81dcd652b1f7f61afae9d1f040fa1322ac4ddda6f543ed423b954aed",
+      "model_extent_xyz": [
+        0.3897,
+        0.45,
+        0.2475
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bear_SE.png",
+        "Isometric/bear_SW.png",
+        "Isometric/bear_NW.png",
+        "Isometric/bear_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bedBunk",
+      "model": "Models/GLTF format/bedBunk.glb",
+      "model_sha256": "a3eccbc4a04340dd84878d959e15eede76f517fb8d4de6862ca46877c88d764e",
+      "model_extent_xyz": [
+        0.571,
+        0.85,
+        1.095
+      ],
+      "footprint_wh": [
+        2,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "long_sides",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bedBunk_SE.png",
+        "Isometric/bedBunk_SW.png",
+        "Isometric/bedBunk_NW.png",
+        "Isometric/bedBunk_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bedDouble",
+      "model": "Models/GLTF format/bedDouble.glb",
+      "model_sha256": "c49b33e7d797d2ba1111895587dba7ff63b17a712eb9b4ceeb40a598f73e476c",
+      "model_extent_xyz": [
+        0.956,
+        0.375,
+        1.125
+      ],
+      "footprint_wh": [
+        2,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "long_sides",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bedDouble_SE.png",
+        "Isometric/bedDouble_SW.png",
+        "Isometric/bedDouble_NW.png",
+        "Isometric/bedDouble_NE.png"
+      ]
+    },
+    {
+      "key": "bed",
+      "model": "Models/GLTF format/bedSingle.glb",
+      "model_sha256": "ca00c63f9a12da3138d902b2f5f18e0360fb6e8a5ac42ccb4bc3f185724b65d1",
+      "model_extent_xyz": [
+        0.571,
+        0.375,
+        1.125
+      ],
+      "footprint_wh": [
+        2,
+        1
+      ],
+      "legacy_grid_footprint_preserved": true,
+      "access": "long_sides",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bedSingle_SE.png",
+        "Isometric/bedSingle_SW.png",
+        "Isometric/bedSingle_NW.png",
+        "Isometric/bedSingle_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bench",
+      "model": "Models/GLTF format/bench.glb",
+      "model_sha256": "ba05a6d23a5a5a44da016757632070e47ff7587ce10e2f6d6d52328b4cf5489b",
+      "model_extent_xyz": [
+        0.4,
+        0.47,
+        0.2
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bench_SE.png",
+        "Isometric/bench_SW.png",
+        "Isometric/bench_NW.png",
+        "Isometric/bench_NE.png"
+      ]
+    },
+    {
+      "key": "kit_benchCushion",
+      "model": "Models/GLTF format/benchCushion.glb",
+      "model_sha256": "5186ad938f8b9eff255361fd1fdc48a81f08c318161cde27c93753ab95a2d354",
+      "model_extent_xyz": [
+        0.4,
+        0.46,
+        0.2
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/benchCushion_SE.png",
+        "Isometric/benchCushion_SW.png",
+        "Isometric/benchCushion_NW.png",
+        "Isometric/benchCushion_NE.png"
+      ]
+    },
+    {
+      "key": "kit_benchCushionLow",
+      "model": "Models/GLTF format/benchCushionLow.glb",
+      "model_sha256": "d1fac209eae2ea7393beefa4932dacb54d500e8f9932a1b17d2a842527df1b2c",
+      "model_extent_xyz": [
+        0.42,
+        0.2,
+        0.22
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/benchCushionLow_SE.png",
+        "Isometric/benchCushionLow_SW.png",
+        "Isometric/benchCushionLow_NW.png",
+        "Isometric/benchCushionLow_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bookcaseClosed",
+      "model": "Models/GLTF format/bookcaseClosed.glb",
+      "model_sha256": "9d210448de5e1179541da895450bbc7a39f4cd673d677654cd6b134e4ea0e047",
+      "model_extent_xyz": [
+        0.4,
+        0.85,
+        0.25
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bookcaseClosed_SE.png",
+        "Isometric/bookcaseClosed_SW.png",
+        "Isometric/bookcaseClosed_NW.png",
+        "Isometric/bookcaseClosed_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bookcaseClosedDoors",
+      "model": "Models/GLTF format/bookcaseClosedDoors.glb",
+      "model_sha256": "ff33f535acdb1825c0e958a293642b39665adcae0b1317b650e83d2bb687f4e2",
+      "model_extent_xyz": [
+        0.4,
+        0.85,
+        0.25
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bookcaseClosedDoors_SE.png",
+        "Isometric/bookcaseClosedDoors_SW.png",
+        "Isometric/bookcaseClosedDoors_NW.png",
+        "Isometric/bookcaseClosedDoors_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bookcaseClosedWide",
+      "model": "Models/GLTF format/bookcaseClosedWide.glb",
+      "model_sha256": "55b9903e9646dc407ed5237a1c41c1f0a14f9edc22e3392bdb9a4804d846af6a",
+      "model_extent_xyz": [
+        0.8,
+        0.79,
+        0.25
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bookcaseClosedWide_SE.png",
+        "Isometric/bookcaseClosedWide_SW.png",
+        "Isometric/bookcaseClosedWide_NW.png",
+        "Isometric/bookcaseClosedWide_NE.png"
+      ]
+    },
+    {
+      "key": "shelf",
+      "model": "Models/GLTF format/bookcaseOpen.glb",
+      "model_sha256": "750702218d68c062b15dfef6ab06a4014d1cfa8bd05f02e57c53b7e13bec157c",
+      "model_extent_xyz": [
+        0.4,
+        0.88,
+        0.25
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": true,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bookcaseOpen_SE.png",
+        "Isometric/bookcaseOpen_SW.png",
+        "Isometric/bookcaseOpen_NW.png",
+        "Isometric/bookcaseOpen_NE.png"
+      ]
+    },
+    {
+      "key": "kit_bookcaseOpenLow",
+      "model": "Models/GLTF format/bookcaseOpenLow.glb",
+      "model_sha256": "6d4d625faf977a2dbf155f1313cd32c6310e463114a1cd4c08cb9f80a5fb1d75",
+      "model_extent_xyz": [
+        0.4,
+        0.4,
+        0.25
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/bookcaseOpenLow_SE.png",
+        "Isometric/bookcaseOpenLow_SW.png",
+        "Isometric/bookcaseOpenLow_NW.png",
+        "Isometric/bookcaseOpenLow_NE.png"
+      ]
+    },
+    {
+      "key": "kit_books",
+      "model": "Models/GLTF format/books.glb",
+      "model_sha256": "b8dc56e5d29f6fc1f4727fccb1b9642627fee9942c48060a00034e98df02701c",
+      "model_extent_xyz": [
+        0.1504,
+        0.1039,
+        0.0945
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/books_SE.png",
+        "Isometric/books_SW.png",
+        "Isometric/books_NW.png",
+        "Isometric/books_NE.png"
+      ]
+    },
+    {
+      "key": "cabinet",
+      "model": "Models/GLTF format/cabinetBed.glb",
+      "model_sha256": "b651fafb9e2c8e4adcb8cad3d10dc94404b46fe039b26e66b2c9020df4e5301d",
+      "model_extent_xyz": [
+        0.266,
+        0.2332,
+        0.215
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": true,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/cabinetBed_SE.png",
+        "Isometric/cabinetBed_SW.png",
+        "Isometric/cabinetBed_NW.png",
+        "Isometric/cabinetBed_NE.png"
+      ]
+    },
+    {
+      "key": "kit_cabinetBedDrawer",
+      "model": "Models/GLTF format/cabinetBedDrawer.glb",
+      "model_sha256": "e3dfd2e120af3d4d29b66509e317452cd15bd3f57ac8945575462c582adc6de8",
+      "model_extent_xyz": [
+        0.266,
+        0.2632,
+        0.2173
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/cabinetBedDrawer_SE.png",
+        "Isometric/cabinetBedDrawer_SW.png",
+        "Isometric/cabinetBedDrawer_NW.png",
+        "Isometric/cabinetBedDrawer_NE.png"
+      ]
+    },
+    {
+      "key": "kit_cabinetBedDrawerTable",
+      "model": "Models/GLTF format/cabinetBedDrawerTable.glb",
+      "model_sha256": "fec6271639df5aff9f8ac75d6679385eab2abb7c8d2f51abeba3ed689ddb6f0d",
+      "model_extent_xyz": [
+        0.266,
+        0.2632,
+        0.2173
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/cabinetBedDrawerTable_SE.png",
+        "Isometric/cabinetBedDrawerTable_SW.png",
+        "Isometric/cabinetBedDrawerTable_NW.png",
+        "Isometric/cabinetBedDrawerTable_NE.png"
+      ]
+    },
+    {
+      "key": "kit_cabinetTelevision",
+      "model": "Models/GLTF format/cabinetTelevision.glb",
+      "model_sha256": "811719593d676ff76f7b5904d52c845ce0396af2bc9a6a2636c4818ead320b99",
+      "model_extent_xyz": [
+        0.8,
+        0.31,
+        0.25
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/cabinetTelevision_SE.png",
+        "Isometric/cabinetTelevision_SW.png",
+        "Isometric/cabinetTelevision_NW.png",
+        "Isometric/cabinetTelevision_NE.png"
+      ]
+    },
+    {
+      "key": "kit_cabinetTelevisionDoors",
+      "model": "Models/GLTF format/cabinetTelevisionDoors.glb",
+      "model_sha256": "8959347bfe26b1ac7e44c476f05789466bb84bcd2ad8b0fb40286005399bfcfc",
+      "model_extent_xyz": [
+        0.8,
+        0.31,
+        0.26
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/cabinetTelevisionDoors_SE.png",
+        "Isometric/cabinetTelevisionDoors_SW.png",
+        "Isometric/cabinetTelevisionDoors_NW.png",
+        "Isometric/cabinetTelevisionDoors_NE.png"
+      ]
+    },
+    {
+      "key": "kit_cardboardBoxClosed",
+      "model": "Models/GLTF format/cardboardBoxClosed.glb",
+      "model_sha256": "4af079dca52960912764574950f0549ff2ae1224b3db1528718629473a2d5d81",
+      "model_extent_xyz": [
+        0.2125,
+        0.281,
+        0.2125
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/cardboardBoxClosed_SE.png",
+        "Isometric/cardboardBoxClosed_SW.png",
+        "Isometric/cardboardBoxClosed_NW.png",
+        "Isometric/cardboardBoxClosed_NE.png"
+      ]
+    },
+    {
+      "key": "kit_cardboardBoxOpen",
+      "model": "Models/GLTF format/cardboardBoxOpen.glb",
+      "model_sha256": "960da412564774c75e7b32f9af0100895e1edb877fc1e70dd34ee2422a2196d4",
+      "model_extent_xyz": [
+        0.3719,
+        0.281,
+        0.2125
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/cardboardBoxOpen_SE.png",
+        "Isometric/cardboardBoxOpen_SW.png",
+        "Isometric/cardboardBoxOpen_NW.png",
+        "Isometric/cardboardBoxOpen_NE.png"
+      ]
+    },
+    {
+      "key": "kit_ceilingFan",
+      "model": "Models/GLTF format/ceilingFan.glb",
+      "model_sha256": "5fdf7b3c4328875462c9887c6b1f2fad08126ea42e758cf86534639b9ea72044",
+      "model_extent_xyz": [
+        0.4547,
+        0.1337,
+        0.5251
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/ceilingFan_SE.png",
+        "Isometric/ceilingFan_SW.png",
+        "Isometric/ceilingFan_NW.png",
+        "Isometric/ceilingFan_NE.png"
+      ]
+    },
+    {
+      "key": "kit_chair",
+      "model": "Models/GLTF format/chair.glb",
+      "model_sha256": "c8a11eec93e89e31250ba91afc1b8d56c3bec7ae86640fd1239f595ff4180883",
+      "model_extent_xyz": [
+        0.2,
+        0.47,
+        0.2
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/chair_SE.png",
+        "Isometric/chair_SW.png",
+        "Isometric/chair_NW.png",
+        "Isometric/chair_NE.png"
+      ]
+    },
+    {
+      "key": "stool",
+      "model": "Models/GLTF format/chairCushion.glb",
+      "model_sha256": "33544228984857f2cb502b58452fed72157335f9b1caf29e96da5c9094c53fdc",
+      "model_extent_xyz": [
+        0.2,
+        0.46,
+        0.2
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": true,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/chairCushion_SE.png",
+        "Isometric/chairCushion_SW.png",
+        "Isometric/chairCushion_NW.png",
+        "Isometric/chairCushion_NE.png"
+      ]
+    },
+    {
+      "key": "kit_chairDesk",
+      "model": "Models/GLTF format/chairDesk.glb",
+      "model_sha256": "46406619186034cbe92b19b79a5f1a8e3f442a17a70a7524ef2c0ad0f35095c6",
+      "model_extent_xyz": [
+        0.335,
+        0.6076,
+        0.3143
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/chairDesk_SE.png",
+        "Isometric/chairDesk_SW.png",
+        "Isometric/chairDesk_NW.png",
+        "Isometric/chairDesk_NE.png"
+      ]
+    },
+    {
+      "key": "kit_chairModernCushion",
+      "model": "Models/GLTF format/chairModernCushion.glb",
+      "model_sha256": "245132697e633e907e2b48c86d56f6c8543604a3440a055d1c71c06ce11d2858",
+      "model_extent_xyz": [
+        0.2,
+        0.46,
+        0.2
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/chairModernCushion_SE.png",
+        "Isometric/chairModernCushion_SW.png",
+        "Isometric/chairModernCushion_NW.png",
+        "Isometric/chairModernCushion_NE.png"
+      ]
+    },
+    {
+      "key": "kit_chairModernFrameCushion",
+      "model": "Models/GLTF format/chairModernFrameCushion.glb",
+      "model_sha256": "fd3351b077cafbd54224e20fa7a3a1b4a4304019cf44c25a6e7709ad71b852b8",
+      "model_extent_xyz": [
+        0.2,
+        0.46,
+        0.2
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/chairModernFrameCushion_SE.png",
+        "Isometric/chairModernFrameCushion_SW.png",
+        "Isometric/chairModernFrameCushion_NW.png",
+        "Isometric/chairModernFrameCushion_NE.png"
+      ]
+    },
+    {
+      "key": "kit_chairRounded",
+      "model": "Models/GLTF format/chairRounded.glb",
+      "model_sha256": "53f4933ec547179c499f04dbda1231cf44b83ec82c7f4ab981cdf680aee5c973",
+      "model_extent_xyz": [
+        0.2,
+        0.455,
+        0.2
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/chairRounded_SE.png",
+        "Isometric/chairRounded_SW.png",
+        "Isometric/chairRounded_NW.png",
+        "Isometric/chairRounded_NE.png"
+      ]
+    },
+    {
+      "key": "kit_coatRack",
+      "model": "Models/GLTF format/coatRack.glb",
+      "model_sha256": "0f56540d57367ea6fea6b9aedf305d4fc58abeec8ff3b039dbff44360d819c76",
+      "model_extent_xyz": [
+        0.448,
+        0.28,
+        0.1344
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/coatRack_SE.png",
+        "Isometric/coatRack_SW.png",
+        "Isometric/coatRack_NW.png",
+        "Isometric/coatRack_NE.png"
+      ]
+    },
+    {
+      "key": "coat",
+      "model": "Models/GLTF format/coatRackStanding.glb",
+      "model_sha256": "d8231c22dab63ceb9fc8678f6c8ceafc62afa8726b51a73b4ce349043d3cdc91",
+      "model_extent_xyz": [
+        0.2728,
+        0.77,
+        0.2728
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": true,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/coatRackStanding_SE.png",
+        "Isometric/coatRackStanding_SW.png",
+        "Isometric/coatRackStanding_NW.png",
+        "Isometric/coatRackStanding_NE.png"
+      ]
+    },
+    {
+      "key": "kit_computerKeyboard",
+      "model": "Models/GLTF format/computerKeyboard.glb",
+      "model_sha256": "9d9135789de2120e9f41ce3f0a56dd1b15f40adcc7888739bb842a2d820da322",
+      "model_extent_xyz": [
+        0.2822,
+        0.0276,
+        0.1182
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/computerKeyboard_SE.png",
+        "Isometric/computerKeyboard_SW.png",
+        "Isometric/computerKeyboard_NW.png",
+        "Isometric/computerKeyboard_NE.png"
+      ]
+    },
+    {
+      "key": "kit_computerMouse",
+      "model": "Models/GLTF format/computerMouse.glb",
+      "model_sha256": "d3ad1a923f0f7707ef367bb969eb94c9076e211c98c830ba52e133fadc5cdfc0",
+      "model_extent_xyz": [
+        0.0497,
+        0.0236,
+        0.0851
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/computerMouse_SE.png",
+        "Isometric/computerMouse_SW.png",
+        "Isometric/computerMouse_NW.png",
+        "Isometric/computerMouse_NE.png"
+      ]
+    },
+    {
+      "key": "kit_computerScreen",
+      "model": "Models/GLTF format/computerScreen.glb",
+      "model_sha256": "5942cbad29a2d2b956619569926e81d50a4174403d592fece6556e57632dc643",
+      "model_extent_xyz": [
+        0.3927,
+        0.2943,
+        0.104
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/computerScreen_SE.png",
+        "Isometric/computerScreen_SW.png",
+        "Isometric/computerScreen_NW.png",
+        "Isometric/computerScreen_NE.png"
+      ]
+    },
+    {
+      "key": "desk",
+      "model": "Models/GLTF format/desk.glb",
+      "model_sha256": "0164fe828f028b321730fb8c74502e353583f751be74da1682d42fff7d3c5a42",
+      "model_extent_xyz": [
+        0.7345,
+        0.3844,
+        0.3923
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": true,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/desk_SE.png",
+        "Isometric/desk_SW.png",
+        "Isometric/desk_NW.png",
+        "Isometric/desk_NE.png"
+      ]
+    },
+    {
+      "key": "kit_deskCorner",
+      "model": "Models/GLTF format/deskCorner.glb",
+      "model_sha256": "a6a77ba0083d5ecd34ad50f738867b03ed7b7f469429bb1acc78f423bcc3f034",
+      "model_extent_xyz": [
+        0.9745,
+        0.3844,
+        0.9745
+      ],
+      "footprint_wh": [
+        2,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/deskCorner_SE.png",
+        "Isometric/deskCorner_SW.png",
+        "Isometric/deskCorner_NW.png",
+        "Isometric/deskCorner_NE.png"
+      ]
+    },
+    {
+      "key": "kit_doorway",
+      "model": "Models/GLTF format/doorway.glb",
+      "model_sha256": "08983e299822140d580eb55d4b4e4e4552c37bb6e88571e41d2b7b5d2eef987e",
+      "model_extent_xyz": [
+        0.486,
+        1.0095,
+        0.1134
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": true,
+      "source_isometric": [
+        "Isometric/doorway_SE.png",
+        "Isometric/doorway_SW.png",
+        "Isometric/doorway_NW.png",
+        "Isometric/doorway_NE.png"
+      ]
+    },
+    {
+      "key": "kit_doorwayFront",
+      "model": "Models/GLTF format/doorwayFront.glb",
+      "model_sha256": "b5b8e4c14ee1f2ffa10ef5c69badc995ae6fbcc868abac240221c61b8c593b0e",
+      "model_extent_xyz": [
+        0.486,
+        1.0095,
+        0.1134
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": true,
+      "source_isometric": [
+        "Isometric/doorwayFront_SE.png",
+        "Isometric/doorwayFront_SW.png",
+        "Isometric/doorwayFront_NW.png",
+        "Isometric/doorwayFront_NE.png"
+      ]
+    },
+    {
+      "key": "kit_doorwayOpen",
+      "model": "Models/GLTF format/doorwayOpen.glb",
+      "model_sha256": "cf05e165ea26dbbeaab4dc6296c143ef5f5a001e2ab5af9cd4fd65739408317e",
+      "model_extent_xyz": [
+        0.486,
+        1.0095,
+        0.0891
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": true,
+      "source_isometric": [
+        "Isometric/doorwayOpen_SE.png",
+        "Isometric/doorwayOpen_SW.png",
+        "Isometric/doorwayOpen_NW.png",
+        "Isometric/doorwayOpen_NE.png"
+      ]
+    },
+    {
+      "key": "kit_dryer",
+      "model": "Models/GLTF format/dryer.glb",
+      "model_sha256": "d8b727612fdfc141c0b56360f75b897f1b71d3420c8c0942b5ec626bd3c8303c",
+      "model_extent_xyz": [
+        0.39,
+        0.47,
+        0.38
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/dryer_SE.png",
+        "Isometric/dryer_SW.png",
+        "Isometric/dryer_NW.png",
+        "Isometric/dryer_NE.png"
+      ]
+    },
+    {
+      "key": "kit_floorCorner",
+      "model": "Models/GLTF format/floorCorner.glb",
+      "model_sha256": "7a3ed4473bd7dc71a7fac74a77c548412ed01caf9fd21be605bc8bbda824f8ff",
+      "model_extent_xyz": [
+        0.55,
+        0.05,
+        0.55
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": true,
+      "source_isometric": [
+        "Isometric/floorCorner_SE.png",
+        "Isometric/floorCorner_SW.png",
+        "Isometric/floorCorner_NW.png",
+        "Isometric/floorCorner_NE.png"
+      ]
+    },
+    {
+      "key": "kit_floorCornerRound",
+      "model": "Models/GLTF format/floorCornerRound.glb",
+      "model_sha256": "d9d5392ecff520a263dd7e5b77e733da125f866002311ea65572731d90fb8990",
+      "model_extent_xyz": [
+        0.55,
+        0.05,
+        0.55
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": true,
+      "source_isometric": [
+        "Isometric/floorCornerRound_SE.png",
+        "Isometric/floorCornerRound_SW.png",
+        "Isometric/floorCornerRound_NW.png",
+        "Isometric/floorCornerRound_NE.png"
+      ]
+    },
+    {
+      "key": "kit_floorFull",
+      "model": "Models/GLTF format/floorFull.glb",
+      "model_sha256": "99fc5df646d8dc605d6fe35001fe5b15bb7b269cc5c65f4f7793fbc76ff3d822",
+      "model_extent_xyz": [
+        1,
+        0.05,
+        1
+      ],
+      "footprint_wh": [
+        2,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": true,
+      "source_isometric": [
+        "Isometric/floorFull_SE.png",
+        "Isometric/floorFull_SW.png",
+        "Isometric/floorFull_NW.png",
+        "Isometric/floorFull_NE.png"
+      ]
+    },
+    {
+      "key": "kit_floorHalf",
+      "model": "Models/GLTF format/floorHalf.glb",
+      "model_sha256": "8cf16d67b8185f6c28f957458da92a337f0949d2e127df9a50b53ea5e8894673",
+      "model_extent_xyz": [
+        0.5,
+        0.05,
+        1
+      ],
+      "footprint_wh": [
+        2,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": true,
+      "source_isometric": [
+        "Isometric/floorHalf_SE.png",
+        "Isometric/floorHalf_SW.png",
+        "Isometric/floorHalf_NW.png",
+        "Isometric/floorHalf_NE.png"
+      ]
+    },
+    {
+      "key": "kit_hoodLarge",
+      "model": "Models/GLTF format/hoodLarge.glb",
+      "model_sha256": "e9b60fa02bba74d99103e8ba9d7ca99fbd99299bc57c4f5f84b2add2a6a3afcc",
+      "model_extent_xyz": [
+        0.43,
+        0.3695,
+        0.2849
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/hoodLarge_SE.png",
+        "Isometric/hoodLarge_SW.png",
+        "Isometric/hoodLarge_NW.png",
+        "Isometric/hoodLarge_NE.png"
+      ]
+    },
+    {
+      "key": "kit_hoodModern",
+      "model": "Models/GLTF format/hoodModern.glb",
+      "model_sha256": "f5ac7dbadd1d98813c48315e56fa6ab2e8783870b1fb7be30825177bbf2b2afe",
+      "model_extent_xyz": [
+        0.43,
+        0.3995,
+        0.2849
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/hoodModern_SE.png",
+        "Isometric/hoodModern_SW.png",
+        "Isometric/hoodModern_NW.png",
+        "Isometric/hoodModern_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenBar",
+      "model": "Models/GLTF format/kitchenBar.glb",
+      "model_sha256": "792c3d31e60c8a8d8c7a28cf7d1efe004c5a601adc1b163a8799dde32c1b559d",
+      "model_extent_xyz": [
+        0.43,
+        0.42,
+        0.21
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenBar_SE.png",
+        "Isometric/kitchenBar_SW.png",
+        "Isometric/kitchenBar_NW.png",
+        "Isometric/kitchenBar_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenBarEnd",
+      "model": "Models/GLTF format/kitchenBarEnd.glb",
+      "model_sha256": "410c6d83defe4ed248a8ec32f81553b56c8b610372d02ecf0e547e3f52cdc0a1",
+      "model_extent_xyz": [
+        0.1016,
+        0.42,
+        0.21
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenBarEnd_SE.png",
+        "Isometric/kitchenBarEnd_SW.png",
+        "Isometric/kitchenBarEnd_NW.png",
+        "Isometric/kitchenBarEnd_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenBlender",
+      "model": "Models/GLTF format/kitchenBlender.glb",
+      "model_sha256": "f471defb5b2b1cf3b949a1a8aaef0a8b727afe662b0815068cf4e963325a3c1f",
+      "model_extent_xyz": [
+        0.1358,
+        0.2275,
+        0.1091
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenBlender_SE.png",
+        "Isometric/kitchenBlender_SW.png",
+        "Isometric/kitchenBlender_NW.png",
+        "Isometric/kitchenBlender_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenCabinet",
+      "model": "Models/GLTF format/kitchenCabinet.glb",
+      "model_sha256": "7238c57778935ae25db5e57e9f7af3ba7068c71b005ff7cfbff3b6f3b1a13200",
+      "model_extent_xyz": [
+        0.43,
+        0.45,
+        0.45
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenCabinet_SE.png",
+        "Isometric/kitchenCabinet_SW.png",
+        "Isometric/kitchenCabinet_NW.png",
+        "Isometric/kitchenCabinet_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenCabinetCornerInner",
+      "model": "Models/GLTF format/kitchenCabinetCornerInner.glb",
+      "model_sha256": "8d1b69e63048424a0559d1e5c77427fab9021def7dea74cf1c4d3d8ce16e6e69",
+      "model_extent_xyz": [
+        0.46,
+        0.45,
+        0.46
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenCabinetCornerInner_SE.png",
+        "Isometric/kitchenCabinetCornerInner_SW.png",
+        "Isometric/kitchenCabinetCornerInner_NW.png",
+        "Isometric/kitchenCabinetCornerInner_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenCabinetCornerRound",
+      "model": "Models/GLTF format/kitchenCabinetCornerRound.glb",
+      "model_sha256": "333ab73202cb87b76d4ff94939038dcaf315eda55285bdbeba20d255da488e97",
+      "model_extent_xyz": [
+        0.45,
+        0.45,
+        0.45
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenCabinetCornerRound_SE.png",
+        "Isometric/kitchenCabinetCornerRound_SW.png",
+        "Isometric/kitchenCabinetCornerRound_NW.png",
+        "Isometric/kitchenCabinetCornerRound_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenCabinetDrawer",
+      "model": "Models/GLTF format/kitchenCabinetDrawer.glb",
+      "model_sha256": "6f784807e3cadb15b4d2d3db726d93357ea5e6c4f2b6e4c9c064048a2d1d9cfc",
+      "model_extent_xyz": [
+        0.43,
+        0.45,
+        0.45
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenCabinetDrawer_SE.png",
+        "Isometric/kitchenCabinetDrawer_SW.png",
+        "Isometric/kitchenCabinetDrawer_NW.png",
+        "Isometric/kitchenCabinetDrawer_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenCabinetUpper",
+      "model": "Models/GLTF format/kitchenCabinetUpper.glb",
+      "model_sha256": "8f2496feed85a745ffb6e554075b8450d647f8f68b01d6a010fcac1510fc173a",
+      "model_extent_xyz": [
+        0.43,
+        0.39,
+        0.22
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenCabinetUpper_SE.png",
+        "Isometric/kitchenCabinetUpper_SW.png",
+        "Isometric/kitchenCabinetUpper_NW.png",
+        "Isometric/kitchenCabinetUpper_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenCabinetUpperCorner",
+      "model": "Models/GLTF format/kitchenCabinetUpperCorner.glb",
+      "model_sha256": "b23551ff585b5b804cf3ec0fe046b7bc1e84a387021e3cdb01c93add56444e8d",
+      "model_extent_xyz": [
+        0.215,
+        0.39,
+        0.21
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenCabinetUpperCorner_SE.png",
+        "Isometric/kitchenCabinetUpperCorner_SW.png",
+        "Isometric/kitchenCabinetUpperCorner_NW.png",
+        "Isometric/kitchenCabinetUpperCorner_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenCabinetUpperDouble",
+      "model": "Models/GLTF format/kitchenCabinetUpperDouble.glb",
+      "model_sha256": "7b2abd976f2e8f1727d6ba23490aaf5fe18db9c5ac66e729ef6fe8de835c039e",
+      "model_extent_xyz": [
+        0.43,
+        0.39,
+        0.22
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenCabinetUpperDouble_SE.png",
+        "Isometric/kitchenCabinetUpperDouble_SW.png",
+        "Isometric/kitchenCabinetUpperDouble_NW.png",
+        "Isometric/kitchenCabinetUpperDouble_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenCabinetUpperLow",
+      "model": "Models/GLTF format/kitchenCabinetUpperLow.glb",
+      "model_sha256": "c25293d38ad3d4338142f5bfb6832a2f7e8a069a552fc4a6730231b1b382d33e",
+      "model_extent_xyz": [
+        0.43,
+        0.195,
+        0.22
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenCabinetUpperLow_SE.png",
+        "Isometric/kitchenCabinetUpperLow_SW.png",
+        "Isometric/kitchenCabinetUpperLow_NW.png",
+        "Isometric/kitchenCabinetUpperLow_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenCoffeeMachine",
+      "model": "Models/GLTF format/kitchenCoffeeMachine.glb",
+      "model_sha256": "063f582c6fa0f00a9f24e3393dac2295491c4becdaf5513c893ab1a2826b6ec3",
+      "model_extent_xyz": [
+        0.1895,
+        0.1775,
+        0.2402
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenCoffeeMachine_SE.png",
+        "Isometric/kitchenCoffeeMachine_SW.png",
+        "Isometric/kitchenCoffeeMachine_NW.png",
+        "Isometric/kitchenCoffeeMachine_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenFridge",
+      "model": "Models/GLTF format/kitchenFridge.glb",
+      "model_sha256": "8af4f4bbb1b5525ad8226e97926a5af60fa8fb20a3cb74dbda5328a9d320dbab",
+      "model_extent_xyz": [
+        0.43,
+        0.92,
+        0.2919
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenFridge_SE.png",
+        "Isometric/kitchenFridge_SW.png",
+        "Isometric/kitchenFridge_NW.png",
+        "Isometric/kitchenFridge_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenFridgeBuiltIn",
+      "model": "Models/GLTF format/kitchenFridgeBuiltIn.glb",
+      "model_sha256": "eedcfbca0a9e565424d941b8cf82ddc0c3c4dfc63911a420bfae058e9a18044c",
+      "model_extent_xyz": [
+        0.43,
+        0.8687,
+        0.45
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenFridgeBuiltIn_SE.png",
+        "Isometric/kitchenFridgeBuiltIn_SW.png",
+        "Isometric/kitchenFridgeBuiltIn_NW.png",
+        "Isometric/kitchenFridgeBuiltIn_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenFridgeLarge",
+      "model": "Models/GLTF format/kitchenFridgeLarge.glb",
+      "model_sha256": "5851cc59c7e12f6f34a01a2ea93d5b9540be4078c1b703f517239fcede98fb32",
+      "model_extent_xyz": [
+        0.52,
+        0.92,
+        0.4055
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenFridgeLarge_SE.png",
+        "Isometric/kitchenFridgeLarge_SW.png",
+        "Isometric/kitchenFridgeLarge_NW.png",
+        "Isometric/kitchenFridgeLarge_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenFridgeSmall",
+      "model": "Models/GLTF format/kitchenFridgeSmall.glb",
+      "model_sha256": "35dab7f63711623be321bfd82072f4ab29fe8006aac9371c6e6b78df2e02f5ed",
+      "model_extent_xyz": [
+        0.43,
+        0.6002,
+        0.2919
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenFridgeSmall_SE.png",
+        "Isometric/kitchenFridgeSmall_SW.png",
+        "Isometric/kitchenFridgeSmall_NW.png",
+        "Isometric/kitchenFridgeSmall_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenMicrowave",
+      "model": "Models/GLTF format/kitchenMicrowave.glb",
+      "model_sha256": "dd6a6c919f4bebc6e2080fe419262cf97a0d6461ead3f3998aa3c9edf4d2bd27",
+      "model_extent_xyz": [
+        0.29,
+        0.18,
+        0.23
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenMicrowave_SE.png",
+        "Isometric/kitchenMicrowave_SW.png",
+        "Isometric/kitchenMicrowave_NW.png",
+        "Isometric/kitchenMicrowave_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenSink",
+      "model": "Models/GLTF format/kitchenSink.glb",
+      "model_sha256": "7b9610277d71f00dcf1bba49cf4d98d77ce5177e84bf76c7da2f8893e542f743",
+      "model_extent_xyz": [
+        0.43,
+        0.49,
+        0.45
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenSink_SE.png",
+        "Isometric/kitchenSink_SW.png",
+        "Isometric/kitchenSink_NW.png",
+        "Isometric/kitchenSink_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenStove",
+      "model": "Models/GLTF format/kitchenStove.glb",
+      "model_sha256": "3239edb36295dfca9530a9b9a6ad0aff98ce62e7cf8d13ca2a5a1a6b2a904656",
+      "model_extent_xyz": [
+        0.43,
+        0.45,
+        0.45
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenStove_SE.png",
+        "Isometric/kitchenStove_SW.png",
+        "Isometric/kitchenStove_NW.png",
+        "Isometric/kitchenStove_NE.png"
+      ]
+    },
+    {
+      "key": "kit_kitchenStoveElectric",
+      "model": "Models/GLTF format/kitchenStoveElectric.glb",
+      "model_sha256": "cf646b960d7dfed1fac27898ff6de1f0671cfa33beecbed06ead7d0684517392",
+      "model_extent_xyz": [
+        0.43,
+        0.45,
+        0.45
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/kitchenStoveElectric_SE.png",
+        "Isometric/kitchenStoveElectric_SW.png",
+        "Isometric/kitchenStoveElectric_NW.png",
+        "Isometric/kitchenStoveElectric_NE.png"
+      ]
+    },
+    {
+      "key": "lamp",
+      "model": "Models/GLTF format/lampRoundFloor.glb",
+      "model_sha256": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+      "model_extent_xyz": [
+        0.152,
+        0.86,
+        0.1756
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": true,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/lampRoundFloor_SE.png",
+        "Isometric/lampRoundFloor_SW.png",
+        "Isometric/lampRoundFloor_NW.png",
+        "Isometric/lampRoundFloor_NE.png"
+      ]
+    },
+    {
+      "key": "kit_lampRoundTable",
+      "model": "Models/GLTF format/lampRoundTable.glb",
+      "model_sha256": "75bb644caaa3da003b4fcad7a931722dd61cd2858aab70cf660021d5061fa1b2",
+      "model_extent_xyz": [
+        0.152,
+        0.3142,
+        0.1756
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/lampRoundTable_SE.png",
+        "Isometric/lampRoundTable_SW.png",
+        "Isometric/lampRoundTable_NW.png",
+        "Isometric/lampRoundTable_NE.png"
+      ]
+    },
+    {
+      "key": "kit_lampSquareCeiling",
+      "model": "Models/GLTF format/lampSquareCeiling.glb",
+      "model_sha256": "57066be51583d83ae60071e8179af275189cb2911ecb9fc24953bb930c8bf118",
+      "model_extent_xyz": [
+        0.12,
+        0.23,
+        0.12
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/lampSquareCeiling_SE.png",
+        "Isometric/lampSquareCeiling_SW.png",
+        "Isometric/lampSquareCeiling_NW.png",
+        "Isometric/lampSquareCeiling_NE.png"
+      ]
+    },
+    {
+      "key": "kit_lampSquareFloor",
+      "model": "Models/GLTF format/lampSquareFloor.glb",
+      "model_sha256": "6466993748d8e184de9ec5b6b0af613867c50c0ce320d1898b1db9e4c27c2561",
+      "model_extent_xyz": [
+        0.12,
+        0.86,
+        0.12
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/lampSquareFloor_SE.png",
+        "Isometric/lampSquareFloor_SW.png",
+        "Isometric/lampSquareFloor_NW.png",
+        "Isometric/lampSquareFloor_NE.png"
+      ]
+    },
+    {
+      "key": "kit_lampSquareTable",
+      "model": "Models/GLTF format/lampSquareTable.glb",
+      "model_sha256": "70ec9211af336b1ef3b4da32590b8737b4facf219348c22e6533a1e898cdb13d",
+      "model_extent_xyz": [
+        0.12,
+        0.29,
+        0.12
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/lampSquareTable_SE.png",
+        "Isometric/lampSquareTable_SW.png",
+        "Isometric/lampSquareTable_NW.png",
+        "Isometric/lampSquareTable_NE.png"
+      ]
+    },
+    {
+      "key": "kit_lampWall",
+      "model": "Models/GLTF format/lampWall.glb",
+      "model_sha256": "a9679ecd3be05731846f22ade97c37069598ca7a06dd9319f50230e63a1ea83c",
+      "model_extent_xyz": [
+        0.2266,
+        0.0928,
+        0.1503
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/lampWall_SE.png",
+        "Isometric/lampWall_SW.png",
+        "Isometric/lampWall_NW.png",
+        "Isometric/lampWall_NE.png"
+      ]
+    },
+    {
+      "key": "kit_laptop",
+      "model": "Models/GLTF format/laptop.glb",
+      "model_sha256": "5fa8a1f4a71ab8d82ef64da77a6973ffd350c6d4557516069a4ffd4bb8d808af",
+      "model_extent_xyz": [
+        0.264,
+        0.1618,
+        0.2401
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/laptop_SE.png",
+        "Isometric/laptop_SW.png",
+        "Isometric/laptop_NW.png",
+        "Isometric/laptop_NE.png"
+      ]
+    },
+    {
+      "key": "chair",
+      "model": "Models/GLTF format/loungeChair.glb",
+      "model_sha256": "ddfe6bc4b3451bca61666d7b614552d6ed2a03d82fc76244b72ae3155874dc6c",
+      "model_extent_xyz": [
+        0.49,
+        0.46,
+        0.41
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": true,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/loungeChair_SE.png",
+        "Isometric/loungeChair_SW.png",
+        "Isometric/loungeChair_NW.png",
+        "Isometric/loungeChair_NE.png"
+      ]
+    },
+    {
+      "key": "kit_loungeChairRelax",
+      "model": "Models/GLTF format/loungeChairRelax.glb",
+      "model_sha256": "def698179e44de6cd17f4cfc2730273da54dd25458a29b079fbf4468abe5d98e",
+      "model_extent_xyz": [
+        0.49,
+        0.63,
+        0.6747
+      ],
+      "footprint_wh": [
+        2,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/loungeChairRelax_SE.png",
+        "Isometric/loungeChairRelax_SW.png",
+        "Isometric/loungeChairRelax_NW.png",
+        "Isometric/loungeChairRelax_NE.png"
+      ]
+    },
+    {
+      "key": "kit_loungeDesignChair",
+      "model": "Models/GLTF format/loungeDesignChair.glb",
+      "model_sha256": "f0766a7d5698974b711adac18a2108f0e74e3a036fa4e4e0ccf91195b0ee5abf",
+      "model_extent_xyz": [
+        0.7296,
+        0.4,
+        0.41
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/loungeDesignChair_SE.png",
+        "Isometric/loungeDesignChair_SW.png",
+        "Isometric/loungeDesignChair_NW.png",
+        "Isometric/loungeDesignChair_NE.png"
+      ]
+    },
+    {
+      "key": "kit_loungeDesignSofa",
+      "model": "Models/GLTF format/loungeDesignSofa.glb",
+      "model_sha256": "b4f4e6850118e409da301df678228c703b6ac02e94fbb9dbde61543af817fa53",
+      "model_extent_xyz": [
+        1.12,
+        0.4,
+        0.41
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/loungeDesignSofa_SE.png",
+        "Isometric/loungeDesignSofa_SW.png",
+        "Isometric/loungeDesignSofa_NW.png",
+        "Isometric/loungeDesignSofa_NE.png"
+      ]
+    },
+    {
+      "key": "kit_loungeDesignSofaCorner",
+      "model": "Models/GLTF format/loungeDesignSofaCorner.glb",
+      "model_sha256": "fe665d07d53fdc6bc96e9fed453874ba4202b008194e1e24100b067081c62be1",
+      "model_extent_xyz": [
+        1.3498,
+        0.4,
+        1.3498
+      ],
+      "footprint_wh": [
+        3,
+        3
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/loungeDesignSofaCorner_SE.png",
+        "Isometric/loungeDesignSofaCorner_SW.png",
+        "Isometric/loungeDesignSofaCorner_NW.png",
+        "Isometric/loungeDesignSofaCorner_NE.png"
+      ]
+    },
+    {
+      "key": "sofa",
+      "model": "Models/GLTF format/loungeSofa.glb",
+      "model_sha256": "1886b811c0d3ad0d8525a4fd43adf4112c497c8e0ed906f06877ca3517f4c7dd",
+      "model_extent_xyz": [
+        0.98,
+        0.46,
+        0.41
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": true,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/loungeSofa_SE.png",
+        "Isometric/loungeSofa_SW.png",
+        "Isometric/loungeSofa_NW.png",
+        "Isometric/loungeSofa_NE.png"
+      ]
+    },
+    {
+      "key": "kit_loungeSofaCorner",
+      "model": "Models/GLTF format/loungeSofaCorner.glb",
+      "model_sha256": "bbdd91791e621ac71321eaf38a2432c53279792ef946707f23b216123bd52655",
+      "model_extent_xyz": [
+        0.98,
+        0.46,
+        0.98
+      ],
+      "footprint_wh": [
+        2,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/loungeSofaCorner_SE.png",
+        "Isometric/loungeSofaCorner_SW.png",
+        "Isometric/loungeSofaCorner_NW.png",
+        "Isometric/loungeSofaCorner_NE.png"
+      ]
+    },
+    {
+      "key": "kit_loungeSofaLong",
+      "model": "Models/GLTF format/loungeSofaLong.glb",
+      "model_sha256": "452df1c862f97781615e2c1c832913b48cf6c6f011d3260dc023ff3f117cc9d1",
+      "model_extent_xyz": [
+        0.98,
+        0.46,
+        0.82
+      ],
+      "footprint_wh": [
+        2,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/loungeSofaLong_SE.png",
+        "Isometric/loungeSofaLong_SW.png",
+        "Isometric/loungeSofaLong_NW.png",
+        "Isometric/loungeSofaLong_NE.png"
+      ]
+    },
+    {
+      "key": "kit_loungeSofaOttoman",
+      "model": "Models/GLTF format/loungeSofaOttoman.glb",
+      "model_sha256": "79087654136d7d69653fdc3b52a02d7833fe13e6a0a56b8dcdf652c611dbd959",
+      "model_extent_xyz": [
+        0.4398,
+        0.23,
+        0.45
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/loungeSofaOttoman_SE.png",
+        "Isometric/loungeSofaOttoman_SW.png",
+        "Isometric/loungeSofaOttoman_NW.png",
+        "Isometric/loungeSofaOttoman_NE.png"
+      ]
+    },
+    {
+      "key": "kit_paneling",
+      "model": "Models/GLTF format/paneling.glb",
+      "model_sha256": "69234bb71f54b0241ef6b78c3c7aa8aa855aae745475645f9adec4895296a96c",
+      "model_extent_xyz": [
+        0.5,
+        0.5948,
+        0.03
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/paneling_SE.png",
+        "Isometric/paneling_SW.png",
+        "Isometric/paneling_NW.png",
+        "Isometric/paneling_NE.png"
+      ]
+    },
+    {
+      "key": "kit_pillow",
+      "model": "Models/GLTF format/pillow.glb",
+      "model_sha256": "6fae7c190d0b676ef3efd35e5178cef21dffb5c80e1257d8b537ad424da0e5f6",
+      "model_extent_xyz": [
+        0.23,
+        0.2222,
+        0.0885
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/pillow_SE.png",
+        "Isometric/pillow_SW.png",
+        "Isometric/pillow_NW.png",
+        "Isometric/pillow_NE.png"
+      ]
+    },
+    {
+      "key": "kit_pillowBlue",
+      "model": "Models/GLTF format/pillowBlue.glb",
+      "model_sha256": "8326e018c09cb00c19c2c9b745f521cd7eba1169b755322b04f88440dbfef319",
+      "model_extent_xyz": [
+        0.23,
+        0.1285,
+        0.0634
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/pillowBlue_SE.png",
+        "Isometric/pillowBlue_SW.png",
+        "Isometric/pillowBlue_NW.png",
+        "Isometric/pillowBlue_NE.png"
+      ]
+    },
+    {
+      "key": "kit_pillowBlueLong",
+      "model": "Models/GLTF format/pillowBlueLong.glb",
+      "model_sha256": "b643f81a863595071b7907d3d0dcf5b1b0e3bb6ad8521db37778b2242ba46bbc",
+      "model_extent_xyz": [
+        0.5166,
+        0.2222,
+        0.0885
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/pillowBlueLong_SE.png",
+        "Isometric/pillowBlueLong_SW.png",
+        "Isometric/pillowBlueLong_NW.png",
+        "Isometric/pillowBlueLong_NE.png"
+      ]
+    },
+    {
+      "key": "kit_pillowLong",
+      "model": "Models/GLTF format/pillowLong.glb",
+      "model_sha256": "d8490ae920413fd04c85a2164ef384d67a1ca257f761dec1cc7f06fa2c027283",
+      "model_extent_xyz": [
+        0.3866,
+        0.2222,
+        0.0885
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/pillowLong_SE.png",
+        "Isometric/pillowLong_SW.png",
+        "Isometric/pillowLong_NW.png",
+        "Isometric/pillowLong_NE.png"
+      ]
+    },
+    {
+      "key": "kit_plantSmall1",
+      "model": "Models/GLTF format/plantSmall1.glb",
+      "model_sha256": "2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15",
+      "model_extent_xyz": [
+        0.0947,
+        0.14,
+        0.0947
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/plantSmall1_SE.png",
+        "Isometric/plantSmall1_SW.png",
+        "Isometric/plantSmall1_NW.png",
+        "Isometric/plantSmall1_NE.png"
+      ]
+    },
+    {
+      "key": "kit_plantSmall2",
+      "model": "Models/GLTF format/plantSmall2.glb",
+      "model_sha256": "d7c8ff42c66dd4f9238a73570549813d1ca6c5f6f661d7af9cb764c4fce314b9",
+      "model_extent_xyz": [
+        0.0947,
+        0.14,
+        0.0947
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/plantSmall2_SE.png",
+        "Isometric/plantSmall2_SW.png",
+        "Isometric/plantSmall2_NW.png",
+        "Isometric/plantSmall2_NE.png"
+      ]
+    },
+    {
+      "key": "kit_plantSmall3",
+      "model": "Models/GLTF format/plantSmall3.glb",
+      "model_sha256": "1aa38b1b22bd19fa4f9f3abd8c4cbf50da2d6fa721cf1f9aa4d80bb89b1bef94",
+      "model_extent_xyz": [
+        0.098,
+        0.145,
+        0.0849
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/plantSmall3_SE.png",
+        "Isometric/plantSmall3_SW.png",
+        "Isometric/plantSmall3_NW.png",
+        "Isometric/plantSmall3_NE.png"
+      ]
+    },
+    {
+      "key": "plant",
+      "model": "Models/GLTF format/pottedPlant.glb",
+      "model_sha256": "5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15",
+      "model_extent_xyz": [
+        0.2121,
+        0.654,
+        0.2415
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": true,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/pottedPlant_SE.png",
+        "Isometric/pottedPlant_SW.png",
+        "Isometric/pottedPlant_NW.png",
+        "Isometric/pottedPlant_NE.png"
+      ]
+    },
+    {
+      "key": "kit_radio",
+      "model": "Models/GLTF format/radio.glb",
+      "model_sha256": "1ba93d6ba6f049750853b4652b92f286f2898e527695a0705b75cc7615897fed",
+      "model_extent_xyz": [
+        0.315,
+        0.2282,
+        0.0975
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/radio_SE.png",
+        "Isometric/radio_SW.png",
+        "Isometric/radio_NW.png",
+        "Isometric/radio_NE.png"
+      ]
+    },
+    {
+      "key": "kit_rugDoormat",
+      "model": "Models/GLTF format/rugDoormat.glb",
+      "model_sha256": "bd888e41853342cdc0d34d3f09b99cedc50a144f47b514943b65cdb9a2cfd802",
+      "model_extent_xyz": [
+        0.4293,
+        0.01,
+        0.237
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": true,
+      "source_isometric": [
+        "Isometric/rugDoormat_SE.png",
+        "Isometric/rugDoormat_SW.png",
+        "Isometric/rugDoormat_NW.png",
+        "Isometric/rugDoormat_NE.png"
+      ]
+    },
+    {
+      "key": "kit_rugRectangle",
+      "model": "Models/GLTF format/rugRectangle.glb",
+      "model_sha256": "a989d2d59c04e3071e0c90388b113a9a8f339ce1814ef984c51cb6dcd7c8e0eb",
+      "model_extent_xyz": [
+        1.57,
+        0.01,
+        0.92
+      ],
+      "footprint_wh": [
+        2,
+        3
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": true,
+      "source_isometric": [
+        "Isometric/rugRectangle_SE.png",
+        "Isometric/rugRectangle_SW.png",
+        "Isometric/rugRectangle_NW.png",
+        "Isometric/rugRectangle_NE.png"
+      ]
+    },
+    {
+      "key": "kit_rugRound",
+      "model": "Models/GLTF format/rugRound.glb",
+      "model_sha256": "c4cdc8f51ed2dbfb853b147521ed40e995307392fd3b19045b2203ea50f376db",
+      "model_extent_xyz": [
+        0.92,
+        0.01,
+        0.92
+      ],
+      "footprint_wh": [
+        2,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": true,
+      "source_isometric": [
+        "Isometric/rugRound_SE.png",
+        "Isometric/rugRound_SW.png",
+        "Isometric/rugRound_NW.png",
+        "Isometric/rugRound_NE.png"
+      ]
+    },
+    {
+      "key": "kit_rugRounded",
+      "model": "Models/GLTF format/rugRounded.glb",
+      "model_sha256": "2ef5cc634bb1060a1a5774cfcaf6e11c235791c99d6b59da5fdbc09edfb95a68",
+      "model_extent_xyz": [
+        1.57,
+        0.01,
+        0.92
+      ],
+      "footprint_wh": [
+        2,
+        3
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": true,
+      "source_isometric": [
+        "Isometric/rugRounded_SE.png",
+        "Isometric/rugRounded_SW.png",
+        "Isometric/rugRounded_NW.png",
+        "Isometric/rugRounded_NE.png"
+      ]
+    },
+    {
+      "key": "kit_rugSquare",
+      "model": "Models/GLTF format/rugSquare.glb",
+      "model_sha256": "18a63634e9bbdde0b309c008f4cd41df8455f7f2ffdb8fe8985fdf8c2cd06b3d",
+      "model_extent_xyz": [
+        0.9043,
+        0.01,
+        0.92
+      ],
+      "footprint_wh": [
+        2,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": true,
+      "source_isometric": [
+        "Isometric/rugSquare_SE.png",
+        "Isometric/rugSquare_SW.png",
+        "Isometric/rugSquare_NW.png",
+        "Isometric/rugSquare_NE.png"
+      ]
+    },
+    {
+      "key": "kit_shower",
+      "model": "Models/GLTF format/shower.glb",
+      "model_sha256": "25c1cebad681fe369dc04839a8f08f5da2ccbd99b3a70aa83fe2e4d1590c6951",
+      "model_extent_xyz": [
+        0.5618,
+        1.094,
+        0.5818
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/shower_SE.png",
+        "Isometric/shower_SW.png",
+        "Isometric/shower_NW.png",
+        "Isometric/shower_NE.png"
+      ]
+    },
+    {
+      "key": "kit_showerRound",
+      "model": "Models/GLTF format/showerRound.glb",
+      "model_sha256": "1723208eaba3fb215089e02c8cdd3d7201d0980ad0c7b275319eb539f6094bfb",
+      "model_extent_xyz": [
+        0.5618,
+        1.094,
+        0.5618
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/showerRound_SE.png",
+        "Isometric/showerRound_SW.png",
+        "Isometric/showerRound_NW.png",
+        "Isometric/showerRound_NE.png"
+      ]
+    },
+    {
+      "key": "kit_sideTable",
+      "model": "Models/GLTF format/sideTable.glb",
+      "model_sha256": "8227810584f7d37582e4e9ec821c56f1dc54b99c88a8dc74242ea3b7402bc472",
+      "model_extent_xyz": [
+        0.5345,
+        0.3844,
+        0.22
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/sideTable_SE.png",
+        "Isometric/sideTable_SW.png",
+        "Isometric/sideTable_NW.png",
+        "Isometric/sideTable_NE.png"
+      ]
+    },
+    {
+      "key": "kit_sideTableDrawers",
+      "model": "Models/GLTF format/sideTableDrawers.glb",
+      "model_sha256": "911145653c11b103b2c2e84f3d019205d1886186015c3b52aceddc3801ae8fdf",
+      "model_extent_xyz": [
+        0.5345,
+        0.3844,
+        0.2223
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/sideTableDrawers_SE.png",
+        "Isometric/sideTableDrawers_SW.png",
+        "Isometric/sideTableDrawers_NW.png",
+        "Isometric/sideTableDrawers_NE.png"
+      ]
+    },
+    {
+      "key": "kit_speaker",
+      "model": "Models/GLTF format/speaker.glb",
+      "model_sha256": "78230b9fb382a937cb19e4bf7556ee9402d33ac80b1baaee2d2eb89493cfa1fc",
+      "model_extent_xyz": [
+        0.148,
+        0.6364,
+        0.148
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/speaker_SE.png",
+        "Isometric/speaker_SW.png",
+        "Isometric/speaker_NW.png",
+        "Isometric/speaker_NE.png"
+      ]
+    },
+    {
+      "key": "kit_speakerSmall",
+      "model": "Models/GLTF format/speakerSmall.glb",
+      "model_sha256": "34db09984703282822f3f57fc9a31bfdfa6a8f6bf8251893d0c907e7ee6601b2",
+      "model_extent_xyz": [
+        0.148,
+        0.298,
+        0.1332
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/speakerSmall_SE.png",
+        "Isometric/speakerSmall_SW.png",
+        "Isometric/speakerSmall_NW.png",
+        "Isometric/speakerSmall_NE.png"
+      ]
+    },
+    {
+      "key": "kit_stairs",
+      "model": "Models/GLTF format/stairs.glb",
+      "model_sha256": "b442f997583e417fcb32ec89470ecc441b0556f416d3afe00e3f18c806e556a0",
+      "model_extent_xyz": [
+        1.8234,
+        1.3395,
+        0.79
+      ],
+      "footprint_wh": [
+        2,
+        3
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/stairs_SE.png",
+        "Isometric/stairs_SW.png",
+        "Isometric/stairs_NW.png",
+        "Isometric/stairs_NE.png"
+      ]
+    },
+    {
+      "key": "kit_stairsCorner",
+      "model": "Models/GLTF format/stairsCorner.glb",
+      "model_sha256": "250d3c51e10fa250c30954b8a3d6bb0d011362be34ba85a50f5bebdd4184e0dc",
+      "model_extent_xyz": [
+        1.7737,
+        1.3395,
+        1.4258
+      ],
+      "footprint_wh": [
+        3,
+        3
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/stairsCorner_SE.png",
+        "Isometric/stairsCorner_SW.png",
+        "Isometric/stairsCorner_NW.png",
+        "Isometric/stairsCorner_NE.png"
+      ]
+    },
+    {
+      "key": "kit_stairsOpen",
+      "model": "Models/GLTF format/stairsOpen.glb",
+      "model_sha256": "cbfe1dc9fd66f1375f9c79ccff7069923655238fdf49c7c366653d17632453a5",
+      "model_extent_xyz": [
+        1.8234,
+        1.3395,
+        0.79
+      ],
+      "footprint_wh": [
+        2,
+        3
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/stairsOpen_SE.png",
+        "Isometric/stairsOpen_SW.png",
+        "Isometric/stairsOpen_NW.png",
+        "Isometric/stairsOpen_NE.png"
+      ]
+    },
+    {
+      "key": "kit_stairsOpenSingle",
+      "model": "Models/GLTF format/stairsOpenSingle.glb",
+      "model_sha256": "97172c18eff61b844cfa871da32b6c639230adf20901188f378926861e7610de",
+      "model_extent_xyz": [
+        1.8234,
+        1.3395,
+        0.79
+      ],
+      "footprint_wh": [
+        2,
+        3
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/stairsOpenSingle_SE.png",
+        "Isometric/stairsOpenSingle_SW.png",
+        "Isometric/stairsOpenSingle_NW.png",
+        "Isometric/stairsOpenSingle_NE.png"
+      ]
+    },
+    {
+      "key": "kit_stoolBar",
+      "model": "Models/GLTF format/stoolBar.glb",
+      "model_sha256": "a86167a9f92401a61fec7e509ad089ecc552d0f299743add3aeb919acb24e341",
+      "model_extent_xyz": [
+        0.2654,
+        0.435,
+        0.2299
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/stoolBar_SE.png",
+        "Isometric/stoolBar_SW.png",
+        "Isometric/stoolBar_NW.png",
+        "Isometric/stoolBar_NE.png"
+      ]
+    },
+    {
+      "key": "kit_stoolBarSquare",
+      "model": "Models/GLTF format/stoolBarSquare.glb",
+      "model_sha256": "a7e1099d64eb35416d4d8c9b16921ef12ae7c1c1e6fff5ea75f3ae19cc934a8b",
+      "model_extent_xyz": [
+        0.1535,
+        0.405,
+        0.1476
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/stoolBarSquare_SE.png",
+        "Isometric/stoolBarSquare_SW.png",
+        "Isometric/stoolBarSquare_NW.png",
+        "Isometric/stoolBarSquare_NE.png"
+      ]
+    },
+    {
+      "key": "kit_table",
+      "model": "Models/GLTF format/table.glb",
+      "model_sha256": "ff1a94498d023957f4bc3ff6f55a7a82977d336dbf01a573b3364f03afe5ff61",
+      "model_extent_xyz": [
+        0.8415,
+        0.3267,
+        0.4474
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/table_SE.png",
+        "Isometric/table_SW.png",
+        "Isometric/table_NW.png",
+        "Isometric/table_NE.png"
+      ]
+    },
+    {
+      "key": "kit_tableCloth",
+      "model": "Models/GLTF format/tableCloth.glb",
+      "model_sha256": "64de52b5c4370724c29feefd68a65b157c55c88592e2096987bbce007ae80bcb",
+      "model_extent_xyz": [
+        0.8415,
+        0.3267,
+        0.4474
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/tableCloth_SE.png",
+        "Isometric/tableCloth_SW.png",
+        "Isometric/tableCloth_NW.png",
+        "Isometric/tableCloth_NE.png"
+      ]
+    },
+    {
+      "key": "table",
+      "model": "Models/GLTF format/tableCoffee.glb",
+      "model_sha256": "e38bea760fbd514efbb75528d09b4752c91af44677bbb97e6d4386c263525179",
+      "model_extent_xyz": [
+        0.661,
+        0.23,
+        0.4
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": true,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/tableCoffee_SE.png",
+        "Isometric/tableCoffee_SW.png",
+        "Isometric/tableCoffee_NW.png",
+        "Isometric/tableCoffee_NE.png"
+      ]
+    },
+    {
+      "key": "kit_tableCoffeeGlass",
+      "model": "Models/GLTF format/tableCoffeeGlass.glb",
+      "model_sha256": "05bf257a086a540b3b79b0c1c7dae35b036ed4d520686aed74ea94ea701c447e",
+      "model_extent_xyz": [
+        0.661,
+        0.23,
+        0.4
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/tableCoffeeGlass_SE.png",
+        "Isometric/tableCoffeeGlass_SW.png",
+        "Isometric/tableCoffeeGlass_NW.png",
+        "Isometric/tableCoffeeGlass_NE.png"
+      ]
+    },
+    {
+      "key": "kit_tableCoffeeGlassSquare",
+      "model": "Models/GLTF format/tableCoffeeGlassSquare.glb",
+      "model_sha256": "e4a7ebef6ad0dbafee629df78b0edd88433a1059c4dd5fb3d70304ba2f71b945",
+      "model_extent_xyz": [
+        0.4,
+        0.23,
+        0.4
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/tableCoffeeGlassSquare_SE.png",
+        "Isometric/tableCoffeeGlassSquare_SW.png",
+        "Isometric/tableCoffeeGlassSquare_NW.png",
+        "Isometric/tableCoffeeGlassSquare_NE.png"
+      ]
+    },
+    {
+      "key": "kit_tableCoffeeSquare",
+      "model": "Models/GLTF format/tableCoffeeSquare.glb",
+      "model_sha256": "bcc81d8919a3af9141c9c93b4520106dd0a90a7144346cd87928014018aac816",
+      "model_extent_xyz": [
+        0.4,
+        0.23,
+        0.4
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/tableCoffeeSquare_SE.png",
+        "Isometric/tableCoffeeSquare_SW.png",
+        "Isometric/tableCoffeeSquare_NW.png",
+        "Isometric/tableCoffeeSquare_NE.png"
+      ]
+    },
+    {
+      "key": "kit_tableCross",
+      "model": "Models/GLTF format/tableCross.glb",
+      "model_sha256": "f0d83392aff5df82f6c9585cadff694643dbd30a4ff2b8bb01a00a7a161338a3",
+      "model_extent_xyz": [
+        0.8521,
+        0.3474,
+        0.4474
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/tableCross_SE.png",
+        "Isometric/tableCross_SW.png",
+        "Isometric/tableCross_NW.png",
+        "Isometric/tableCross_NE.png"
+      ]
+    },
+    {
+      "key": "kit_tableCrossCloth",
+      "model": "Models/GLTF format/tableCrossCloth.glb",
+      "model_sha256": "3c16b86cdf9a9a82b80b97611030a1da2ed2e9e977ac76457e09a1547b0cebbc",
+      "model_extent_xyz": [
+        0.8521,
+        0.3474,
+        0.4474
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/tableCrossCloth_SE.png",
+        "Isometric/tableCrossCloth_SW.png",
+        "Isometric/tableCrossCloth_NW.png",
+        "Isometric/tableCrossCloth_NE.png"
+      ]
+    },
+    {
+      "key": "kit_tableGlass",
+      "model": "Models/GLTF format/tableGlass.glb",
+      "model_sha256": "a5ed516d18b51cf5db3cc78f1403451f853a81db45510543d3ed56c1dd9c412b",
+      "model_extent_xyz": [
+        0.8415,
+        0.3267,
+        0.4474
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/tableGlass_SE.png",
+        "Isometric/tableGlass_SW.png",
+        "Isometric/tableGlass_NW.png",
+        "Isometric/tableGlass_NE.png"
+      ]
+    },
+    {
+      "key": "dining",
+      "model": "Models/GLTF format/tableRound.glb",
+      "model_sha256": "f8daea9124a542a00b7bdacfddac82dc468573d43e44d7b54dd6316e9695754b",
+      "model_extent_xyz": [
+        0.6928,
+        0.3667,
+        0.8
+      ],
+      "footprint_wh": [
+        2,
+        2
+      ],
+      "legacy_grid_footprint_preserved": true,
+      "access": "perimeter",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/tableRound_SE.png",
+        "Isometric/tableRound_SW.png",
+        "Isometric/tableRound_NW.png",
+        "Isometric/tableRound_NE.png"
+      ]
+    },
+    {
+      "key": "kit_televisionAntenna",
+      "model": "Models/GLTF format/televisionAntenna.glb",
+      "model_sha256": "00eea4123b3efc7f8050fd3eaac0a83de3053c9e6cead18dc739260a429b2bb7",
+      "model_extent_xyz": [
+        0.2645,
+        0.1027,
+        0.08
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/televisionAntenna_SE.png",
+        "Isometric/televisionAntenna_SW.png",
+        "Isometric/televisionAntenna_NW.png",
+        "Isometric/televisionAntenna_NE.png"
+      ]
+    },
+    {
+      "key": "kit_televisionModern",
+      "model": "Models/GLTF format/televisionModern.glb",
+      "model_sha256": "d89519ad0a5f28b5b0dccb0d83209dccf610cda959578238dd21bbf9e219cfc6",
+      "model_extent_xyz": [
+        0.6848,
+        0.4547,
+        0.1284
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/televisionModern_SE.png",
+        "Isometric/televisionModern_SW.png",
+        "Isometric/televisionModern_NW.png",
+        "Isometric/televisionModern_NE.png"
+      ]
+    },
+    {
+      "key": "kit_televisionVintage",
+      "model": "Models/GLTF format/televisionVintage.glb",
+      "model_sha256": "eb144cc8fb1e7f761e3665226e4266c8868679421d21d6548f24d2abad7c67cf",
+      "model_extent_xyz": [
+        0.41,
+        0.27,
+        0.27
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/televisionVintage_SE.png",
+        "Isometric/televisionVintage_SW.png",
+        "Isometric/televisionVintage_NW.png",
+        "Isometric/televisionVintage_NE.png"
+      ]
+    },
+    {
+      "key": "kit_toaster",
+      "model": "Models/GLTF format/toaster.glb",
+      "model_sha256": "38c1fb7b122be9997758c8ee855d87f28014cf282f24d66d39f4e8d8b236d2af",
+      "model_extent_xyz": [
+        0.188,
+        0.13,
+        0.1
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/toaster_SE.png",
+        "Isometric/toaster_SW.png",
+        "Isometric/toaster_NW.png",
+        "Isometric/toaster_NE.png"
+      ]
+    },
+    {
+      "key": "kit_toilet",
+      "model": "Models/GLTF format/toilet.glb",
+      "model_sha256": "16165cfd03c56c2cb443b800570810a22ef770f65e7a468f6761d9dc14eaaeae",
+      "model_extent_xyz": [
+        0.3126,
+        0.451,
+        0.4772
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/toilet_SE.png",
+        "Isometric/toilet_SW.png",
+        "Isometric/toilet_NW.png",
+        "Isometric/toilet_NE.png"
+      ]
+    },
+    {
+      "key": "kit_toiletSquare",
+      "model": "Models/GLTF format/toiletSquare.glb",
+      "model_sha256": "f241e26a22b0d9512d8455f3e868124f8032710c83c5265a546c19c67ecdd4b9",
+      "model_extent_xyz": [
+        0.3036,
+        0.451,
+        0.3872
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/toiletSquare_SE.png",
+        "Isometric/toiletSquare_SW.png",
+        "Isometric/toiletSquare_NW.png",
+        "Isometric/toiletSquare_NE.png"
+      ]
+    },
+    {
+      "key": "kit_trashcan",
+      "model": "Models/GLTF format/trashcan.glb",
+      "model_sha256": "e0ccc1fe50cbd05386477fdff527171d1cf7c0de2ba7ff3233f8d9561feb2561",
+      "model_extent_xyz": [
+        0.2077,
+        0.4279,
+        0.2341
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/trashcan_SE.png",
+        "Isometric/trashcan_SW.png",
+        "Isometric/trashcan_NW.png",
+        "Isometric/trashcan_NE.png"
+      ]
+    },
+    {
+      "key": "kit_wall",
+      "model": "Models/GLTF format/wall.glb",
+      "model_sha256": "69273d5d623bddfce41d12d4e5eeb5621ea04f1edcbd8f35c00a60c2fd3258b7",
+      "model_extent_xyz": [
+        1.0,
+        1.2895,
+        0.05
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/wall_SE.png",
+        "Isometric/wall_SW.png",
+        "Isometric/wall_NW.png",
+        "Isometric/wall_NE.png"
+      ]
+    },
+    {
+      "key": "kit_wallCorner",
+      "model": "Models/GLTF format/wallCorner.glb",
+      "model_sha256": "0e6521caee1f9282784c52e0f651084e49f575b091ad97bf25540b8049757aef",
+      "model_extent_xyz": [
+        0.55,
+        1.2895,
+        0.55
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/wallCorner_SE.png",
+        "Isometric/wallCorner_SW.png",
+        "Isometric/wallCorner_NW.png",
+        "Isometric/wallCorner_NE.png"
+      ]
+    },
+    {
+      "key": "kit_wallCornerRond",
+      "model": "Models/GLTF format/wallCornerRond.glb",
+      "model_sha256": "33e87dd846335dca5fce8a0e242225bb97d4a7b47c3ae84df33ba97fe1da33bf",
+      "model_extent_xyz": [
+        0.55,
+        1.2895,
+        0.55
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/wallCornerRond_SE.png",
+        "Isometric/wallCornerRond_SW.png",
+        "Isometric/wallCornerRond_NW.png",
+        "Isometric/wallCornerRond_NE.png"
+      ]
+    },
+    {
+      "key": "kit_wallDoorway",
+      "model": "Models/GLTF format/wallDoorway.glb",
+      "model_sha256": "a55be1da05aa80c74749d0c38bd093fa5e2b1eaf21cbc9a7c3a0e6fbcfbe38e2",
+      "model_extent_xyz": [
+        1.0,
+        1.2895,
+        0.0891
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/wallDoorway_SE.png",
+        "Isometric/wallDoorway_SW.png",
+        "Isometric/wallDoorway_NW.png",
+        "Isometric/wallDoorway_NE.png"
+      ]
+    },
+    {
+      "key": "kit_wallDoorwayWide",
+      "model": "Models/GLTF format/wallDoorwayWide.glb",
+      "model_sha256": "877af5b239f31f12027e3cec92aa26e97d511e1ae8673a8e3d7d13302d33edf3",
+      "model_extent_xyz": [
+        1.0,
+        1.2895,
+        0.0891
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/wallDoorwayWide_SE.png",
+        "Isometric/wallDoorwayWide_SW.png",
+        "Isometric/wallDoorwayWide_NW.png",
+        "Isometric/wallDoorwayWide_NE.png"
+      ]
+    },
+    {
+      "key": "kit_wallHalf",
+      "model": "Models/GLTF format/wallHalf.glb",
+      "model_sha256": "24db9f126891b48b443dcfa9f80d79e4321c8780aede83fb6d8f384b3d4eb35f",
+      "model_extent_xyz": [
+        0.5,
+        1.2895,
+        0.05
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/wallHalf_SE.png",
+        "Isometric/wallHalf_SW.png",
+        "Isometric/wallHalf_NW.png",
+        "Isometric/wallHalf_NE.png"
+      ]
+    },
+    {
+      "key": "kit_wallWindow",
+      "model": "Models/GLTF format/wallWindow.glb",
+      "model_sha256": "166a10fddb8a78d942bc2791186913f7015dfee8501d20efd7a7b8f196fc5c3e",
+      "model_extent_xyz": [
+        1.0,
+        1.2895,
+        0.0891
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/wallWindow_SE.png",
+        "Isometric/wallWindow_SW.png",
+        "Isometric/wallWindow_NW.png",
+        "Isometric/wallWindow_NE.png"
+      ]
+    },
+    {
+      "key": "kit_wallWindowSlide",
+      "model": "Models/GLTF format/wallWindowSlide.glb",
+      "model_sha256": "33e51d7ee74f13de318e419b0ebfb31fe7f6e9fd37050f13aa9347641b49376a",
+      "model_extent_xyz": [
+        1.0,
+        1.2895,
+        0.0891
+      ],
+      "footprint_wh": [
+        1,
+        2
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "none",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/wallWindowSlide_SE.png",
+        "Isometric/wallWindowSlide_SW.png",
+        "Isometric/wallWindowSlide_NW.png",
+        "Isometric/wallWindowSlide_NE.png"
+      ]
+    },
+    {
+      "key": "kit_washer",
+      "model": "Models/GLTF format/washer.glb",
+      "model_sha256": "0c9704df1817d2699b72305b96cde097c9558bacabaef2fd5ab1ff4c03b81abf",
+      "model_extent_xyz": [
+        0.39,
+        0.47,
+        0.39
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/washer_SE.png",
+        "Isometric/washer_SW.png",
+        "Isometric/washer_NW.png",
+        "Isometric/washer_NE.png"
+      ]
+    },
+    {
+      "key": "kit_washerDryerStacked",
+      "model": "Models/GLTF format/washerDryerStacked.glb",
+      "model_sha256": "efcc2155ef170092dc2602a98179380de3442c2500998a6ca37cc5554d275676",
+      "model_extent_xyz": [
+        0.39,
+        0.94,
+        0.39
+      ],
+      "footprint_wh": [
+        1,
+        1
+      ],
+      "legacy_grid_footprint_preserved": false,
+      "access": "front",
+      "walkable": false,
+      "source_isometric": [
+        "Isometric/washerDryerStacked_SE.png",
+        "Isometric/washerDryerStacked_SW.png",
+        "Isometric/washerDryerStacked_NW.png",
+        "Isometric/washerDryerStacked_NE.png"
+      ]
+    }
+  ]
+}

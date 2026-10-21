@@ -28,7 +28,7 @@ func roll_day(now: int) -> int:
 	return today
 
 func daily_id(now: int) -> int:
-	return (roll_day(now) * 17 + 11) % 60
+	return (roll_day(now) * 17 + 11) % 120
 
 func level() -> int:
 	return 1 + int(sqrt(float(data.xp) / 40.0))
@@ -37,7 +37,7 @@ func chapter_unlocked(chapter: int) -> bool:
 	return chapter == 0 or completed() >= chapter * 8
 
 func chapters() -> int:
-	return mini(6, 1 + int(completed()/8))
+	return mini(12, 1 + int(completed()/8))
 
 func completed() -> int:
 	return data.cleared.size()
@@ -52,7 +52,7 @@ func action(kind: String, now: int) -> void:
 	if kind == "undo": data.undos = mini(1000000, int(data.undos)+1)
 
 func complete(id: int, optional: bool, daily: bool, now: int) -> Dictionary:
-	if id < 0 or id >= 60: return {"coins":0,"xp":0,"first":false,"daily":false,"optional":false}
+	if id < 0 or id >= 120: return {"coins":0,"xp":0,"first":false,"daily":false,"optional":false}
 	var today: int = roll_day(now)
 	var key: String = str(id)
 	var first: bool = not data.cleared.has(key)
@@ -137,7 +137,7 @@ func decode(raw: String) -> bool:
 	for key in ["cleared","requests"]:
 		var clean: Dictionary = {}
 		for id in result[key]:
-			if str(id).is_valid_int() and int(id) >= 0 and int(id) < 60 and bool(result[key][id]): clean[str(int(id))] = true
+			if str(id).is_valid_int() and int(id) >= 0 and int(id) < 120 and bool(result[key][id]): clean[str(int(id))] = true
 		result[key] = clean
 	result.coins = maxi(0,int(result.coins))
 	result.xp = maxi(0,int(result.xp))
@@ -149,7 +149,7 @@ func decode(raw: String) -> bool:
 	result.decor_layout = sanitize_layout(result.decor_layout)
 	var clean_drafts: Dictionary = {}
 	for id in result.drafts:
-		if str(id).is_valid_int() and int(id) >= 0 and int(id) < 60:
+		if str(id).is_valid_int() and int(id) >= 0 and int(id) < 120:
 			clean_drafts[str(int(id))] = sanitize_layout(result.drafts[id])
 	result.drafts = clean_drafts
 	data = result
@@ -159,16 +159,16 @@ func decode(raw: String) -> bool:
 func sanitize_layout(value: Variant) -> Array:
 	var out: Array = []
 	if not value is Array: return out
-	var allowed: Array[String] = ["desk","bed","sofa","chair","lamp","plant","shelf","table","stool","dining","cabinet","coat"]
+	var allowed: Array = JSON.parse_string(FileAccess.get_file_as_string("res://game/furniture.json")).keys()
 	var seen: Dictionary = {}
-	for p in value.slice(0,12):
+	for p in value.slice(0,140):
 		if not p is Dictionary or not p.has_all(["key","x","y","r"]): continue
 		if not p.key is String or not allowed.has(p.key) or seen.has(p.key): continue
 		var valid: bool = true
 		for field in ["x","y","r"]:
 			if not (p[field] is int or p[field] is float) or not is_finite(float(p[field])): valid = false
 		if not valid: continue
-		if int(p.x)<0 or int(p.x)>7 or int(p.y)<0 or int(p.y)>7 or int(p.r)<0 or int(p.r)>3: continue
+		if int(p.x)<0 or int(p.x)>11 or int(p.y)<0 or int(p.y)>11 or int(p.r)<0 or int(p.r)>3: continue
 		out.append({"key":str(p.key),"x":int(p.x),"y":int(p.y),"r":int(p.r)})
 		seen[p.key] = true
 	return out

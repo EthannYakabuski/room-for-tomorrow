@@ -103,10 +103,22 @@ func _draw() -> void:
 	var a: Vector2 = project(0,0)
 	var b: Vector2 = project(w,0)
 	var c: Vector2 = project(0,h)
-	draw_colored_polygon(PackedVector2Array([a,b,b-Vector2(0,42),a-Vector2(0,42)]),wall)
-	draw_colored_polygon(PackedVector2Array([a,c,c-Vector2(0,42),a-Vector2(0,42)]),Color("c7d2c7"))
-	draw_line(a-Vector2(0,42),b-Vector2(0,42),Color("f9f4e9"),4,true)
-	draw_line(a-Vector2(0,42),c-Vector2(0,42),Color("f9f4e9"),4,true)
+	if not puzzle.room.has("floor"):
+		draw_colored_polygon(PackedVector2Array([a,b,b-Vector2(0,42),a-Vector2(0,42)]),wall)
+		draw_colored_polygon(PackedVector2Array([a,c,c-Vector2(0,42),a-Vector2(0,42)]),Color("c7d2c7"))
+		draw_line(a-Vector2(0,42),b-Vector2(0,42),Color("f9f4e9"),4,true)
+		draw_line(a-Vector2(0,42),c-Vector2(0,42),Color("f9f4e9"),4,true)
+	else:
+		# The same floor mask owns collision, flood-fill and the visible cutaway.
+		for y in range(h):
+			for x in range(w):
+				if not puzzle.in_room(Vector2i(x,y)): continue
+				for side in [Vector2i.UP,Vector2i.LEFT]:
+					if puzzle.in_room(Vector2i(x,y)+side): continue
+					var from: Vector2=project(x,y)
+					var to: Vector2=project(x+1,y) if side==Vector2i.UP else project(x,y+1)
+					draw_colored_polygon(PackedVector2Array([from,to,to-Vector2(0,32),from-Vector2(0,32)]),wall if side==Vector2i.UP else Color("c7d2c7"))
+					draw_line(from-Vector2(0,32),to-Vector2(0,32),Color("f9f4e9"),3,true)
 	for wx in puzzle.room.windows:
 		var pos: Vector2 = project(float(wx)+.15,0)-Vector2(0,34)
 		var end: Vector2 = project(float(wx)+.85,0)-Vector2(0,10)
@@ -117,6 +129,7 @@ func _draw() -> void:
 	for y in range(h):
 		for x in range(w):
 			var q: Vector2i = Vector2i(x,y)
+			if not puzzle.in_room(q): continue
 			var poly: PackedVector2Array = polygon(x,y)
 			var color: Color = floor_color.lightened(.035 if (x+y)%2 == 0 else 0)
 			if blocked.has(q): color = Color("849b8d")
@@ -145,7 +158,11 @@ func _draw() -> void:
 		draw_texture_rect(texture(str(p.key),int(p.r)),rect,false)
 		if show_paths:
 			for f in puzzle.front_cells(p):
-				if puzzle.in_room(f): draw_circle(project(f.x+.5,f.y+.5),3.5,Color("426c5b") if paths.has(f) else Color("b35f58"))
+				if puzzle.in_room(f):
+					var access_color: Color=Color("44865d") if paths.has(f) else (Color("b35f58") if puzzle.occupied(puzzle.placed,true).has(f) else Color("d18c34"))
+					var access_poly: PackedVector2Array=polygon(f.x,f.y)
+					draw_colored_polygon(access_poly,Color(access_color,0.22))
+					draw_circle(project(f.x+.5,f.y+.5),4,access_color)
 	if not hints.is_empty():
 		var dim: Vector2i = puzzle.dimensions(str(hints.key),int(hints.r))
 		var poly: PackedVector2Array = polygon(int(hints.x),int(hints.y),dim.x,dim.y)

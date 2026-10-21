@@ -119,7 +119,7 @@ func run() -> void:
 	app.show_journal()
 	await layout()
 	check(app.page=="journal" and app.find_child("Palette0",true,false)!=null,"Journal shows cosmetics and milestones")
-	for id in range(60):
+	for id in range(app.puzzle.content.rooms.size()):
 		app.start_room(id,false)
 		await layout()
 		check(app.submit_button.get_global_rect().end.y<=960 and app.body.get_global_rect().position.y>=0,"Commission %d fits all portrait controls: submit=%.1f body=%s board=%s scroll=%d"%[id,app.submit_button.get_global_rect().end.y,str(app.body.get_global_rect()),str(app.board.size),app.page_scroll.scroll_vertical])

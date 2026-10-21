@@ -1,74 +1,1402 @@
 {
-  "desk": {
-    "name": "Writing desk",
-    "art": "desk",
+  "kit_bathroomCabinet": {
+    "name": "Bathroom cabinet",
+    "art": "bathroomCabinet",
     "w": 1,
-    "h": 2
+    "h": 1,
+    "category": "Bathroom",
+    "access": "front",
+    "walkable": false,
+    "model": "bathroomCabinet"
+  },
+  "kit_bathroomCabinetDrawer": {
+    "name": "Bathroom cabinet drawer",
+    "art": "bathroomCabinetDrawer",
+    "w": 1,
+    "h": 1,
+    "category": "Bathroom",
+    "access": "front",
+    "walkable": false,
+    "model": "bathroomCabinetDrawer"
+  },
+  "kit_bathroomMirror": {
+    "name": "Bathroom mirror",
+    "art": "bathroomMirror",
+    "w": 1,
+    "h": 1,
+    "category": "Bathroom",
+    "access": "none",
+    "walkable": false,
+    "model": "bathroomMirror"
+  },
+  "kit_bathroomSink": {
+    "name": "Bathroom sink",
+    "art": "bathroomSink",
+    "w": 1,
+    "h": 1,
+    "category": "Bathroom",
+    "access": "front",
+    "walkable": false,
+    "model": "bathroomSink"
+  },
+  "kit_bathroomSinkSquare": {
+    "name": "Bathroom sink square",
+    "art": "bathroomSinkSquare",
+    "w": 1,
+    "h": 1,
+    "category": "Bathroom",
+    "access": "front",
+    "walkable": false,
+    "model": "bathroomSinkSquare"
+  },
+  "kit_bathtub": {
+    "name": "Bathtub",
+    "art": "bathtub",
+    "w": 1,
+    "h": 2,
+    "category": "Bathroom",
+    "access": "front",
+    "walkable": false,
+    "model": "bathtub"
+  },
+  "kit_bear": {
+    "name": "Bear",
+    "art": "bear",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "bear"
+  },
+  "kit_bedBunk": {
+    "name": "Bed bunk",
+    "art": "bedBunk",
+    "w": 2,
+    "h": 1,
+    "category": "Bedroom",
+    "access": "long_sides",
+    "walkable": false,
+    "model": "bedBunk"
+  },
+  "kit_bedDouble": {
+    "name": "Bed double",
+    "art": "bedDouble",
+    "w": 2,
+    "h": 2,
+    "category": "Bedroom",
+    "access": "long_sides",
+    "walkable": false,
+    "model": "bedDouble"
   },
   "bed": {
     "name": "Single bed",
     "art": "bedSingle",
     "w": 2,
-    "h": 1
+    "h": 1,
+    "category": "Bedroom",
+    "access": "long_sides",
+    "walkable": false,
+    "model": "bedSingle"
   },
-  "sofa": {
-    "name": "Two-seat sofa",
-    "art": "loungeSofa",
+  "kit_bench": {
+    "name": "Bench",
+    "art": "bench",
     "w": 1,
-    "h": 2
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "bench"
   },
-  "chair": {
-    "name": "Reading chair",
-    "art": "loungeChair",
+  "kit_benchCushion": {
+    "name": "Bench cushion",
+    "art": "benchCushion",
     "w": 1,
-    "h": 1
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "benchCushion"
   },
-  "lamp": {
-    "name": "Floor lamp",
-    "art": "lampRoundFloor",
+  "kit_benchCushionLow": {
+    "name": "Bench cushion low",
+    "art": "benchCushionLow",
     "w": 1,
-    "h": 1
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "benchCushionLow"
   },
-  "plant": {
-    "name": "Potted fern",
-    "art": "pottedPlant",
+  "kit_bookcaseClosed": {
+    "name": "Bookcase closed",
+    "art": "bookcaseClosed",
     "w": 1,
-    "h": 1
+    "h": 1,
+    "category": "Storage",
+    "access": "front",
+    "walkable": false,
+    "model": "bookcaseClosed"
+  },
+  "kit_bookcaseClosedDoors": {
+    "name": "Bookcase closed doors",
+    "art": "bookcaseClosedDoors",
+    "w": 1,
+    "h": 1,
+    "category": "Storage",
+    "access": "front",
+    "walkable": false,
+    "model": "bookcaseClosedDoors"
+  },
+  "kit_bookcaseClosedWide": {
+    "name": "Bookcase closed wide",
+    "art": "bookcaseClosedWide",
+    "w": 1,
+    "h": 2,
+    "category": "Storage",
+    "access": "front",
+    "walkable": false,
+    "model": "bookcaseClosedWide"
   },
   "shelf": {
     "name": "Bookcase",
     "art": "bookcaseOpen",
     "w": 1,
-    "h": 1
+    "h": 1,
+    "category": "Storage",
+    "access": "front",
+    "walkable": false,
+    "model": "bookcaseOpen"
   },
-  "table": {
-    "name": "Coffee table",
-    "art": "tableCoffee",
+  "kit_bookcaseOpenLow": {
+    "name": "Bookcase open low",
+    "art": "bookcaseOpenLow",
     "w": 1,
-    "h": 2
+    "h": 1,
+    "category": "Storage",
+    "access": "front",
+    "walkable": false,
+    "model": "bookcaseOpenLow"
   },
-  "stool": {
-    "name": "Dining chair",
-    "art": "chairCushion",
+  "kit_books": {
+    "name": "Books",
+    "art": "books",
     "w": 1,
-    "h": 1
-  },
-  "dining": {
-    "name": "Dining table",
-    "art": "tableRound",
-    "w": 2,
-    "h": 2
+    "h": 1,
+    "category": "Study",
+    "access": "none",
+    "walkable": false,
+    "model": "books"
   },
   "cabinet": {
     "name": "Bedside cabinet",
     "art": "cabinetBed",
     "w": 1,
-    "h": 1
+    "h": 1,
+    "category": "Bedroom",
+    "access": "front",
+    "walkable": false,
+    "model": "cabinetBed"
+  },
+  "kit_cabinetBedDrawer": {
+    "name": "Cabinet bed drawer",
+    "art": "cabinetBedDrawer",
+    "w": 1,
+    "h": 1,
+    "category": "Bedroom",
+    "access": "front",
+    "walkable": false,
+    "model": "cabinetBedDrawer"
+  },
+  "kit_cabinetBedDrawerTable": {
+    "name": "Cabinet bed drawer table",
+    "art": "cabinetBedDrawerTable",
+    "w": 1,
+    "h": 1,
+    "category": "Bedroom",
+    "access": "front",
+    "walkable": false,
+    "model": "cabinetBedDrawerTable"
+  },
+  "kit_cabinetTelevision": {
+    "name": "Cabinet television",
+    "art": "cabinetTelevision",
+    "w": 1,
+    "h": 2,
+    "category": "Storage",
+    "access": "front",
+    "walkable": false,
+    "model": "cabinetTelevision"
+  },
+  "kit_cabinetTelevisionDoors": {
+    "name": "Cabinet television doors",
+    "art": "cabinetTelevisionDoors",
+    "w": 1,
+    "h": 2,
+    "category": "Storage",
+    "access": "front",
+    "walkable": false,
+    "model": "cabinetTelevisionDoors"
+  },
+  "kit_cardboardBoxClosed": {
+    "name": "Cardboard box closed",
+    "art": "cardboardBoxClosed",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "cardboardBoxClosed"
+  },
+  "kit_cardboardBoxOpen": {
+    "name": "Cardboard box open",
+    "art": "cardboardBoxOpen",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "cardboardBoxOpen"
+  },
+  "kit_ceilingFan": {
+    "name": "Ceiling fan",
+    "art": "ceilingFan",
+    "w": 1,
+    "h": 1,
+    "category": "Lighting",
+    "access": "none",
+    "walkable": false,
+    "model": "ceilingFan"
+  },
+  "kit_chair": {
+    "name": "Chair",
+    "art": "chair",
+    "w": 1,
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "chair"
+  },
+  "stool": {
+    "name": "Dining chair",
+    "art": "chairCushion",
+    "w": 1,
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "chairCushion"
+  },
+  "kit_chairDesk": {
+    "name": "Chair desk",
+    "art": "chairDesk",
+    "w": 1,
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "chairDesk"
+  },
+  "kit_chairModernCushion": {
+    "name": "Chair modern cushion",
+    "art": "chairModernCushion",
+    "w": 1,
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "chairModernCushion"
+  },
+  "kit_chairModernFrameCushion": {
+    "name": "Chair modern frame cushion",
+    "art": "chairModernFrameCushion",
+    "w": 1,
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "chairModernFrameCushion"
+  },
+  "kit_chairRounded": {
+    "name": "Chair rounded",
+    "art": "chairRounded",
+    "w": 1,
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "chairRounded"
+  },
+  "kit_coatRack": {
+    "name": "Coat rack",
+    "art": "coatRack",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "coatRack"
   },
   "coat": {
     "name": "Coat stand",
     "art": "coatRackStanding",
     "w": 1,
-    "h": 1
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "coatRackStanding"
+  },
+  "kit_computerKeyboard": {
+    "name": "Computer keyboard",
+    "art": "computerKeyboard",
+    "w": 1,
+    "h": 1,
+    "category": "Study",
+    "access": "none",
+    "walkable": false,
+    "model": "computerKeyboard"
+  },
+  "kit_computerMouse": {
+    "name": "Computer mouse",
+    "art": "computerMouse",
+    "w": 1,
+    "h": 1,
+    "category": "Study",
+    "access": "none",
+    "walkable": false,
+    "model": "computerMouse"
+  },
+  "kit_computerScreen": {
+    "name": "Computer screen",
+    "art": "computerScreen",
+    "w": 1,
+    "h": 1,
+    "category": "Study",
+    "access": "none",
+    "walkable": false,
+    "model": "computerScreen"
+  },
+  "desk": {
+    "name": "Writing desk",
+    "art": "desk",
+    "w": 1,
+    "h": 2,
+    "category": "Study",
+    "access": "front",
+    "walkable": false,
+    "model": "desk"
+  },
+  "kit_deskCorner": {
+    "name": "Desk corner",
+    "art": "deskCorner",
+    "w": 2,
+    "h": 2,
+    "category": "Study",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "deskCorner"
+  },
+  "kit_doorway": {
+    "name": "Doorway",
+    "art": "doorway",
+    "w": 1,
+    "h": 1,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": true,
+    "model": "doorway"
+  },
+  "kit_doorwayFront": {
+    "name": "Doorway front",
+    "art": "doorwayFront",
+    "w": 1,
+    "h": 1,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": true,
+    "model": "doorwayFront"
+  },
+  "kit_doorwayOpen": {
+    "name": "Doorway open",
+    "art": "doorwayOpen",
+    "w": 1,
+    "h": 1,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": true,
+    "model": "doorwayOpen"
+  },
+  "kit_dryer": {
+    "name": "Dryer",
+    "art": "dryer",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "dryer"
+  },
+  "kit_floorCorner": {
+    "name": "Floor corner",
+    "art": "floorCorner",
+    "w": 1,
+    "h": 1,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": true,
+    "model": "floorCorner"
+  },
+  "kit_floorCornerRound": {
+    "name": "Floor corner round",
+    "art": "floorCornerRound",
+    "w": 1,
+    "h": 1,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": true,
+    "model": "floorCornerRound"
+  },
+  "kit_floorFull": {
+    "name": "Floor full",
+    "art": "floorFull",
+    "w": 2,
+    "h": 2,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": true,
+    "model": "floorFull"
+  },
+  "kit_floorHalf": {
+    "name": "Floor half",
+    "art": "floorHalf",
+    "w": 2,
+    "h": 1,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": true,
+    "model": "floorHalf"
+  },
+  "kit_hoodLarge": {
+    "name": "Hood large",
+    "art": "hoodLarge",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "none",
+    "walkable": false,
+    "model": "hoodLarge"
+  },
+  "kit_hoodModern": {
+    "name": "Hood modern",
+    "art": "hoodModern",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "none",
+    "walkable": false,
+    "model": "hoodModern"
+  },
+  "kit_kitchenBar": {
+    "name": "Kitchen bar",
+    "art": "kitchenBar",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "none",
+    "walkable": false,
+    "model": "kitchenBar"
+  },
+  "kit_kitchenBarEnd": {
+    "name": "Kitchen bar end",
+    "art": "kitchenBarEnd",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "none",
+    "walkable": false,
+    "model": "kitchenBarEnd"
+  },
+  "kit_kitchenBlender": {
+    "name": "Kitchen blender",
+    "art": "kitchenBlender",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "none",
+    "walkable": false,
+    "model": "kitchenBlender"
+  },
+  "kit_kitchenCabinet": {
+    "name": "Kitchen cabinet",
+    "art": "kitchenCabinet",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "kitchenCabinet"
+  },
+  "kit_kitchenCabinetCornerInner": {
+    "name": "Kitchen cabinet corner inner",
+    "art": "kitchenCabinetCornerInner",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "kitchenCabinetCornerInner"
+  },
+  "kit_kitchenCabinetCornerRound": {
+    "name": "Kitchen cabinet corner round",
+    "art": "kitchenCabinetCornerRound",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "kitchenCabinetCornerRound"
+  },
+  "kit_kitchenCabinetDrawer": {
+    "name": "Kitchen cabinet drawer",
+    "art": "kitchenCabinetDrawer",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "kitchenCabinetDrawer"
+  },
+  "kit_kitchenCabinetUpper": {
+    "name": "Kitchen cabinet upper",
+    "art": "kitchenCabinetUpper",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "kitchenCabinetUpper"
+  },
+  "kit_kitchenCabinetUpperCorner": {
+    "name": "Kitchen cabinet upper corner",
+    "art": "kitchenCabinetUpperCorner",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "kitchenCabinetUpperCorner"
+  },
+  "kit_kitchenCabinetUpperDouble": {
+    "name": "Kitchen cabinet upper double",
+    "art": "kitchenCabinetUpperDouble",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "kitchenCabinetUpperDouble"
+  },
+  "kit_kitchenCabinetUpperLow": {
+    "name": "Kitchen cabinet upper low",
+    "art": "kitchenCabinetUpperLow",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "kitchenCabinetUpperLow"
+  },
+  "kit_kitchenCoffeeMachine": {
+    "name": "Kitchen coffee machine",
+    "art": "kitchenCoffeeMachine",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "none",
+    "walkable": false,
+    "model": "kitchenCoffeeMachine"
+  },
+  "kit_kitchenFridge": {
+    "name": "Kitchen fridge",
+    "art": "kitchenFridge",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "kitchenFridge"
+  },
+  "kit_kitchenFridgeBuiltIn": {
+    "name": "Kitchen fridge built in",
+    "art": "kitchenFridgeBuiltIn",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "kitchenFridgeBuiltIn"
+  },
+  "kit_kitchenFridgeLarge": {
+    "name": "Kitchen fridge large",
+    "art": "kitchenFridgeLarge",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "kitchenFridgeLarge"
+  },
+  "kit_kitchenFridgeSmall": {
+    "name": "Kitchen fridge small",
+    "art": "kitchenFridgeSmall",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "kitchenFridgeSmall"
+  },
+  "kit_kitchenMicrowave": {
+    "name": "Kitchen microwave",
+    "art": "kitchenMicrowave",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "none",
+    "walkable": false,
+    "model": "kitchenMicrowave"
+  },
+  "kit_kitchenSink": {
+    "name": "Kitchen sink",
+    "art": "kitchenSink",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "kitchenSink"
+  },
+  "kit_kitchenStove": {
+    "name": "Kitchen stove",
+    "art": "kitchenStove",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "kitchenStove"
+  },
+  "kit_kitchenStoveElectric": {
+    "name": "Kitchen stove electric",
+    "art": "kitchenStoveElectric",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "kitchenStoveElectric"
+  },
+  "lamp": {
+    "name": "Floor lamp",
+    "art": "lampRoundFloor",
+    "w": 1,
+    "h": 1,
+    "category": "Lighting",
+    "access": "none",
+    "walkable": false,
+    "model": "lampRoundFloor"
+  },
+  "kit_lampRoundTable": {
+    "name": "Lamp round table",
+    "art": "lampRoundTable",
+    "w": 1,
+    "h": 1,
+    "category": "Lighting",
+    "access": "none",
+    "walkable": false,
+    "model": "lampRoundTable"
+  },
+  "kit_lampSquareCeiling": {
+    "name": "Lamp square ceiling",
+    "art": "lampSquareCeiling",
+    "w": 1,
+    "h": 1,
+    "category": "Lighting",
+    "access": "none",
+    "walkable": false,
+    "model": "lampSquareCeiling"
+  },
+  "kit_lampSquareFloor": {
+    "name": "Lamp square floor",
+    "art": "lampSquareFloor",
+    "w": 1,
+    "h": 1,
+    "category": "Lighting",
+    "access": "none",
+    "walkable": false,
+    "model": "lampSquareFloor"
+  },
+  "kit_lampSquareTable": {
+    "name": "Lamp square table",
+    "art": "lampSquareTable",
+    "w": 1,
+    "h": 1,
+    "category": "Lighting",
+    "access": "none",
+    "walkable": false,
+    "model": "lampSquareTable"
+  },
+  "kit_lampWall": {
+    "name": "Lamp wall",
+    "art": "lampWall",
+    "w": 1,
+    "h": 1,
+    "category": "Lighting",
+    "access": "none",
+    "walkable": false,
+    "model": "lampWall"
+  },
+  "kit_laptop": {
+    "name": "Laptop",
+    "art": "laptop",
+    "w": 1,
+    "h": 1,
+    "category": "Study",
+    "access": "none",
+    "walkable": false,
+    "model": "laptop"
+  },
+  "chair": {
+    "name": "Reading chair",
+    "art": "loungeChair",
+    "w": 1,
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "loungeChair"
+  },
+  "kit_loungeChairRelax": {
+    "name": "Lounge chair relax",
+    "art": "loungeChairRelax",
+    "w": 2,
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "loungeChairRelax"
+  },
+  "kit_loungeDesignChair": {
+    "name": "Lounge design chair",
+    "art": "loungeDesignChair",
+    "w": 1,
+    "h": 2,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "loungeDesignChair"
+  },
+  "kit_loungeDesignSofa": {
+    "name": "Lounge design sofa",
+    "art": "loungeDesignSofa",
+    "w": 1,
+    "h": 2,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "loungeDesignSofa"
+  },
+  "kit_loungeDesignSofaCorner": {
+    "name": "Lounge design sofa corner",
+    "art": "loungeDesignSofaCorner",
+    "w": 3,
+    "h": 3,
+    "category": "Seating",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "loungeDesignSofaCorner"
+  },
+  "sofa": {
+    "name": "Two-seat sofa",
+    "art": "loungeSofa",
+    "w": 1,
+    "h": 2,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "loungeSofa"
+  },
+  "kit_loungeSofaCorner": {
+    "name": "Lounge sofa corner",
+    "art": "loungeSofaCorner",
+    "w": 2,
+    "h": 2,
+    "category": "Seating",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "loungeSofaCorner"
+  },
+  "kit_loungeSofaLong": {
+    "name": "Lounge sofa long",
+    "art": "loungeSofaLong",
+    "w": 2,
+    "h": 2,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "loungeSofaLong"
+  },
+  "kit_loungeSofaOttoman": {
+    "name": "Lounge sofa ottoman",
+    "art": "loungeSofaOttoman",
+    "w": 1,
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "loungeSofaOttoman"
+  },
+  "kit_paneling": {
+    "name": "Paneling",
+    "art": "paneling",
+    "w": 1,
+    "h": 1,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "paneling"
+  },
+  "kit_pillow": {
+    "name": "Pillow",
+    "art": "pillow",
+    "w": 1,
+    "h": 1,
+    "category": "Bedroom",
+    "access": "none",
+    "walkable": false,
+    "model": "pillow"
+  },
+  "kit_pillowBlue": {
+    "name": "Pillow blue",
+    "art": "pillowBlue",
+    "w": 1,
+    "h": 1,
+    "category": "Bedroom",
+    "access": "none",
+    "walkable": false,
+    "model": "pillowBlue"
+  },
+  "kit_pillowBlueLong": {
+    "name": "Pillow blue long",
+    "art": "pillowBlueLong",
+    "w": 1,
+    "h": 1,
+    "category": "Bedroom",
+    "access": "none",
+    "walkable": false,
+    "model": "pillowBlueLong"
+  },
+  "kit_pillowLong": {
+    "name": "Pillow long",
+    "art": "pillowLong",
+    "w": 1,
+    "h": 1,
+    "category": "Bedroom",
+    "access": "none",
+    "walkable": false,
+    "model": "pillowLong"
+  },
+  "kit_plantSmall1": {
+    "name": "Plant small 1",
+    "art": "plantSmall1",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "plantSmall1"
+  },
+  "kit_plantSmall2": {
+    "name": "Plant small 2",
+    "art": "plantSmall2",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "plantSmall2"
+  },
+  "kit_plantSmall3": {
+    "name": "Plant small 3",
+    "art": "plantSmall3",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "plantSmall3"
+  },
+  "plant": {
+    "name": "Potted fern",
+    "art": "pottedPlant",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "pottedPlant"
+  },
+  "kit_radio": {
+    "name": "Radio",
+    "art": "radio",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "radio"
+  },
+  "kit_rugDoormat": {
+    "name": "Rug doormat",
+    "art": "rugDoormat",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": true,
+    "model": "rugDoormat"
+  },
+  "kit_rugRectangle": {
+    "name": "Rug rectangle",
+    "art": "rugRectangle",
+    "w": 2,
+    "h": 3,
+    "category": "Decor",
+    "access": "none",
+    "walkable": true,
+    "model": "rugRectangle"
+  },
+  "kit_rugRound": {
+    "name": "Rug round",
+    "art": "rugRound",
+    "w": 2,
+    "h": 2,
+    "category": "Decor",
+    "access": "none",
+    "walkable": true,
+    "model": "rugRound"
+  },
+  "kit_rugRounded": {
+    "name": "Rug rounded",
+    "art": "rugRounded",
+    "w": 2,
+    "h": 3,
+    "category": "Decor",
+    "access": "none",
+    "walkable": true,
+    "model": "rugRounded"
+  },
+  "kit_rugSquare": {
+    "name": "Rug square",
+    "art": "rugSquare",
+    "w": 2,
+    "h": 2,
+    "category": "Decor",
+    "access": "none",
+    "walkable": true,
+    "model": "rugSquare"
+  },
+  "kit_shower": {
+    "name": "Shower",
+    "art": "shower",
+    "w": 1,
+    "h": 1,
+    "category": "Bathroom",
+    "access": "front",
+    "walkable": false,
+    "model": "shower"
+  },
+  "kit_showerRound": {
+    "name": "Shower round",
+    "art": "showerRound",
+    "w": 1,
+    "h": 1,
+    "category": "Bathroom",
+    "access": "front",
+    "walkable": false,
+    "model": "showerRound"
+  },
+  "kit_sideTable": {
+    "name": "Side table",
+    "art": "sideTable",
+    "w": 1,
+    "h": 1,
+    "category": "Tables",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "sideTable"
+  },
+  "kit_sideTableDrawers": {
+    "name": "Side table drawers",
+    "art": "sideTableDrawers",
+    "w": 1,
+    "h": 1,
+    "category": "Tables",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "sideTableDrawers"
+  },
+  "kit_speaker": {
+    "name": "Speaker",
+    "art": "speaker",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "speaker"
+  },
+  "kit_speakerSmall": {
+    "name": "Speaker small",
+    "art": "speakerSmall",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "speakerSmall"
+  },
+  "kit_stairs": {
+    "name": "Stairs",
+    "art": "stairs",
+    "w": 2,
+    "h": 3,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "stairs"
+  },
+  "kit_stairsCorner": {
+    "name": "Stairs corner",
+    "art": "stairsCorner",
+    "w": 3,
+    "h": 3,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "stairsCorner"
+  },
+  "kit_stairsOpen": {
+    "name": "Stairs open",
+    "art": "stairsOpen",
+    "w": 2,
+    "h": 3,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "stairsOpen"
+  },
+  "kit_stairsOpenSingle": {
+    "name": "Stairs open single",
+    "art": "stairsOpenSingle",
+    "w": 2,
+    "h": 3,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "stairsOpenSingle"
+  },
+  "kit_stoolBar": {
+    "name": "Stool bar",
+    "art": "stoolBar",
+    "w": 1,
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "stoolBar"
+  },
+  "kit_stoolBarSquare": {
+    "name": "Stool bar square",
+    "art": "stoolBarSquare",
+    "w": 1,
+    "h": 1,
+    "category": "Seating",
+    "access": "front",
+    "walkable": false,
+    "model": "stoolBarSquare"
+  },
+  "kit_table": {
+    "name": "Table",
+    "art": "table",
+    "w": 1,
+    "h": 2,
+    "category": "Tables",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "table"
+  },
+  "kit_tableCloth": {
+    "name": "Table cloth",
+    "art": "tableCloth",
+    "w": 1,
+    "h": 2,
+    "category": "Tables",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "tableCloth"
+  },
+  "table": {
+    "name": "Coffee table",
+    "art": "tableCoffee",
+    "w": 1,
+    "h": 2,
+    "category": "Tables",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "tableCoffee"
+  },
+  "kit_tableCoffeeGlass": {
+    "name": "Table coffee glass",
+    "art": "tableCoffeeGlass",
+    "w": 1,
+    "h": 1,
+    "category": "Tables",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "tableCoffeeGlass"
+  },
+  "kit_tableCoffeeGlassSquare": {
+    "name": "Table coffee glass square",
+    "art": "tableCoffeeGlassSquare",
+    "w": 1,
+    "h": 1,
+    "category": "Tables",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "tableCoffeeGlassSquare"
+  },
+  "kit_tableCoffeeSquare": {
+    "name": "Table coffee square",
+    "art": "tableCoffeeSquare",
+    "w": 1,
+    "h": 1,
+    "category": "Tables",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "tableCoffeeSquare"
+  },
+  "kit_tableCross": {
+    "name": "Table cross",
+    "art": "tableCross",
+    "w": 1,
+    "h": 2,
+    "category": "Tables",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "tableCross"
+  },
+  "kit_tableCrossCloth": {
+    "name": "Table cross cloth",
+    "art": "tableCrossCloth",
+    "w": 1,
+    "h": 2,
+    "category": "Tables",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "tableCrossCloth"
+  },
+  "kit_tableGlass": {
+    "name": "Table glass",
+    "art": "tableGlass",
+    "w": 1,
+    "h": 2,
+    "category": "Tables",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "tableGlass"
+  },
+  "dining": {
+    "name": "Dining table",
+    "art": "tableRound",
+    "w": 2,
+    "h": 2,
+    "category": "Tables",
+    "access": "perimeter",
+    "walkable": false,
+    "model": "tableRound"
+  },
+  "kit_televisionAntenna": {
+    "name": "Television antenna",
+    "art": "televisionAntenna",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "televisionAntenna"
+  },
+  "kit_televisionModern": {
+    "name": "Television modern",
+    "art": "televisionModern",
+    "w": 1,
+    "h": 2,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "televisionModern"
+  },
+  "kit_televisionVintage": {
+    "name": "Television vintage",
+    "art": "televisionVintage",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "televisionVintage"
+  },
+  "kit_toaster": {
+    "name": "Toaster",
+    "art": "toaster",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "none",
+    "walkable": false,
+    "model": "toaster"
+  },
+  "kit_toilet": {
+    "name": "Toilet",
+    "art": "toilet",
+    "w": 1,
+    "h": 1,
+    "category": "Bathroom",
+    "access": "front",
+    "walkable": false,
+    "model": "toilet"
+  },
+  "kit_toiletSquare": {
+    "name": "Toilet square",
+    "art": "toiletSquare",
+    "w": 1,
+    "h": 1,
+    "category": "Bathroom",
+    "access": "front",
+    "walkable": false,
+    "model": "toiletSquare"
+  },
+  "kit_trashcan": {
+    "name": "Trashcan",
+    "art": "trashcan",
+    "w": 1,
+    "h": 1,
+    "category": "Decor",
+    "access": "none",
+    "walkable": false,
+    "model": "trashcan"
+  },
+  "kit_wall": {
+    "name": "Wall",
+    "art": "wall",
+    "w": 1,
+    "h": 2,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "wall"
+  },
+  "kit_wallCorner": {
+    "name": "Wall corner",
+    "art": "wallCorner",
+    "w": 1,
+    "h": 1,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "wallCorner"
+  },
+  "kit_wallCornerRond": {
+    "name": "Wall corner rond",
+    "art": "wallCornerRond",
+    "w": 1,
+    "h": 1,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "wallCornerRond"
+  },
+  "kit_wallDoorway": {
+    "name": "Wall doorway",
+    "art": "wallDoorway",
+    "w": 1,
+    "h": 2,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "wallDoorway"
+  },
+  "kit_wallDoorwayWide": {
+    "name": "Wall doorway wide",
+    "art": "wallDoorwayWide",
+    "w": 1,
+    "h": 2,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "wallDoorwayWide"
+  },
+  "kit_wallHalf": {
+    "name": "Wall half",
+    "art": "wallHalf",
+    "w": 1,
+    "h": 1,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "wallHalf"
+  },
+  "kit_wallWindow": {
+    "name": "Wall window",
+    "art": "wallWindow",
+    "w": 1,
+    "h": 2,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "wallWindow"
+  },
+  "kit_wallWindowSlide": {
+    "name": "Wall window slide",
+    "art": "wallWindowSlide",
+    "w": 1,
+    "h": 2,
+    "category": "Architecture",
+    "access": "none",
+    "walkable": false,
+    "model": "wallWindowSlide"
+  },
+  "kit_washer": {
+    "name": "Washer",
+    "art": "washer",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "washer"
+  },
+  "kit_washerDryerStacked": {
+    "name": "Washer dryer stacked",
+    "art": "washerDryerStacked",
+    "w": 1,
+    "h": 1,
+    "category": "Kitchen & utility",
+    "access": "front",
+    "walkable": false,
+    "model": "washerDryerStacked"
   }
 }
