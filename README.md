@@ -45,7 +45,7 @@ Marketing assets, store/web copy, icons and screenshot provenance belong under m
 
 ## Round two
 
-See [the engineering update](docs/ROUND_TWO_UPDATE.md) for the exact access rules, content additions, verified tests and pending native/artwork work. Existing native QA applies only to its dated original APK.
+See [the engineering update](docs/ROUND_TWO_UPDATE.md) for the exact access rules, content additions and verified tests. Illustrated app/feature art and all 20 achievement/3 leaderboard badges are integrated. New Android/Web exports, affected native regression and final-build captures remain pending with the coordinator. Existing native QA applies only to its dated original APK.
 
 ## Future content
 

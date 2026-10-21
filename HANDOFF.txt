@@ -1,10 +1,10 @@
-ROUND TWO SOURCE UPDATE — 2026-10-21
-Engineering tests passed for 120 rooms, all 140 furniture models, shaped floors and explained access fronts. New Android/Web exports/native acceptance and marketing integration are pending; preserved original QA below applies only to its named APK. See docs/ROUND_TWO_UPDATE.md.
+ROUND TWO SOURCE/ART UPDATE - 2026-10-21
+Engineering and illustrated marketing integration are complete: 120 commissions across twelve chapters, all 140 furniture models, shaped floors and explained access fronts, new app/feature art and all 20 achievement/3 leaderboard badges. New Android/Web exports, affected native regression and final-build captures remain pending with the coordinator. Preserved original QA below applies only to its named original APK. See docs/ROUND_TWO_UPDATE.md.
 
 ROOM FOR TOMORROW - CONTINUATION HANDOFF
-Updated 2026-10-21. Ready for owner local review; production release remains owner work.
+Updated 2026-10-21. Historical first-pass package ready for owner local review; current Round Two source awaits new exports/native/capture acceptance. Production release remains owner work.
 
-A portrait furniture-planning puzzle with sixty commissions, six chapters, daily rooms, optional household wishes and a personal decoration space.
+A portrait furniture-planning puzzle with 120 commissions across twelve chapters, daily rooms, optional household wishes and a personal decoration space.
 
 WHERE TO CONTINUE
 Use this game folder as the single canonical Git working copy. Start a focused task here; read AGENTS.md, README.md and docs/PLATFORM_SETUP.md. New tasks must read these files and the requested change rather than assume earlier conversation context. Original folders and private QA records are retained separately by the local consolidation receipt, not inside public Git history.
