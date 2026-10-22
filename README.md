@@ -1,5 +1,9 @@
 # Room for Tomorrow
 
+## Reviewed hint-return successor and qualified native handoff
+
+Runtime `331b83cac2384ea0c1960335471f1923e28a5378` has accepted Android/Web outputs in `build/round-two-331b83ca-a1/`. APK SHA256 `ABA522F7DA08D4AC16E64B484AD273427A8AAE5BBED53CE5152BE9E1EC85114A`. See HANDOFF.txt for HTML/PCK identities. The no-earned feedback/stale-callback repair passed 167 UI and 15 Round Two UI strict checks. Its actual current-APK unearned return passed: after one presented/dismissed ad the screen read "No hint was unlocked. Your room is unchanged." No earned event or hint was observed; all 22 save groups, drafts and bank 295/175 stayed unchanged. Earned native hints remain UNVERIFIED. All 18 final raw views and bounded cold/save/restoration checks are recorded below. Qualified 7D critical gameplay/ad/offline records remain predecessor evidence; shutdown diagnostics and slow offline render are not dismissed or attributed to a cause.
+
 Make a small room work beautifully.
 
 A cozy spatial puzzle about furniture, usable space and clear doorways. Complete 120 commissions across twelve chapters, try daily rooms and arrange a decoration space of your own.
@@ -27,11 +31,11 @@ Use Godot **4.5.1 Compatibility**, matching export templates, Java17 and the And
 ```sh
 godot --headless --editor --path . --import
 godot --headless --path . --script platform/tests/services_smoke.gd
-godot --headless --path . --export-release Web build/web/index.html
-godot --headless --path . --install-android-build-template --export-debug Android build/android/game-debug.apk
+godot --headless --path . --export-release Web build/local-next-update/web/index.html
+godot --headless --path . --install-android-build-template --export-debug Android build/local-next-update/android/room-for-tomorrow-debug.apk
 ```
 
-Create the build/web and build/android output folders first. These commands assume a `godot` executable on PATH; on Windows substitute the installed Godot executable, using PowerShell's `&` call operator for a quoted path. No Windows desktop build is supplied.
+Create new unused output folders first; preserve old and accepted artifacts. These commands assume a `godot` executable on PATH; on Windows substitute the installed Godot executable, using PowerShell's `&` call operator for a quoted path. No Windows desktop build is supplied.
 
 ## Native services
 
@@ -45,7 +49,7 @@ Marketing assets, store/web copy, icons and screenshot provenance belong under m
 
 ## Round two
 
-See [the engineering update](docs/ROUND_TWO_UPDATE.md) for the exact access rules, content additions and verified tests. Illustrated app/feature art and all 20 achievement/3 leaderboard badges are integrated. New Android/Web exports, affected native regression and final-build captures remain pending with the coordinator. Existing native QA applies only to its dated original APK.
+See [the engineering update](docs/ROUND_TWO_UPDATE.md) for the exact access rules, content additions and verified tests. Illustrated app/feature art and all 20 achievement/3 leaderboard badges are integrated. Successor exports and actual unearned hint-return feedback are verified; all 18 final raw views and bounded cold/save/restoration checks are recorded below. Original and 7D critical native evidence remain tied to their dated APKs.
 
 ## Future content
 
@@ -72,3 +76,16 @@ Public screenshot metadata records PNG-relative filenames, SHA256 digests, dimen
 ## Service configuration caution
 
 `admob.app_id` in JSON is a reference value: the Android manifest uses Godot Project Settings `admob/general/android/app_id`. The Services `test_mode` flag changes status wording; it does not turn production ad unit IDs into test requests. Keep Google sample IDs for development, or configure real test devices separately before production-ID testing.
+
+The final set contains 18 distinct unmodified actual current-APK captures: six each at phone 1080x1920@420dpi, logical 7-inch 1200x1920@320dpi and logical 10-inch 1600x2560@300dpi. Root independently accepted every full view and verified raw hashes/dimensions. See marketing/screenshots-round-two/capture-manifest.json for exact names, contexts and hashes. The 10-inch catalogue view shows All pieces/bathroom models and the genuine saved rotated bunk, not the Bedroom filter. Black/reconnection frames and duplicate padding are excluded. These are logical emulator profiles, not physical-tablet tests. Original nine-view records remain historical. In-game Back/Home saving and hardware Back launcher exit remain distinct. Earned native hints remain UNVERIFIED after two predecessor and one successor unearned returns.
+
+Source publication: runtime commit `331b83cac2384ea0c1960335471f1923e28a5378` is verified pushed. Its [hosted CI run](https://github.com/EthannYakabuski/room-for-tomorrow/actions/runs/39719181068) completed successfully: validate-and-build passed and deploy was skipped. These final documentation drafts remain unpublished. Pages/Library/Play settings are unchanged.
+
+One normal successor update succeeded. The independently read full installed APK hash matched accepted ABA, and all 22 save groups (bank 295/175) were byte-exact unchanged before first launch, without restoration, clearing or completed-reward replay. Final cold/closing observations are recorded separately below.
+
+
+After capture sessions, one normal cold launch at the restored original phone profile rendered Home at the 22.1-second observation without an observed ANR. All 22 save groups (906-byte profile, bank 295 coins/175 XP) stayed byte-exact unchanged; clears 0/1/13 and the rotated bunk remained. Final stop completed with the process absent and a full backup whose embedded main save matched. Original 1080x1920@420dpi with no overrides, airplane off, Wi-Fi/mobile data on and actual default Wi-Fi connectivity were verified restored. No rewards or claims were replayed. This is a bounded cold/save/restoration observation, not a general performance pass.
+
+The five predecessor shutdown resources have no recorded identities or call stack; their cause remains unproved. Current source keeps the same audio/exit code as the predecessor, and headless tests skip actual audio setup. Passing CI therefore does not verify a native active-audio exit or establish that these warnings are harmless or fixed. An informational guest date command was unsupported (exit 1); no clock change was made and no full command/log-clean claim is made.
+
+The current force-stop closing log slice contained zero listed script/fatal/error/ObjectDB/resource/VAO terms. That limited slice does not erase the earlier system-Back shutdown diagnostics or make the whole native run clean.

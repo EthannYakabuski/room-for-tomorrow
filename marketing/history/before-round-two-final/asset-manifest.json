@@ -1,0 +1,425 @@
+[
+  {
+    "file": "achievements/all_homes.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "7578ca666dd55c823b9f699bd4e85df3d1d23fa2e0748aaeeeb0ffb8a29978e0"
+  },
+  {
+    "file": "achievements/chapter_3.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "cfbec1ab5419914c207476507e625098570da866ee5dc1d6844cf191ccf89d89"
+  },
+  {
+    "file": "achievements/chapter_6.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "86cccf6f30f928ce35f33224d073448151388cc6c6dbbc409b60b1f8a7ba8450"
+  },
+  {
+    "file": "achievements/daily_1.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "70eb99190205bf229d9496b3616c0d66d3add233d8c8bba6a2aebbe06b43f7ed"
+  },
+  {
+    "file": "achievements/daily_7.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "bed79889a368ce33dc5455ba52c119c4a9c1fd951c19949f80bf73642e2708c3"
+  },
+  {
+    "file": "achievements/decorate.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "d93fc0bd445bbd0bcdedced6b0d165e08958c17e931cefe54970ac2a5051c5a7"
+  },
+  {
+    "file": "achievements/first_home.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "255fe82c65f1145bbefbf3eea0237e732ff22e29f78d2ae305640416264e8806"
+  },
+  {
+    "file": "achievements/five_homes.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "4e7f853d32a473c00b92c4a0e74bcfb98d451c05274e9b1f676ee00e8214e11a"
+  },
+  {
+    "file": "achievements/forty_homes.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "17d69598d4e53756abbd67c0af8cbc3264a3c1d8d0343ffc8f66a43171349b48"
+  },
+  {
+    "file": "achievements/level_10.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "10e4475da504cc686c11bf06be11dfb70a6f249d85ce10bf026034f3f74e83d4"
+  },
+  {
+    "file": "achievements/level_3.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "a1323fb32642a73d4007bafa4b6ec72ed607df66f784dc3080d73c9def635eaf"
+  },
+  {
+    "file": "achievements/level_5.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "63e14d13eab3dabea614301bdfcce9c2e67b801f44c5fea2175e0a4bb105b8a3"
+  },
+  {
+    "file": "achievements/request_1.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "c13730b8e8dc9a4b35196cd1cbe32acda2b48379a02a1ad8d532f5471bab1d93"
+  },
+  {
+    "file": "achievements/request_10.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "a8b863d101380e5348640883ce6216b546a1e3961926125dd8f238589f122e4d"
+  },
+  {
+    "file": "achievements/request_30.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "939ec525116b28705aefc3c4bf010d4cb5718c586b4be4166de33cdec2f89866"
+  },
+  {
+    "file": "achievements/request_60.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "3410212b81d31ac95e2fbac8722194db5338fb9502bffedee57d99da06e6750f"
+  },
+  {
+    "file": "achievements/rotate_20.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "f34544b406e4db3e51fe289876278f0f52f127bf27bf299a87f899db740c731c"
+  },
+  {
+    "file": "achievements/ten_homes.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "90307ae32343b2a9149a15169e004511a788293155e774527c58c8cde3a63b4f"
+  },
+  {
+    "file": "achievements/twenty_homes.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "38cb1b90f46866b8c2bd101fdf48a66395084604ca9db2394651f5fc8aa5cb78"
+  },
+  {
+    "file": "achievements/undo_10.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "6b5bfdeb51c68a61338e17c027aa9f00c0f54c5abad55a83947efe8c8fd96ec8"
+  },
+  {
+    "file": "app-icon-192.png",
+    "dimensions": [
+      192,
+      192
+    ],
+    "mode": "RGB",
+    "sha256": "F5B2E0C6E54AA2C28EB48DC0C0B4E1708AAA8148C1DE7AD43A60A6CD194C5845"
+  },
+  {
+    "file": "app-icon-512.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "3C5F4501E62D1DC18A1E4E02627BFED4F704E330B26EAF3CCCEBCDD35CF71A6A"
+  },
+  {
+    "file": "feature-graphic-1024x500.png",
+    "dimensions": [
+      1024,
+      500
+    ],
+    "mode": "RGB",
+    "sha256": "A6E663E98FE941873FDF3B5DA59F5B0F3DDCF170D8ABAAEC6E9DEF1DAE97A382"
+  },
+  {
+    "file": "leaderboards/commissions_completed.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "691f35728c08319561ee21bdc9d713edd98904a83cef0f67e51ec18155c4526f"
+  },
+  {
+    "file": "leaderboards/optional_requests.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "1d6a446afcc1555ff02c35f26dab28e5c1445c57f23667f51bc59e8050d4928b"
+  },
+  {
+    "file": "leaderboards/planner_xp.png",
+    "dimensions": [
+      512,
+      512
+    ],
+    "mode": "RGB",
+    "sha256": "fc053e429b9c47b1c355388f96666053c88eb5572ad055225801305704ebe8da"
+  },
+  {
+    "file": "screenshots/phone-collection.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "69e396b924d2f557095d8293e62b9b623d19075391fac5566ed1e302daf8556d"
+  },
+  {
+    "file": "screenshots/phone-home.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "b7a99e479f13d8c799efc61430693a0a573822929197908c9710f246b3bea3dc"
+  },
+  {
+    "file": "screenshots/phone-play.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "f97f3877989b3e7c31101f13ad9f4c742230f68493bd270cd75a149cba530748"
+  },
+  {
+    "file": "screenshots/raw/phone-collection.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "69e396b924d2f557095d8293e62b9b623d19075391fac5566ed1e302daf8556d"
+  },
+  {
+    "file": "screenshots/raw/phone-home.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "b7a99e479f13d8c799efc61430693a0a573822929197908c9710f246b3bea3dc"
+  },
+  {
+    "file": "screenshots/raw/phone-play.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "f97f3877989b3e7c31101f13ad9f4c742230f68493bd270cd75a149cba530748"
+  },
+  {
+    "file": "screenshots/raw/tablet-10-collection.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "ed4230843feb0f543fe50748454ed139523477723a123927dddfc1a9381228e5"
+  },
+  {
+    "file": "screenshots/raw/tablet-10-home.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "e009be6024d8b513023e4b51fab6c601f5c6daa659a5483e95081d9b97b7e470"
+  },
+  {
+    "file": "screenshots/raw/tablet-10-play.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "d9c6c91b20298ad5558fca317c08ce1352ccaa25c829c16499383ead25032202"
+  },
+  {
+    "file": "screenshots/raw/tablet-7-collection.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "4a076a7ca92e529afffbab404f880f1e774c0bf7ebc138b0b52b980e4473dded"
+  },
+  {
+    "file": "screenshots/raw/tablet-7-home.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "af3bbbfc779f645de6adba467de1dcf8aeabeef59abde36916b9272d035d6ecf"
+  },
+  {
+    "file": "screenshots/raw/tablet-7-play.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "331c223fb0991d996a5c836290ea2d25c6d139dda363a730602473ee42c61429"
+  },
+  {
+    "file": "screenshots/tablet-10-collection.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "ed4230843feb0f543fe50748454ed139523477723a123927dddfc1a9381228e5"
+  },
+  {
+    "file": "screenshots/tablet-10-home.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "e009be6024d8b513023e4b51fab6c601f5c6daa659a5483e95081d9b97b7e470"
+  },
+  {
+    "file": "screenshots/tablet-10-play.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "d9c6c91b20298ad5558fca317c08ce1352ccaa25c829c16499383ead25032202"
+  },
+  {
+    "file": "screenshots/tablet-7-collection.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "4a076a7ca92e529afffbab404f880f1e774c0bf7ebc138b0b52b980e4473dded"
+  },
+  {
+    "file": "screenshots/tablet-7-home.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "af3bbbfc779f645de6adba467de1dcf8aeabeef59abde36916b9272d035d6ecf"
+  },
+  {
+    "file": "screenshots/tablet-7-play.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "331c223fb0991d996a5c836290ea2d25c6d139dda363a730602473ee42c61429"
+  },
+  {
+    "file": "source_art/lamp.png",
+    "dimensions": [
+      24,
+      105
+    ],
+    "mode": "RGBA",
+    "sha256": "7d8418f03cb10254354329f56a13db49fb4997b8c8f7da63a7ec2837684ad734"
+  },
+  {
+    "file": "source_art/plant.png",
+    "dimensions": [
+      28,
+      85
+    ],
+    "mode": "RGBA",
+    "sha256": "311439430d076b88f2936bfc80a4736e281364a7b0290b1c77daaef368b19bde"
+  },
+  {
+    "file": "source_art/sofa.png",
+    "dimensions": [
+      141,
+      141
+    ],
+    "mode": "RGBA",
+    "sha256": "c4f68e766ea2465e5563e9e8d918f5911c5ead6aab86e0f66eea33e1aca9d262"
+  }
+]

@@ -1,0 +1,329 @@
+{
+  "schema": 2,
+  "status": "FINAL18_RAW_ROOT_VISUAL_HASH_ACCEPTED",
+  "runtime_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
+  "apk_sha256": "ABA522F7DA08D4AC16E64B484AD273427A8AAE5BBED53CE5152BE9E1EC85114A",
+  "apk_bytes": 198536067,
+  "required_count": 18,
+  "per_profile_required": {
+    "phone": 6,
+    "7inch": 6,
+    "10inch": 6
+  },
+  "selected_count": 18,
+  "entries": [
+    {
+      "file": "screenshots-round-two/phone-01-home.png",
+      "profile": "phone",
+      "ordinal": 1,
+      "role": "Home",
+      "actual_dimensions": [
+        1080,
+        1920
+      ],
+      "density_dpi": 420,
+      "sha256": "D6822833416DBCF8F84E38430AC64A28FF168A562EFD5919F5F42CB05CE9DC63",
+      "bytes": 274950,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/phone-02-commission-book.png",
+      "profile": "phone",
+      "ordinal": 2,
+      "role": "Commission book and chapter availability",
+      "actual_dimensions": [
+        1080,
+        1920
+      ],
+      "density_dpi": 420,
+      "sha256": "EF7F0B2AA1B3D164E33AF3D52E910C8AB7B180F5F54F0ACDB4DE1FEF2E72B7C8",
+      "bytes": 234290,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/phone-03-morning-letter.png",
+      "profile": "phone",
+      "ordinal": 3,
+      "role": "Genuine Morning Letter planning",
+      "actual_dimensions": [
+        1080,
+        1920
+      ],
+      "density_dpi": 420,
+      "sha256": "6DAB57B06301912FABA6BA3C5E2CE6658705DAB2D9DE2FD4BA1D0D4E7F83F1A4",
+      "bytes": 279112,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/phone-04-desk-facing-guide.png",
+      "profile": "phone",
+      "ordinal": 4,
+      "role": "Selected Writing desk facing-edge guidance",
+      "actual_dimensions": [
+        1080,
+        1920
+      ],
+      "density_dpi": 420,
+      "sha256": "61729AE5D4C066DBBAB39A5438833BB13ED03CFB27EA03CD3A53396CBBABFBEB",
+      "bytes": 298479,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/phone-05-bedroom-catalogue.png",
+      "profile": "phone",
+      "ordinal": 5,
+      "role": "Bedroom catalogue and genuine saved rotated bunk",
+      "actual_dimensions": [
+        1080,
+        1920
+      ],
+      "density_dpi": 420,
+      "sha256": "D7843C11B5AAACB26DFBCA08A47669F94DF2F63EE844F98D8A93976AFABA3437",
+      "bytes": 289279,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/phone-06-planner-journal.png",
+      "profile": "phone",
+      "ordinal": 6,
+      "role": "Illustrated planner journal",
+      "actual_dimensions": [
+        1080,
+        1920
+      ],
+      "density_dpi": 420,
+      "sha256": "9C98380AA14590A06722D6FDE33522F18D99914FB0539B177BE3891F855393A5",
+      "bytes": 380886,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/7inch-01-home.png",
+      "profile": "7inch",
+      "ordinal": 1,
+      "role": "Home",
+      "actual_dimensions": [
+        1200,
+        1920
+      ],
+      "density_dpi": 320,
+      "sha256": "B4DD6990AEAE157D3F2B34F024DD34D75846B3C127D6E0BC715F29940B54BBA0",
+      "bytes": 251931,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/7inch-02-commission-book.png",
+      "profile": "7inch",
+      "ordinal": 2,
+      "role": "Commission book and chapter availability",
+      "actual_dimensions": [
+        1200,
+        1920
+      ],
+      "density_dpi": 320,
+      "sha256": "6263F0CC6B91D9B14D2B474B89A68840A04E8130B091AB881306C11489AA1AE4",
+      "bytes": 236247,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/7inch-03-morning-letter.png",
+      "profile": "7inch",
+      "ordinal": 3,
+      "role": "Genuine Morning Letter planning",
+      "actual_dimensions": [
+        1200,
+        1920
+      ],
+      "density_dpi": 320,
+      "sha256": "8CBF3BFCA76ACFDD13426C707398F0BEF046A4A28309E79B10DD8E4542014847",
+      "bytes": 282180,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/7inch-04-desk-facing-guide.png",
+      "profile": "7inch",
+      "ordinal": 4,
+      "role": "Selected Writing desk facing-edge guidance",
+      "actual_dimensions": [
+        1200,
+        1920
+      ],
+      "density_dpi": 320,
+      "sha256": "77B002A5AA8900BA391FD14438BC4387BA161DDF289397326E4A7EFB9134B972",
+      "bytes": 302012,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/7inch-05-bedroom-catalogue.png",
+      "profile": "7inch",
+      "ordinal": 5,
+      "role": "Bedroom catalogue and genuine saved rotated bunk",
+      "actual_dimensions": [
+        1200,
+        1920
+      ],
+      "density_dpi": 320,
+      "sha256": "3226DAF3AD0E47FFC138277ED9BD56641970A8867EC1F542DCAE27F26DBAC196",
+      "bytes": 297779,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/7inch-06-planner-journal.png",
+      "profile": "7inch",
+      "ordinal": 6,
+      "role": "Illustrated planner journal",
+      "actual_dimensions": [
+        1200,
+        1920
+      ],
+      "density_dpi": 320,
+      "sha256": "35D567682EAC817978FD704FCFA5AF41FB6CCBAD7A4D76731B0DAFF3CCB2686C",
+      "bytes": 387714,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/10inch-01-home.png",
+      "profile": "10inch",
+      "ordinal": 1,
+      "role": "Home",
+      "actual_dimensions": [
+        1600,
+        2560
+      ],
+      "density_dpi": 300,
+      "sha256": "C8B9C2D8C987F06043CBD9D2FBAC94F5152EC00D0597C665388F0E3C4C0A36D0",
+      "bytes": 385556,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/10inch-02-commission-book.png",
+      "profile": "10inch",
+      "ordinal": 2,
+      "role": "Commission book and chapter availability",
+      "actual_dimensions": [
+        1600,
+        2560
+      ],
+      "density_dpi": 300,
+      "sha256": "1909E6D9DF7459CEF6ED4DA0DCD7128AFDE417DC1AEC65EF4A110FD96FF19B1E",
+      "bytes": 328774,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/10inch-03-morning-letter.png",
+      "profile": "10inch",
+      "ordinal": 3,
+      "role": "Genuine Morning Letter planning",
+      "actual_dimensions": [
+        1600,
+        2560
+      ],
+      "density_dpi": 300,
+      "sha256": "39677B0EF0EF088C8DC56F6438F073B6DA286D7163A425B9D39C6624C78F7211",
+      "bytes": 411436,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/10inch-04-desk-facing-guide.png",
+      "profile": "10inch",
+      "ordinal": 4,
+      "role": "Selected Writing desk facing-edge guidance",
+      "actual_dimensions": [
+        1600,
+        2560
+      ],
+      "density_dpi": 300,
+      "sha256": "41580558C46EBCEC8F0FFC3005F7521105012FD7EFB71CC7860AF8BA810AD9C0",
+      "bytes": 442280,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/10inch-05-all-pieces-bathroom-catalogue.png",
+      "profile": "10inch",
+      "ordinal": 5,
+      "role": "All-pieces catalogue with bathroom models and genuine saved rotated bunk",
+      "actual_dimensions": [
+        1600,
+        2560
+      ],
+      "density_dpi": 300,
+      "sha256": "FD5AC1C1CA1058CA9707EF2234A4D934B01EF767AA39C75884980B5D7576B85D",
+      "bytes": 433229,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    },
+    {
+      "file": "screenshots-round-two/10inch-06-planner-journal.png",
+      "profile": "10inch",
+      "ordinal": 6,
+      "role": "Illustrated planner journal",
+      "actual_dimensions": [
+        1600,
+        2560
+      ],
+      "density_dpi": 300,
+      "sha256": "84925B1DE47CB1C01F87E5B2F21FE4A352BF05F87C57DBF5A671804BE3F3EE40",
+      "bytes": 611949,
+      "mode": "RGBA",
+      "raw_unmodified": true,
+      "root_visual_accepted": true,
+      "physical_device_or_tablet": false
+    }
+  ],
+  "pending_slots": [],
+  "root_independent_visual_and_raw_hash_verified": true,
+  "physical_device_test": false,
+  "physical_tablet_test": false,
+  "capture_method": "Unmodified actual Android emulator frame captures; logical phone,7-inch and10-inch profiles. No generated/source/predecessor/duplicate-frame padding.",
+  "closing_acceptance": "Final original-profile cold/save/stop/verifiedbackup/display-radio-defaultconnectivity restoration recorded; root canonicalapply GO remains separate.",
+  "qualification": "10-inch catalogue shows All pieces/bathroom models plus genuine rotated bunk, not Bedroom filter. Black/reconnection frames excluded. Actual logical emulator profiles, not physical tablets; no earned-hint/generalperformance/cleanexit proof."
+}

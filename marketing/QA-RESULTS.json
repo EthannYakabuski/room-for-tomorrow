@@ -1,54 +1,256 @@
 {
-  "utc": "2026-10-20T06:59:01.539939+00:00",
+  "schema": 2,
+  "prepared_utc": "2026-10-22T02:17:43.684669+00:00",
+  "status": "QUALIFIED_CURRENT_APK_TEST_HANDOFF_WITH_LIMITATIONS",
   "game": "Room for Tomorrow",
-  "checks": {
-    "title_max_30": true,
-    "short_max_80": true,
-    "long_max_4000": true,
-    "achievements_exact_catalog_keys": true,
-    "achievements_actual_names": true,
-    "achievements_all_icon_files": true,
-    "achievements_icon_sizes": true,
-    "leaderboards_exact_catalog_keys": true,
-    "leaderboards_actual_names": true,
-    "leaderboards_all_icon_files": true,
-    "leaderboards_icon_sizes": true,
-    "all_manifest_hashes": true,
-    "all_png_decoders": true,
-    "app_icon_size": true,
-    "feature_size": true,
-    "generator_has_no_private_user_path": true,
-    "generator_syntax_valid": true,
-    "portable_rebuild_exits_zero": true,
-    "portable_all_art_byte_identical": true,
-    "seo_meta_max_160": true,
-    "included_pack_notice": true,
-    "included_source_provenance": true
+  "runtime_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
+  "catalog_counts": {
+    "achievements": 20,
+    "leaderboards": 3
   },
-  "image_count": 47,
-  "achievement_count": 20,
-  "leaderboard_count": 3,
-  "short_chars": 70,
-  "long_chars": 1272,
-  "catalog_source": "../game/catalog.json",
-  "visual_review": "Both feature graphics and app icons, plus representative catalog achievement/leaderboard icons visually inspected. Harvest badge corrected to a basket and final output rechecked. Artwork is illustrative branding, never a gameplay screenshot.",
-  "screenshots": "Pending root actual Android/phone/tablet capture handoff and capture-manifest provenance.",
-  "seo_meta_chars": 157,
-  "core_feature_confirmation": "Core owner confirmed 60 commissions/six chapters/two tutorials, doorway/usable-front/daylight/lamp constraints, optional wishes/multiple accepted layouts, undo/reset, daily UTC room/quests, free decor/palettes, planner XP/journal and real-only rewarded hint. Engine and Android/device verification remain pending.",
-  "publication": "Local package only; no public repository/site/store submission or publication claimed.",
-  "capture_validation_utc": "2026-10-20T15:09:29.939689+00:00",
-  "capture_count": 9,
-  "capture_apk_sha256": "1f1914078c5b0b1976f6dbd1bc126e18b63f041e32b9ff91169911965906f04f",
-  "capture_manifest": "screenshots/capture-manifest.json",
-  "capture_checks": {
-    "all_nine_roles_present": true,
-    "current_source_and_installed_apk_hashes": true,
-    "pid_log_matches": true,
-    "immutable_gpu_hash_verified": true,
-    "viewport_density_restoration_verified": true,
-    "approved_exact_image_bytes": true,
-    "sanitized_selection_schema": true
+  "recorded_art_review": {
+    "source": "ROUND_TWO_ARTWORK.json",
+    "individual_generated_badges": 23,
+    "full_size_512_and_thumbnail_64_review_recorded": true,
+    "app_icon_and_1024x500_feature_review_recorded": true,
+    "qualification": "Recorded development review; no new visual or native review performed by this documentation preparation. Illustrations are not gameplay screenshots.",
+    "originals": "Retained privately where stated by provenance; do not imply every generation original is in the committed source package."
   },
-  "capture_visual_review": "Actual ordinary emulator guest PNGs at confirmed effective wm dimensions; no resize/crop/rotation or physical tablet claim.",
-  "capture_scope_limit": "Same-emulator logical tablet checks; separate runtime acceptance and physical-device tests are not inferred."
+  "static_manifest_preparation": {
+    "committed_png_entries": 29,
+    "hashes_and_ihdr_dimensions_read": true,
+    "full_decoder_test": false,
+    "art_regenerated": false,
+    "new_gpu_or_native_test": false,
+    "manifest": "asset-manifest.json",
+    "manifest_png_entries": 47,
+    "actual_current_native_raw_capture_entries": 18
+  },
+  "source_tests": {
+    "earlier_content_base": "4c3bfb2185717b762d126a5513ed795f38c5cbd1",
+    "earlier_content_checks": {
+      "model": 1579,
+      "round_two": 1037,
+      "ordinary_ui": 155,
+      "paired_compatibility_ui": 20,
+      "illustrated_journal_gpu": 67,
+      "illustrated_journal_headless": 61
+    },
+    "earlier_scope": "Dated unchanged-content evidence; not every earlier test rerun on current successor.",
+    "focused_successor": {
+      "source_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
+      "changed_paths": [
+        "game/main.gd",
+        "tests/test_ui.gd"
+      ],
+      "scope": "Honest no-hint feedback after current unearned/failed return; stale/duplicate/wrong-page/wrong-room/replaced-board callbacks cannot overwrite newer feedback. Earned selection-only and economy/save behavior unchanged.",
+      "ui_checks": 167,
+      "round_two_ui_checks": 15,
+      "strict_pass": true,
+      "exit_codes_zero": true,
+      "stderr_diagnostics_empty": true,
+      "native_sdk_earning_evidence": false,
+      "successor_affected_native_verified": true
+    },
+    "tests_by_doc_worker": false
+  },
+  "current_native_capture_status": "18_CURRENT_RAW_ROOT_VISUAL_HASH_ACCEPTED",
+  "current_native_report": "../docs/NATIVE_QA.json",
+  "capture_manifest": "screenshots-round-two/capture-manifest.json",
+  "capture_count": 18,
+  "required_capture_count": 18,
+  "historical_first_pass": "history/before-round-two-final/QA-RESULTS.json",
+  "procedural_generator_byte_reproducibility_claim_inherited": false,
+  "limits": [
+    "Current update/full guest APK identity/prelaunch retention, unearned-return feedback,18actualrawviews and bounded cold/save/restoration verified with specific qualifications.",
+    "Earned native hint remains UNVERIFIED after two unearned predecessor requests and one current unearned return; no more requests required.",
+    "Later shaped commissions61-120 remain legitimately locked; source/GPU proof is separate from native reachability.",
+    "Predecessor ObjectDB/5resource/VAO diagnostics remain unresolved; feedback repair is not proved resource cleanup.",
+    "Offline203-second observation is not performance acceptance or an app/environment-wide cause finding.",
+    "Emulator audio disabled; physical devices,audible output,native simultaneous multitouch,interactive Web,production services and human balance/content/long sessions unverified."
+  ],
+  "per_profile_required": {
+    "phone": 6,
+    "7inch": 6,
+    "10inch": 6
+  },
+  "successor_native_acceptance": false,
+  "critical_predecessor_scope": {
+    "runtime_commit": "4c3bfb2185717b762d126a5513ed795f38c5cbd1",
+    "test_uid_followup": "e521e88b1c10cf1f582cc16f2eab823cae9d2a16",
+    "apk_sha256": "7D07345130707FE8B03263319C4B8C1F2BF0146105BA716B7C6699173F09CCC7",
+    "scope": "Qualified critical predecessor evidence, not current successor replay.",
+    "recovery": "One authorized normal host AVD restart with session loss accepted. Actual absent package/save preceded one R2 install and one genuine22-group prelaunch restoration. Host/full guest APK hashes matched. Recovery, not cross-restart retention; original-to-R2 migration not replayed.",
+    "planning": "Actual chair rotation blocked its front/completion, named Plan tip explained it, successful Undo restored it, Lift removed it and in-game Back saved the draft/Home.",
+    "first_clear": {
+      "room_id": 1,
+      "name": "Morning Letter",
+      "previously_uncleared": true,
+      "optional_wish_met": true,
+      "coins_delta": 60,
+      "xp_delta": 45,
+      "bank_before": [
+        235,
+        130
+      ],
+      "bank_after": [
+        295,
+        175
+      ]
+    },
+    "duplicate_clear": {
+      "coins_delta": 0,
+      "xp_delta": 0,
+      "all22_groups_unchanged": true
+    },
+    "new_catalogue": "Ten category options and actual bathroom/Bedroom models rendered; rotated new bunk placed/saved. All140 models are not individually native verified.",
+    "hint": {
+      "presentations": 2,
+      "dismissals": 2,
+      "earned_events_observed": 0,
+      "grants": 0,
+      "both_bank_draft_save_unchanged": true,
+      "earned_branch": "UNVERIFIED",
+      "visible_feedback_defect": "Opening status stayed after both returns; this defect motivated the successor repair; its actual current unearned-return feedback is now verified."
+    },
+    "hardware_back": "Default quit to launcher, distinct from in-game Home.",
+    "online_cold": "All22groups byte-exact without restoration on a subsequent ONLINE cold launch.",
+    "offline": "Actual defaultnone/no connected Internet verified twice. One normal plant move/Back after late Home changed only drafts/quest actions; bank295/175. Not an offline all22 equality claim.",
+    "timing": "Offline Home visible at203.28seconds; onset bounded118-203seconds after earlier black frames. Not a performance pass.",
+    "broad_native_log_gate": false,
+    "diagnostics": "System-Back shutdown reported ObjectDB leak,5resources still in use and VAO-state diagnostic. Resource identities/causes unproved. Scoped script/fatal counts zero do not establish broad cleanliness.",
+    "final_park": "Safely stopped; newest genuine22-group295coin/175XP profile with saved bunk matches full backup. Original display/radios/default connectivity restored and verified. Preserve progress, not older recovery snapshot.",
+    "old_system_ui_anr": "Historical earlier session; cause unproved, not observed during recovered predecessor flow."
+  },
+  "successor_hint_return": {
+    "status": "PASS_UNEARNED_RETURN_ONLY",
+    "apk_sha256": "ABA522F7DA08D4AC16E64B484AD273427A8AAE5BBED53CE5152BE9E1EC85114A",
+    "actual_presentations": 1,
+    "actual_dismissals": 1,
+    "earned_events_observed": 0,
+    "hint_granted": false,
+    "exact_feedback": "No hint was unlocked. Your room is unchanged.",
+    "root_visual_verified": true,
+    "all22_save_groups_and_drafts_unchanged": true,
+    "bank_after": [
+      295,
+      175
+    ],
+    "native_earned_hint": "UNVERIFIED",
+    "further_current_requests_required": false,
+    "qualification": "Current affected unearned return only; not broad native, cleanup, performance, final capture or closing-state acceptance."
+  },
+  "successor_update_verification": {
+    "normal_update_installation": "SUCCESS_ONCE",
+    "independent_full_guest_apk_hash_matches_host": true,
+    "apk_sha256": "ABA522F7DA08D4AC16E64B484AD273427A8AAE5BBED53CE5152BE9E1EC85114A",
+    "prelaunch_save_groups": 22,
+    "prelaunch_profile_bytes": 906,
+    "prelaunch_save_byte_exact_preupdate": true,
+    "bank_after": [
+      295,
+      175
+    ],
+    "restore_clear_or_completed_reward_replay": false,
+    "qualification": "Verified normal update and before-first-launch retention only; later cold/closing checks remain separate."
+  },
+  "current_capture_progress": {
+    "required_total": 18,
+    "per_profile": 6,
+    "root_independent_visual_and_raw_hash_accepted": 18,
+    "actual_dimensions": {
+      "phone": [
+        1080,
+        1920
+      ],
+      "7inch": [
+        1200,
+        1920
+      ],
+      "10inch": [
+        1600,
+        2560
+      ]
+    },
+    "density_dpi": {
+      "phone": 420,
+      "7inch": 320,
+      "10inch": 300
+    },
+    "files_copied_to_private_payload": 18,
+    "pending_views": 0,
+    "final_manifest_complete": true,
+    "physical_device_or_tablet_test": false,
+    "qualification": "18 unique unmodified actual current-APK emulator captures. Ten-inch catalogue shows All pieces/bathroom models and genuine rotated bunk, not Bedroom filter. Reconnect/black frames excluded."
+  },
+  "capture_count_scope": "18actualcurrentAPKrawviews,6perprofile;rootindependentvisual/hashaccepted.",
+  "successor_closing_verification": {
+    "formal_release_utc": "2026-10-22T05:38:15.258961+00:00",
+    "one_normal_original_phone_profile_cold_launch": true,
+    "home_observed_after_seconds": 22.1,
+    "observed_anr": false,
+    "all22_groups_byte_exact": true,
+    "profile_bytes": 906,
+    "bank": [
+      295,
+      175
+    ],
+    "cleared_commissions": [
+      0,
+      1,
+      13
+    ],
+    "genuine_rotated_bunk_retained": true,
+    "restoration_or_reward_replay": false,
+    "stopped_process_absent": true,
+    "full_backup_embedded_main_save_exact": true,
+    "original_display": {
+      "size": [
+        1080,
+        1920
+      ],
+      "density_dpi": 420,
+      "overrides_present": false
+    },
+    "original_radios_restored": {
+      "airplane_on": false,
+      "wifi_on": true,
+      "mobile_data_on": true
+    },
+    "actual_default_connectivity_verified": "CONNECTED_WIFI_WITH_MOBILE_CONNECTED",
+    "informational_guest_date_command_exit": 1,
+    "informational_guest_date_command_reason": "Unsupported date option; no clock change made.",
+    "full_command_clean_claim": false,
+    "qualification": "Bounded current cold/save/restoration observation, not general performance or clean-native-exit acceptance. Temporary black reconnect view was quarantined and not used as a final capture."
+  },
+  "predecessor_exit_triage_qualification": {
+    "predecessor_broad_native_exit_log_gate": false,
+    "observed_resources_still_in_use": 5,
+    "resource_identities_or_call_stack_available": false,
+    "cause": "UNPROVED",
+    "current_audio_exit_source_identical_to_predecessor": true,
+    "headless_skips_actual_audio_setup": true,
+    "passing_ci_verifies_native_active_audio_exit": false,
+    "harmless_or_fixed_claim": false,
+    "no_speculative_runtime_fix": "No attributable resource ownership/call-site evidence; no cleanup change made."
+  },
+  "local_handoff_evidence_complete": true,
+  "full_native_acceptance": false,
+  "native_qualified_test_complete": true,
+  "qualified_native_handoff_ready": true,
+  "broad_native_log_gate": false,
+  "current_closing_log_scope": {
+    "scope": "Current force-stop closing log slice only",
+    "listed_term_counts": {
+      "SCRIPT ERROR": 0,
+      "FATAL EXCEPTION": 0,
+      "ERROR:": 0,
+      "ObjectDB": 0,
+      "resources still in use": 0,
+      "removeVertexArrayObject": 0
+    },
+    "qualification": "Zero listed terms in this slice does not erase predecessor system-Back shutdown diagnostics or establish whole-run/broad log cleanliness.",
+    "broad_native_log_gate": false
+  },
+  "successor_native_acceptance_scope": "Full/broad native acceptance is false; the documented current affected-flow/capture/cold-save scope is verified and ready for a qualified local handoff."
 }

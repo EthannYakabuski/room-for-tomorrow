@@ -1,38 +1,23 @@
-LOCAL CAPTURE HANDOFF - Room for Tomorrow
+ROOM FOR TOMORROW - SUCCESSOR STORE HANDOFF CANDIDATE
+Status: Qualified local Android/Web test package; actual unearned hint return,18 raw views and bounded cold/save/restoration verified with explicit limitations.
+APK SHA256: ABA522F7DA08D4AC16E64B484AD273427A8AAE5BBED53CE5152BE9E1EC85114A
+See HANDOFF.txt for exact source/HTML/PCK identities and per-binary qualifications.
 
-CURRENT SOURCE CATALOG
-20 achievements; 3 leaderboards.
-Catalog SHA256: 09f0f3f07e6708d25bf3aace62ef5f6b8d35b250d04dab36f940f50d5ab169bd
-Four reviewed source fingerprints are retained in the capture manifest and must
-match main, Services, project and export presets before packaging.
-The coordinator accepted these local APK/source version pairs using reviewed current outputs, serialized export records, frozen main/Services and controlled-write history. Historical Android exports did not retain full pre/post source snapshots; older Powder/Room Web guards covered main and Services only. This is not a claim of reproducible cryptographic APK-to-source build binding.
-These are source definitions; they do not establish configured production services.
+CURRENT ART / CAPTURES
+120 commissions/twelve chapters,140 furniture models/560 directional files and20 achievement/3 leaderboard badges remain implemented. App/feature/badge illustrations retain original prompts/provenance and recorded512px/64px development review. Some full originals remain private where stated; promise only actual committed source. Illustrations are not gameplay screenshots. The asset manifest hashes committed non-capture PNGs/header dimensions; this preparation claims no new decoder/GPU/visual/native proof.
+The final set contains 18 distinct unmodified actual current-APK captures: six each at phone 1080x1920@420dpi, logical 7-inch 1200x1920@320dpi and logical 10-inch 1600x2560@300dpi. Root independently accepted every full view and verified raw hashes/dimensions. See marketing/screenshots-round-two/capture-manifest.json for exact names, contexts and hashes. The 10-inch catalogue view shows All pieces/bathroom models and the genuine saved rotated bunk, not the Bedroom filter. Black/reconnection frames and duplicate padding are excluded. These are logical emulator profiles, not physical-tablet tests. Original nine-view records remain historical.
 
-ACTUAL APPROVED ANDROID EMULATOR CAPTURES
-Package: com.ethannyakabuski.roomfortomorrow
-APK SHA256: 1f1914078c5b0b1976f6dbd1bc126e18b63f041e32b9ff91169911965906f04f
-APK bytes: 184209827
-Verified captures: 9
-Roles: phone-collection, phone-home, phone-play, tablet-10-collection, tablet-10-home, tablet-10-play, tablet-7-collection, tablet-7-home, tablet-7-play
-Pending roles: none
-The home/play/collection filenames are role labels. Each game_state records the
-actual normally reached view for this game; no feature or game state is invented.
-Portrait and raw PNGs are byte-identical copies of the approved guest screenshot.
-No rotation, resizing, crop, framing or overlays are allowed.
+QUALIFIED PREDECESSOR / SUCCESSOR SCOPE
+7D critical proof includes actual first60coin/45XP clear to295/175, zero duplicate payout/all22unchanged, Plan tip/Undo/Lift/in-gameBack, new categorized models and saved bunk. HardwareBack exited to launcher; subsequent ONLINE cold retained all22bytes. Separate actual offline plant move/Back changed drafts/questactions, bank unchanged. Two actual hint ads dismissed with no earned events or grant; earned native hint remains unverified.
+Predecessor native broad log gate is FALSE: ObjectDB/five resources/VAO shutdown diagnostics have unproved identities/causes. Offline Home observed203seconds after earlier black frames is not a performance pass. The narrow successor fixes stale no-earned hint feedback and stale callbacks; it passed167UI+15R2UI strict checks but is not a proved resource cleanup or native SDK earning fix. One actual current ad presented/dismissed without an earned event. The corrected "No hint was unlocked. Your room is unchanged." feedback was visually verified; no hint was granted and all22savegroups/drafts/bank295/175 stayed unchanged. Earned native selection remains UNVERIFIED. The final18 capture set and bounded closing observations are verified separately.
+One normal successor update and independent full installed-APK hash match are verified. All22savegroups/bank295/175 stayed byte-exact unchanged before first launch, without restore/clear/reward replay. Final cold/closing observations are recorded separately.
+The latest genuine profile and full backup must be preserved rather than overwritten with an older recovery snapshot. Private save/backup/log paths, contents, raw callbacks and device identifiers stay outside Git.
 
-The same emulator supplies all three configurations through authenticated Android
-guest screencap. Actual unmodified PNG dimensions by role:
-{"phone-collection": [1080, 1920], "phone-home": [1080, 1920], "phone-play": [1080, 1920], "tablet-10-collection": [1600, 2560], "tablet-10-home": [1600, 2560], "tablet-10-play": [1600, 2560], "tablet-7-collection": [1200, 1920], "tablet-7-home": [1200, 1920], "tablet-7-play": [1200, 1920]}
-Phone is 1080x1920 at 420 dpi; tablet 7 is logical 1200x1920 at 320 dpi;
-tablet 10 is logical 1600x2560 at 300 dpi. PNG size equals confirmed effective wm size.
-These are viewport checks, not physical phone or tablet evidence. Google Test Ad
-content may appear; this does not establish production-ad or backend acceptance.
+PUBLICATION / OWNER WORK
+Original APK,oldWeb,oldcaptures and exact public history remain unchanged. Historical references describe their original locations. Source331b83cac2384ea0c1960335471f1923e28a5378 is verified pushed; current CI run39719181068 completed successfully (validate-and-build passed; deploy skipped). Final documentation drafts remain unpublished. Pages/Library/Play unchanged. Dated baseline6359e64705dd7c3a84d59e0aac16d027a8173edf passed run39526924268, separately from this source. Keep LICENSE/NOTICE/LICENSES with distributions. Physical devices,audible output,interactiveWeb,production services and human balance/content remain unverified. Owner handles IDs/backend,signing/current eligibility,privacy/audience/support and Play submission.
 
-SEPARATE RUNTIME / OWNER HANDOFF
-Root owns the separate current-APK offline, progress reload, network restoration,
-Back and actual service receipts. Display-restoration flags in frame metadata do
-not certify those flows. Final physical-device/human testing, production signing,
-service IDs/backends, support/privacy disclosures and Play submission remain owner
-responsibilities. No repository, website or store publication is performed here.
+After capture sessions, one normal cold launch at the restored original phone profile rendered Home at the 22.1-second observation without an observed ANR. All 22 save groups (906-byte profile, bank 295 coins/175 XP) stayed byte-exact unchanged; clears 0/1/13 and the rotated bunk remained. Final stop completed with the process absent and a full backup whose embedded main save matched. Original 1080x1920@420dpi with no overrides, airplane off, Wi-Fi/mobile data on and actual default Wi-Fi connectivity were verified restored. No rewards or claims were replayed. This is a bounded cold/save/restoration observation, not a general performance pass.
 
-See screenshots/capture-manifest.json and per-frame sanitized provenance.
+The five predecessor shutdown resources have no recorded identities or call stack; their cause remains unproved. Current source keeps the same audio/exit code as the predecessor, and headless tests skip actual audio setup. Passing CI therefore does not verify a native active-audio exit or establish that these warnings are harmless or fixed. An informational guest date command was unsupported (exit 1); no clock change was made and no full command/log-clean claim is made.
+
+The current force-stop closing log slice contained zero listed script/fatal/error/ObjectDB/resource/VAO terms. That limited slice does not erase the earlier system-Back shutdown diagnostics or make the whole native run clean.

@@ -6,7 +6,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "7578ca666dd55c823b9f699bd4e85df3d1d23fa2e0748aaeeeb0ffb8a29978e0"
+    "sha256": "7578ca666dd55c823b9f699bd4e85df3d1d23fa2e0748aaeeeb0ffb8a29978e0",
+    "bytes": 474487
   },
   {
     "file": "achievements/chapter_3.png",
@@ -15,7 +16,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "cfbec1ab5419914c207476507e625098570da866ee5dc1d6844cf191ccf89d89"
+    "sha256": "cfbec1ab5419914c207476507e625098570da866ee5dc1d6844cf191ccf89d89",
+    "bytes": 504182
   },
   {
     "file": "achievements/chapter_6.png",
@@ -24,7 +26,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "86cccf6f30f928ce35f33224d073448151388cc6c6dbbc409b60b1f8a7ba8450"
+    "sha256": "86cccf6f30f928ce35f33224d073448151388cc6c6dbbc409b60b1f8a7ba8450",
+    "bytes": 443489
   },
   {
     "file": "achievements/daily_1.png",
@@ -33,7 +36,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "70eb99190205bf229d9496b3616c0d66d3add233d8c8bba6a2aebbe06b43f7ed"
+    "sha256": "70eb99190205bf229d9496b3616c0d66d3add233d8c8bba6a2aebbe06b43f7ed",
+    "bytes": 454192
   },
   {
     "file": "achievements/daily_7.png",
@@ -42,7 +46,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "bed79889a368ce33dc5455ba52c119c4a9c1fd951c19949f80bf73642e2708c3"
+    "sha256": "bed79889a368ce33dc5455ba52c119c4a9c1fd951c19949f80bf73642e2708c3",
+    "bytes": 495080
   },
   {
     "file": "achievements/decorate.png",
@@ -51,7 +56,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "d93fc0bd445bbd0bcdedced6b0d165e08958c17e931cefe54970ac2a5051c5a7"
+    "sha256": "d93fc0bd445bbd0bcdedced6b0d165e08958c17e931cefe54970ac2a5051c5a7",
+    "bytes": 503519
   },
   {
     "file": "achievements/first_home.png",
@@ -60,7 +66,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "255fe82c65f1145bbefbf3eea0237e732ff22e29f78d2ae305640416264e8806"
+    "sha256": "255fe82c65f1145bbefbf3eea0237e732ff22e29f78d2ae305640416264e8806",
+    "bytes": 462570
   },
   {
     "file": "achievements/five_homes.png",
@@ -69,7 +76,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "4e7f853d32a473c00b92c4a0e74bcfb98d451c05274e9b1f676ee00e8214e11a"
+    "sha256": "4e7f853d32a473c00b92c4a0e74bcfb98d451c05274e9b1f676ee00e8214e11a",
+    "bytes": 512978
   },
   {
     "file": "achievements/forty_homes.png",
@@ -78,7 +86,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "17d69598d4e53756abbd67c0af8cbc3264a3c1d8d0343ffc8f66a43171349b48"
+    "sha256": "17d69598d4e53756abbd67c0af8cbc3264a3c1d8d0343ffc8f66a43171349b48",
+    "bytes": 508420
   },
   {
     "file": "achievements/level_10.png",
@@ -87,7 +96,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "10e4475da504cc686c11bf06be11dfb70a6f249d85ce10bf026034f3f74e83d4"
+    "sha256": "10e4475da504cc686c11bf06be11dfb70a6f249d85ce10bf026034f3f74e83d4",
+    "bytes": 473516
   },
   {
     "file": "achievements/level_3.png",
@@ -96,7 +106,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "a1323fb32642a73d4007bafa4b6ec72ed607df66f784dc3080d73c9def635eaf"
+    "sha256": "a1323fb32642a73d4007bafa4b6ec72ed607df66f784dc3080d73c9def635eaf",
+    "bytes": 479905
   },
   {
     "file": "achievements/level_5.png",
@@ -105,7 +116,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "63e14d13eab3dabea614301bdfcce9c2e67b801f44c5fea2175e0a4bb105b8a3"
+    "sha256": "63e14d13eab3dabea614301bdfcce9c2e67b801f44c5fea2175e0a4bb105b8a3",
+    "bytes": 466099
   },
   {
     "file": "achievements/request_1.png",
@@ -114,7 +126,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "c13730b8e8dc9a4b35196cd1cbe32acda2b48379a02a1ad8d532f5471bab1d93"
+    "sha256": "c13730b8e8dc9a4b35196cd1cbe32acda2b48379a02a1ad8d532f5471bab1d93",
+    "bytes": 483849
   },
   {
     "file": "achievements/request_10.png",
@@ -123,7 +136,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "a8b863d101380e5348640883ce6216b546a1e3961926125dd8f238589f122e4d"
+    "sha256": "a8b863d101380e5348640883ce6216b546a1e3961926125dd8f238589f122e4d",
+    "bytes": 465900
   },
   {
     "file": "achievements/request_30.png",
@@ -132,7 +146,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "939ec525116b28705aefc3c4bf010d4cb5718c586b4be4166de33cdec2f89866"
+    "sha256": "939ec525116b28705aefc3c4bf010d4cb5718c586b4be4166de33cdec2f89866",
+    "bytes": 499391
   },
   {
     "file": "achievements/request_60.png",
@@ -141,7 +156,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "3410212b81d31ac95e2fbac8722194db5338fb9502bffedee57d99da06e6750f"
+    "sha256": "3410212b81d31ac95e2fbac8722194db5338fb9502bffedee57d99da06e6750f",
+    "bytes": 497286
   },
   {
     "file": "achievements/rotate_20.png",
@@ -150,7 +166,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "f34544b406e4db3e51fe289876278f0f52f127bf27bf299a87f899db740c731c"
+    "sha256": "f34544b406e4db3e51fe289876278f0f52f127bf27bf299a87f899db740c731c",
+    "bytes": 487651
   },
   {
     "file": "achievements/ten_homes.png",
@@ -159,7 +176,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "90307ae32343b2a9149a15169e004511a788293155e774527c58c8cde3a63b4f"
+    "sha256": "90307ae32343b2a9149a15169e004511a788293155e774527c58c8cde3a63b4f",
+    "bytes": 514576
   },
   {
     "file": "achievements/twenty_homes.png",
@@ -168,7 +186,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "38cb1b90f46866b8c2bd101fdf48a66395084604ca9db2394651f5fc8aa5cb78"
+    "sha256": "38cb1b90f46866b8c2bd101fdf48a66395084604ca9db2394651f5fc8aa5cb78",
+    "bytes": 513160
   },
   {
     "file": "achievements/undo_10.png",
@@ -177,7 +196,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "6b5bfdeb51c68a61338e17c027aa9f00c0f54c5abad55a83947efe8c8fd96ec8"
+    "sha256": "6b5bfdeb51c68a61338e17c027aa9f00c0f54c5abad55a83947efe8c8fd96ec8",
+    "bytes": 462966
   },
   {
     "file": "app-icon-192.png",
@@ -186,7 +206,8 @@
       192
     ],
     "mode": "RGB",
-    "sha256": "F5B2E0C6E54AA2C28EB48DC0C0B4E1708AAA8148C1DE7AD43A60A6CD194C5845"
+    "sha256": "f5b2e0c6e54aa2c28eb48dc0c0b4e1708aaa8148c1de7ad43a60a6cd194c5845",
+    "bytes": 75765
   },
   {
     "file": "app-icon-512.png",
@@ -195,7 +216,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "3C5F4501E62D1DC18A1E4E02627BFED4F704E330B26EAF3CCCEBCDD35CF71A6A"
+    "sha256": "3c5f4501e62d1dc18a1e4e02627bfed4f704e330b26eaf3cccebcdd35cf71a6a",
+    "bytes": 470072
   },
   {
     "file": "feature-graphic-1024x500.png",
@@ -204,7 +226,8 @@
       500
     ],
     "mode": "RGB",
-    "sha256": "A6E663E98FE941873FDF3B5DA59F5B0F3DDCF170D8ABAAEC6E9DEF1DAE97A382"
+    "sha256": "a6e663e98fe941873fdf3b5da59f5b0f3ddcf170d8abaaec6e9def1dae97a382",
+    "bytes": 851635
   },
   {
     "file": "leaderboards/commissions_completed.png",
@@ -213,7 +236,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "691f35728c08319561ee21bdc9d713edd98904a83cef0f67e51ec18155c4526f"
+    "sha256": "691f35728c08319561ee21bdc9d713edd98904a83cef0f67e51ec18155c4526f",
+    "bytes": 485223
   },
   {
     "file": "leaderboards/optional_requests.png",
@@ -222,7 +246,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "1d6a446afcc1555ff02c35f26dab28e5c1445c57f23667f51bc59e8050d4928b"
+    "sha256": "1d6a446afcc1555ff02c35f26dab28e5c1445c57f23667f51bc59e8050d4928b",
+    "bytes": 487249
   },
   {
     "file": "leaderboards/planner_xp.png",
@@ -231,169 +256,8 @@
       512
     ],
     "mode": "RGB",
-    "sha256": "fc053e429b9c47b1c355388f96666053c88eb5572ad055225801305704ebe8da"
-  },
-  {
-    "file": "screenshots/phone-collection.png",
-    "dimensions": [
-      1080,
-      1920
-    ],
-    "mode": "RGBA",
-    "sha256": "69e396b924d2f557095d8293e62b9b623d19075391fac5566ed1e302daf8556d"
-  },
-  {
-    "file": "screenshots/phone-home.png",
-    "dimensions": [
-      1080,
-      1920
-    ],
-    "mode": "RGBA",
-    "sha256": "b7a99e479f13d8c799efc61430693a0a573822929197908c9710f246b3bea3dc"
-  },
-  {
-    "file": "screenshots/phone-play.png",
-    "dimensions": [
-      1080,
-      1920
-    ],
-    "mode": "RGBA",
-    "sha256": "f97f3877989b3e7c31101f13ad9f4c742230f68493bd270cd75a149cba530748"
-  },
-  {
-    "file": "screenshots/raw/phone-collection.png",
-    "dimensions": [
-      1080,
-      1920
-    ],
-    "mode": "RGBA",
-    "sha256": "69e396b924d2f557095d8293e62b9b623d19075391fac5566ed1e302daf8556d"
-  },
-  {
-    "file": "screenshots/raw/phone-home.png",
-    "dimensions": [
-      1080,
-      1920
-    ],
-    "mode": "RGBA",
-    "sha256": "b7a99e479f13d8c799efc61430693a0a573822929197908c9710f246b3bea3dc"
-  },
-  {
-    "file": "screenshots/raw/phone-play.png",
-    "dimensions": [
-      1080,
-      1920
-    ],
-    "mode": "RGBA",
-    "sha256": "f97f3877989b3e7c31101f13ad9f4c742230f68493bd270cd75a149cba530748"
-  },
-  {
-    "file": "screenshots/raw/tablet-10-collection.png",
-    "dimensions": [
-      1600,
-      2560
-    ],
-    "mode": "RGBA",
-    "sha256": "ed4230843feb0f543fe50748454ed139523477723a123927dddfc1a9381228e5"
-  },
-  {
-    "file": "screenshots/raw/tablet-10-home.png",
-    "dimensions": [
-      1600,
-      2560
-    ],
-    "mode": "RGBA",
-    "sha256": "e009be6024d8b513023e4b51fab6c601f5c6daa659a5483e95081d9b97b7e470"
-  },
-  {
-    "file": "screenshots/raw/tablet-10-play.png",
-    "dimensions": [
-      1600,
-      2560
-    ],
-    "mode": "RGBA",
-    "sha256": "d9c6c91b20298ad5558fca317c08ce1352ccaa25c829c16499383ead25032202"
-  },
-  {
-    "file": "screenshots/raw/tablet-7-collection.png",
-    "dimensions": [
-      1200,
-      1920
-    ],
-    "mode": "RGBA",
-    "sha256": "4a076a7ca92e529afffbab404f880f1e774c0bf7ebc138b0b52b980e4473dded"
-  },
-  {
-    "file": "screenshots/raw/tablet-7-home.png",
-    "dimensions": [
-      1200,
-      1920
-    ],
-    "mode": "RGBA",
-    "sha256": "af3bbbfc779f645de6adba467de1dcf8aeabeef59abde36916b9272d035d6ecf"
-  },
-  {
-    "file": "screenshots/raw/tablet-7-play.png",
-    "dimensions": [
-      1200,
-      1920
-    ],
-    "mode": "RGBA",
-    "sha256": "331c223fb0991d996a5c836290ea2d25c6d139dda363a730602473ee42c61429"
-  },
-  {
-    "file": "screenshots/tablet-10-collection.png",
-    "dimensions": [
-      1600,
-      2560
-    ],
-    "mode": "RGBA",
-    "sha256": "ed4230843feb0f543fe50748454ed139523477723a123927dddfc1a9381228e5"
-  },
-  {
-    "file": "screenshots/tablet-10-home.png",
-    "dimensions": [
-      1600,
-      2560
-    ],
-    "mode": "RGBA",
-    "sha256": "e009be6024d8b513023e4b51fab6c601f5c6daa659a5483e95081d9b97b7e470"
-  },
-  {
-    "file": "screenshots/tablet-10-play.png",
-    "dimensions": [
-      1600,
-      2560
-    ],
-    "mode": "RGBA",
-    "sha256": "d9c6c91b20298ad5558fca317c08ce1352ccaa25c829c16499383ead25032202"
-  },
-  {
-    "file": "screenshots/tablet-7-collection.png",
-    "dimensions": [
-      1200,
-      1920
-    ],
-    "mode": "RGBA",
-    "sha256": "4a076a7ca92e529afffbab404f880f1e774c0bf7ebc138b0b52b980e4473dded"
-  },
-  {
-    "file": "screenshots/tablet-7-home.png",
-    "dimensions": [
-      1200,
-      1920
-    ],
-    "mode": "RGBA",
-    "sha256": "af3bbbfc779f645de6adba467de1dcf8aeabeef59abde36916b9272d035d6ecf"
-  },
-  {
-    "file": "screenshots/tablet-7-play.png",
-    "dimensions": [
-      1200,
-      1920
-    ],
-    "mode": "RGBA",
-    "sha256": "331c223fb0991d996a5c836290ea2d25c6d139dda363a730602473ee42c61429"
+    "sha256": "fc053e429b9c47b1c355388f96666053c88eb5572ad055225801305704ebe8da",
+    "bytes": 504671
   },
   {
     "file": "source_art/lamp.png",
@@ -402,7 +266,8 @@
       105
     ],
     "mode": "RGBA",
-    "sha256": "7d8418f03cb10254354329f56a13db49fb4997b8c8f7da63a7ec2837684ad734"
+    "sha256": "7d8418f03cb10254354329f56a13db49fb4997b8c8f7da63a7ec2837684ad734",
+    "bytes": 2438
   },
   {
     "file": "source_art/plant.png",
@@ -411,7 +276,8 @@
       85
     ],
     "mode": "RGBA",
-    "sha256": "311439430d076b88f2936bfc80a4736e281364a7b0290b1c77daaef368b19bde"
+    "sha256": "311439430d076b88f2936bfc80a4736e281364a7b0290b1c77daaef368b19bde",
+    "bytes": 3403
   },
   {
     "file": "source_art/sofa.png",
@@ -420,6 +286,187 @@
       141
     ],
     "mode": "RGBA",
-    "sha256": "c4f68e766ea2465e5563e9e8d918f5911c5ead6aab86e0f66eea33e1aca9d262"
+    "sha256": "c4f68e766ea2465e5563e9e8d918f5911c5ead6aab86e0f66eea33e1aca9d262",
+    "bytes": 10452
+  },
+  {
+    "file": "screenshots-round-two/phone-01-home.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "d6822833416dbcf8f84e38430ac64a28ff168a562efd5919f5f42cb05ce9dc63",
+    "bytes": 274950
+  },
+  {
+    "file": "screenshots-round-two/phone-02-commission-book.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "ef7f0b2aa1b3d164e33af3d52e910c8ab7b180f5f54f0acdb4de1fef2e72b7c8",
+    "bytes": 234290
+  },
+  {
+    "file": "screenshots-round-two/phone-03-morning-letter.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "6dab57b06301912faba6ba3c5e2ce6658705dab2d9de2fd4ba1d0d4e7f83f1a4",
+    "bytes": 279112
+  },
+  {
+    "file": "screenshots-round-two/phone-04-desk-facing-guide.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "61729ae5d4c066dbbab39a5438833bb13ed03cfb27ea03cd3a53396cbbabfbeb",
+    "bytes": 298479
+  },
+  {
+    "file": "screenshots-round-two/phone-05-bedroom-catalogue.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "d7843c11b5aaacb26dfbca08a47669f94df2f63ee844f98d8a93976afaba3437",
+    "bytes": 289279
+  },
+  {
+    "file": "screenshots-round-two/phone-06-planner-journal.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "9c98380aa14590a06722d6fde33522f18d99914fb0539b177be3891f855393a5",
+    "bytes": 380886
+  },
+  {
+    "file": "screenshots-round-two/7inch-01-home.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "b4dd6990aeae157d3f2b34f024dd34d75846b3c127d6e0bc715f29940b54bba0",
+    "bytes": 251931
+  },
+  {
+    "file": "screenshots-round-two/7inch-02-commission-book.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "6263f0cc6b91d9b14d2b474b89a68840a04e8130b091ab881306c11489aa1ae4",
+    "bytes": 236247
+  },
+  {
+    "file": "screenshots-round-two/7inch-03-morning-letter.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "8cbf3bfca76acfdd13426c707398f0bef046a4a28309e79b10dd8e4542014847",
+    "bytes": 282180
+  },
+  {
+    "file": "screenshots-round-two/7inch-04-desk-facing-guide.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "77b002a5aa8900ba391fd14438bc4387ba161ddf289397326e4a7efb9134b972",
+    "bytes": 302012
+  },
+  {
+    "file": "screenshots-round-two/7inch-05-bedroom-catalogue.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "3226daf3ad0e47ffc138277ed9bd56641970a8867ec1f542dcae27f26dbac196",
+    "bytes": 297779
+  },
+  {
+    "file": "screenshots-round-two/7inch-06-planner-journal.png",
+    "dimensions": [
+      1200,
+      1920
+    ],
+    "mode": "RGBA",
+    "sha256": "35d567682eac817978fd704fcfa5af41fb6ccbad7a4d76731b0daff3ccb2686c",
+    "bytes": 387714
+  },
+  {
+    "file": "screenshots-round-two/10inch-01-home.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "c8b9c2d8c987f06043cbd9d2fbac94f5152ec00d0597c665388f0e3c4c0a36d0",
+    "bytes": 385556
+  },
+  {
+    "file": "screenshots-round-two/10inch-02-commission-book.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "1909e6d9df7459cef6ed4da0dcd7128afde417dc1aec65ef4a110fd96ff19b1e",
+    "bytes": 328774
+  },
+  {
+    "file": "screenshots-round-two/10inch-03-morning-letter.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "39677b0ef0ef088c8dc56f6438f073b6da286d7163a425b9d39c6624c78f7211",
+    "bytes": 411436
+  },
+  {
+    "file": "screenshots-round-two/10inch-04-desk-facing-guide.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "41580558c46ebcec8f0ffc3005f7521105012fd7efb71cc7860af8ba810ad9c0",
+    "bytes": 442280
+  },
+  {
+    "file": "screenshots-round-two/10inch-05-all-pieces-bathroom-catalogue.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "fd5ac1c1ca1058ca9707ef2234a4d934b01ef767aa39c75884980b5d7576b85d",
+    "bytes": 433229
+  },
+  {
+    "file": "screenshots-round-two/10inch-06-planner-journal.png",
+    "dimensions": [
+      1600,
+      2560
+    ],
+    "mode": "RGBA",
+    "sha256": "84925b1de47cb1c01f87e5b2f21fe4a352bf05f87c57dbf5a671804be3f3ee40",
+    "bytes": 611949
   }
 ]
