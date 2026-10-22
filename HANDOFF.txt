@@ -1,14 +1,40 @@
+ROOM FOR TOMORROW - CURRENT QUALIFIED SUCCESSOR HANDOFF
+Status: Targeted native SDK-loader exit check passed once. Broad native log gate remains FALSE; explicit limitations follow.
+
+CURRENT SOURCE / LOCAL EXPORTS
+Runtime source: 1b964de0ed94bbcca0424f5f6744f57369a120b5
+Repository: https://github.com/EthannYakabuski/room-for-tomorrow
+Exact source CI: https://github.com/EthannYakabuski/room-for-tomorrow/actions/runs/39751770491 - SUCCESS; validate-and-build passed, deploy skipped.
+APK: build/round-two-1b964de0-a1/android/room-for-tomorrow-debug.apk
+SHA256: 3FF7F9CD3908811B5CF30507B1D4CF212CF03034CD95F78E35661C94A98B927E (198539424 bytes)
+Web: build/round-two-1b964de0-a1/web/index.html
+HTML SHA256: 89822C47ECCE2294D4A5AE2725A801FC3CB3DF3F4566F97F99936DF26D3FFA6D
+PCK SHA256: 11AB6F80683EDBCBBAE1A9FA776E9F2953D016674BBD374ECF5B6F87CB357A33 (17026808 bytes)
+Both normal configured exports exited zero with strict error lists empty, stable runtime inputs, exact source binding and complete accompanying notices. CI artifacts are separate binaries. Interactive Web remains unverified.
+
+LOADER OWNERSHIP / ACTUAL FOCUSED NATIVE RESULT
+The game owns pending ad loaders, cancels their outstanding manual holds during exit, and retains completed loaders through the vendor deferred decrement. Vendor code, seven existing earned/gameplay/close callback bodies, saves and service values are unchanged. Windows tests passed 92 lifecycle, 167 UI/callback and 15 Round Two UI checks plus platform smoke; all four had zero suite diagnostics. These fixtures are not native earning proof.
+One normal accepted-successor update preserved all 22 genuine profile groups byte-exact before launch. Home and its test banner were observed at 25.359 seconds. One ordinary system Back returned to the launcher with the process absent; the profile remained byte-exact through loaded/post-Back/final checks, without restoration or reward replay. No optional rewarded-ad presentation or reward/gameplay claim was made; automatic SDK loading remained enabled. A stopped full backup was verified privately, and original task-emulator display/radio settings were restored.
+The actual verbose process slice had zero ObjectDB, orphan-lambda, resources-in-use or five targeted SDK-loader/callback/plugin-path diagnostics. This verifies that targeted cleanup for this one real exit. The broad native gate remains FALSE: VAO state error 7 and goldfish VP9 output-buffer mode error -1010 remain with unproved causes. No audio fix, general performance, whole-log, production-service or universal lifecycle claim is made.
+Native earned-hint selection remains UNVERIFIED. Earlier slow offline behavior belongs to the older binary and was not replayed. Physical-device, audible-output, simultaneous-multitouch and human long-session/content/balance acceptance remain open. MinAPI24/targetAPI35 remains the current engine test constraint.
+
+VISUAL / ARCHIVE PROVENANCE
+The existing 18 actual marketing views and marketing/screenshots-round-two/capture-manifest.json remain unchanged ABA/331 evidence: six phone and six for each logical tablet profile. They are historical unchanged-UI visuals, not new 3FF screenshots. Current Home/Back proof is a separate focused observation. Original/7D/ABA builds and old archives are preserved.
+Successor archive filenames are assembled and verified separately from this documentation commit:
+- build/round-two-1b964de0-a1/packages/room-for-tomorrow-android-test-3ff7f9cd.zip
+- build/round-two-1b964de0-a1/packages/room-for-tomorrow-round-two-complete-3ff7f9cd.zip
+Check sibling PACKAGE-RECEIPT.json and archive PACKAGE-MANIFEST.json for actual presence, source/docs commit, SHA256 values and entries. This text alone does not establish archive creation. Private logs, real saves, backups and signing material are excluded.
+
+CONTINUATION
+Read AGENTS.md, README.md, this handoff, docs/ROUND_TWO_UPDATE.md and docs/PLATFORM_SETUP.md, then inspect status/origin/upstream. Preserve user edits and artifacts. Use isolated desktop test data; never restore an older profile over genuine current progress. Service setup remains owner-supplied in game/catalog.json, platform/config.json, export_presets.cfg and project.godot as documented. test_mode changes wording, not production requests. Pages/Library/Play settings remain unchanged; keep all notices with redistributed builds.
+
+PRESERVED ABA HANDOFF - RUNTIME331 / PUBLIC DOCUMENTATION58 (DATED EVIDENCE)
+The following record is retained for older artifacts and broader gameplay/ad/offline observations. Its references to current/successor apply to ABA, not the 3FF successor above.
+
 ROOM FOR TOMORROW - ROUND TWO LOCAL TEST HANDOFF
 Status: Qualified local Android/Web test handoff. Current unearned hint-return, final18 raw views and bounded cold/save/restoration checks verified; explicit limits remain below.
 
-SOURCE FOLLOW-UP: AD-LOAD OWNERSHIP (NATIVE RETEST PENDING)
-The source now owns each pending interstitial/rewarded loader, cancels its outstanding manual hold on shutdown and retains completed loaders through the vendor's deferred decrement. Completion retires tracking before game notifications. Vendor code, earned-only/once callbacks, gameplay, saves and service values are unchanged.
-
-Windows Godot 4.5.1 isolated validation passed 92 loader-lifetime checks, 167 UI/callback checks, the platform smoke suite and 15 Round Two UI checks, with zero suite diagnostics. The lifetime fixture uses process-local mocks and does not prove a native SDK earning event or Android shutdown cleanup. Script import completed; its isolated editor profile had no Android build-tools configuration, and no export was attempted.
-
-The preserved ABA APK/331 runtime, its screenshots and existing archives are older artifacts. This source follow-up requires a new Android/Web build and native ordinary-Back retest. A verbose ordinary-Back trace from ABA identified both ad-loader and load-callback scripts plus MobileSingletonPlugin; the source ownership gap matches those identities, but native pending-versus-completed request state was not observed. The separate VAO diagnostic and native earned-hint verification remain unresolved. No new binary or native acceptance is claimed.
-
-PRESERVED SOURCE AND EXPORTS
+CURRENT SOURCE AND EXPORTS
 Repository: https://github.com/EthannYakabuski/room-for-tomorrow
 Runtime/export commit: 331b83cac2384ea0c1960335471f1923e28a5378
 APK: build/round-two-331b83ca-a1/android/room-for-tomorrow-debug.apk
@@ -37,7 +63,7 @@ One normal successor update succeeded. An independent full guest APK hash matche
 One actual current-APK hint ad presented and dismissed without an observed earned event. The root visually verified the exact feedback: "No hint was unlocked. Your room is unchanged." No hint was granted; all 22 save groups, drafts and bank 295/175 stayed byte-exact unchanged. This verifies the affected unearned return, not native earned selection, resource cleanup, performance or all possible lifecycle paths. No further current ad requests are required.
 The final set contains 18 distinct unmodified actual current-APK captures: six each at phone 1080x1920@420dpi, logical 7-inch 1200x1920@320dpi and logical 10-inch 1600x2560@300dpi. Root independently accepted every full view and verified raw hashes/dimensions. See marketing/screenshots-round-two/capture-manifest.json for exact names, contexts and hashes. The 10-inch catalogue view shows All pieces/bathroom models and the genuine saved rotated bunk, not the Bedroom filter. Black/reconnection frames and duplicate padding are excluded. These are logical emulator profiles, not physical-tablet tests. Original nine-view records remain historical.
 After capture sessions, one normal cold launch at the restored original phone profile rendered Home at the 22.1-second observation without an observed ANR. All 22 save groups (906-byte profile, bank 295 coins/175 XP) stayed byte-exact unchanged; clears 0/1/13 and the rotated bunk remained. Final stop completed with the process absent and a full backup whose embedded main save matched. Original 1080x1920@420dpi with no overrides, airplane off, Wi-Fi/mobile data on and actual default Wi-Fi connectivity were verified restored. No rewards or claims were replayed. This is a bounded cold/save/restoration observation, not a general performance pass.
-The older predecessor log did not name its five resources. A later ordinary-Back trace from the preserved ABA APK identified InterstitialAdLoader, InterstitialAdLoadCallback, RewardedAdLoader, RewardedAdLoadCallback and MobileSingletonPlugin. The new source ownership fix is verified by isolated Windows fixtures only; rebuilt-APK shutdown verification remains pending. The separate VAO diagnostic has no established cause, and no native active-audio exit or earned-hint pass is claimed. An informational guest date command was unsupported (exit 1); no clock change was made and no full command/log-clean claim is made.
+The five predecessor shutdown resources have no recorded identities or call stack; their cause remains unproved. Current source keeps the same audio/exit code as the predecessor, and headless tests skip actual audio setup. Passing CI therefore does not verify a native active-audio exit or establish that these warnings are harmless or fixed. An informational guest date command was unsupported (exit 1); no clock change was made and no full command/log-clean claim is made.
 Earned native hint selection and legitimately locked later shaped commissions remain UNVERIFIED unless actually reached. This feedback repair does not establish native cleanup or general performance acceptance.
 
 

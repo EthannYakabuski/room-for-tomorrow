@@ -1,10 +1,12 @@
 # Room for Tomorrow
 
-## Ad-load ownership follow-up: native retest pending
+## Current loader-ownership successor: qualified native exit pass
 
-The source now owns pending and completed ad-loader lifetimes through shutdown and deferred SDK release. Vendor code, earned-only callbacks, gameplay, saves and service values are unchanged. Windows validation passed 92 lifecycle, 167 UI/callback and 15 Round Two UI checks plus the platform smoke suite, with zero suite diagnostics.
+Runtime `1b964de0ed94bbcca0424f5f6744f57369a120b5` passed [exact source CI](https://github.com/EthannYakabuski/room-for-tomorrow/actions/runs/39751770491) and has accepted local Android/Web outputs in `build/round-two-1b964de0-a1/`. APK SHA256 `3FF7F9CD3908811B5CF30507B1D4CF212CF03034CD95F78E35661C94A98B927E`. See HANDOFF.txt for the full pair identities and archive verification rules.
 
-A rebuilt Android/Web pair and native shutdown retest are still required. Preserved ABA/331 binaries, archives and screenshots remain older evidence; native earned hints and the separate VAO diagnostic remain unverified. See [the engineering follow-up](docs/ROUND_TWO_UPDATE.md) for the ownership diagnosis and test limits.
+Game-owned ad-loader cleanup passed 92 Windows lifetime checks plus 167 UI/callback checks, platform smoke and 15 Round Two UI checks. One actual successor Home/ordinary-Back exit preserved all 22 genuine profile groups and showed zero targeted loader/resource/ObjectDB/orphan-lambda diagnostics. This is a single affected-path pass. The broad native gate stays false because VAO/VP9 diagnostics remain unattributed. Native earned hints, new offline/performance and audible/physical-device acceptance remain unverified; no optional rewarded-ad presentation or reward claim was made.
+
+The existing 18 marketing screenshots remain unchanged ABA/331 provenance and are not relabeled as 3FF. Original builds and archives are preserved. The historical sections below refer to their dated APKs; the current details and limitations are in [the handoff](HANDOFF.txt) and the updated verification JSON.
 
 ## Reviewed hint-return successor and qualified native handoff
 
@@ -93,6 +95,6 @@ One normal successor update succeeded. The independently read full installed APK
 
 After capture sessions, one normal cold launch at the restored original phone profile rendered Home at the 22.1-second observation without an observed ANR. All 22 save groups (906-byte profile, bank 295 coins/175 XP) stayed byte-exact unchanged; clears 0/1/13 and the rotated bunk remained. Final stop completed with the process absent and a full backup whose embedded main save matched. Original 1080x1920@420dpi with no overrides, airplane off, Wi-Fi/mobile data on and actual default Wi-Fi connectivity were verified restored. No rewards or claims were replayed. This is a bounded cold/save/restoration observation, not a general performance pass.
 
-The older predecessor log did not name its five resources. A later ordinary-Back trace from the preserved ABA APK identified InterstitialAdLoader, InterstitialAdLoadCallback, RewardedAdLoader, RewardedAdLoadCallback and MobileSingletonPlugin. The new source ownership fix is verified by isolated Windows fixtures only; rebuilt-APK shutdown verification remains pending. The separate VAO diagnostic has no established cause, and no native active-audio exit or earned-hint pass is claimed. An informational guest date command was unsupported (exit 1); no clock change was made and no full command/log-clean claim is made.
+The older predecessor log did not name its five resources. A later ordinary-Back trace from the preserved ABA APK identified InterstitialAdLoader, InterstitialAdLoadCallback, RewardedAdLoader, RewardedAdLoadCallback and MobileSingletonPlugin. The loader-ownership successor now has one actual native Home/Back pass with none of those targeted diagnostics. This single observation does not establish broad native cleanliness or erase the older records. The separate VAO diagnostic has no established cause, and no native active-audio exit or earned-hint pass is claimed. An informational guest date command was unsupported (exit 1); no clock change was made and no full command/log-clean claim is made.
 
 The current force-stop closing log slice contained zero listed script/fatal/error/ObjectDB/resource/VAO terms. That limited slice does not erase the earlier system-Back shutdown diagnostics or make the whole native run clean.

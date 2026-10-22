@@ -1,282 +1,364 @@
 {
-  "schema": 2,
-  "status": "QUALIFIED_CURRENT_APK_TEST_HANDOFF_WITH_LIMITATIONS",
-  "runtime_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
+  "schema": 3,
+  "status": "QUALIFIED_CURRENT_SUCCESSOR_WITH_TARGETED_NATIVE_EXIT_PASS",
+  "runtime_commit": "1b964de0ed94bbcca0424f5f6744f57369a120b5",
   "android": {
-    "file": "build/round-two-331b83ca-a1/android/room-for-tomorrow-debug.apk",
-    "sha256": "ABA522F7DA08D4AC16E64B484AD273427A8AAE5BBED53CE5152BE9E1EC85114A",
-    "bytes": 198536067,
+    "file": "build/round-two-1b964de0-a1/android/room-for-tomorrow-debug.apk",
+    "sha256": "3FF7F9CD3908811B5CF30507B1D4CF212CF03034CD95F78E35661C94A98B927E",
+    "bytes": 198539424,
     "debug": true
   },
   "web": {
-    "entry": "build/round-two-331b83ca-a1/web/index.html",
-    "html_sha256": "04FFA7A84F9E57D50C874CB28D2AE69646E7F89C01D21A9A57623DA660E26CC7",
-    "html_bytes": 5492,
-    "pck_sha256": "F45CA561FAAD6064C3ECC2FFA5962F2394078EA3330A297D4C4B8F99AFD5E762",
-    "pck_bytes": 17023604,
+    "entry": "build/round-two-1b964de0-a1/web/index.html",
+    "html_sha256": "89822C47ECCE2294D4A5AE2725A801FC3CB3DF3F4566F97F99936DF26D3FFA6D",
+    "pck_sha256": "11AB6F80683EDBCBBAE1A9FA776E9F2953D016674BBD374ECF5B6F87CB357A33",
+    "pck_bytes": 17026808,
     "interactive_browser_qa": false
   },
   "accepted_exports_strict_errors_empty": true,
   "runtime_before_after_source_binding_stable": true,
   "complete_notice_bundle_verified": true,
   "source_tests": {
-    "earlier_content_base": "4c3bfb2185717b762d126a5513ed795f38c5cbd1",
-    "earlier_content_checks": {
-      "model": 1579,
-      "round_two": 1037,
-      "ordinary_ui": 155,
-      "paired_compatibility_ui": 20,
-      "illustrated_journal_gpu": 67,
-      "illustrated_journal_headless": 61
-    },
-    "earlier_scope": "Dated unchanged-content evidence; not every earlier test rerun on current successor.",
-    "focused_successor": {
-      "source_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
-      "changed_paths": [
-        "game/main.gd",
-        "tests/test_ui.gd"
-      ],
-      "scope": "Honest no-hint feedback after current unearned/failed return; stale/duplicate/wrong-page/wrong-room/replaced-board callbacks cannot overwrite newer feedback. Earned selection-only and economy/save behavior unchanged.",
-      "ui_checks": 167,
-      "round_two_ui_checks": 15,
-      "strict_pass": true,
-      "exit_codes_zero": true,
-      "stderr_diagnostics_empty": true,
-      "native_sdk_earning_evidence": false,
-      "successor_affected_native_verified": true
-    },
-    "tests_by_doc_worker": false
+    "source_commit": "1b964de0ed94bbcca0424f5f6744f57369a120b5",
+    "windows_godot": "4.5.1 Compatibility headless",
+    "lifetime_checks": 92,
+    "ui_callback_checks": 167,
+    "platform_smoke_pass": true,
+    "round_two_ui_checks": 15,
+    "all_four_exit_zero": true,
+    "all_four_strict_diagnostics_empty": true,
+    "native_ad_events": 0,
+    "native_earning_proof": false,
+    "import": "Completed; reviewed informational editor-class-name word matches are not errors. Isolated editor profile lacked Android build-tools configuration, so that import was not export acceptance. Normal configured successor exports were subsequently accepted."
+  },
+  "source_ci": {
+    "commit": "1b964de0ed94bbcca0424f5f6744f57369a120b5",
+    "url": "https://github.com/EthannYakabuski/room-for-tomorrow/actions/runs/39751770491",
+    "conclusion": "success",
+    "validate_and_build": "success",
+    "deploy": "skipped"
   },
   "native_report": "docs/NATIVE_QA.json",
+  "targeted_native_exit": {
+    "status": "TARGETED_SDK_LOADER_EXIT_PASS_SINGLE_OBSERVATION",
+    "home_observed_seconds_from_launch_call": 25.359,
+    "visible_home_and_test_banner": true,
+    "ordinary_system_back_to_launcher": true,
+    "process_absent_after_back": true,
+    "genuine_profile_all_22_groups_byte_exact_preupdate_prelaunch_loaded_post_back_final": true,
+    "restoration_or_reward_replay": false,
+    "targeted_sdk_resource_objectdb_orphan_lambda_diagnostics": 0,
+    "native_broad_log_gate": false,
+    "remaining_diagnostics": [
+      "VAO state error 7",
+      "goldfish VP9 output-buffer mode error -1010"
+    ],
+    "remaining_diagnostic_causes": "Unproved; no audio, performance, media or whole-system cleanup claim.",
+    "original_task_emulator_settings_restored": true,
+    "stopped_full_backup_primary_verified_privately": true,
+    "scope": "One current-APK Home/system-Back exit. No new gameplay, offline, earned-hint or production-service acceptance.",
+    "new_user_initiated_rewarded_ad_presentations": 0,
+    "new_reward_claims": 0
+  },
   "successor_native_acceptance": false,
-  "critical_predecessor": {
-    "runtime_commit": "4c3bfb2185717b762d126a5513ed795f38c5cbd1",
-    "test_uid_followup": "e521e88b1c10cf1f582cc16f2eab823cae9d2a16",
-    "apk_sha256": "7D07345130707FE8B03263319C4B8C1F2BF0146105BA716B7C6699173F09CCC7",
-    "scope": "Qualified critical predecessor evidence, not current successor replay.",
-    "recovery": "One authorized normal host AVD restart with session loss accepted. Actual absent package/save preceded one R2 install and one genuine22-group prelaunch restoration. Host/full guest APK hashes matched. Recovery, not cross-restart retention; original-to-R2 migration not replayed.",
-    "planning": "Actual chair rotation blocked its front/completion, named Plan tip explained it, successful Undo restored it, Lift removed it and in-game Back saved the draft/Home.",
-    "first_clear": {
-      "room_id": 1,
-      "name": "Morning Letter",
-      "previously_uncleared": true,
-      "optional_wish_met": true,
-      "coins_delta": 60,
-      "xp_delta": 45,
-      "bank_before": [
-        235,
-        130
-      ],
+  "native_earned_hint_verified": false,
+  "marketing_capture_provenance": {
+    "manifest": "marketing/screenshots-round-two/capture-manifest.json",
+    "distinct_marketing_views": 18,
+    "captured_runtime_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
+    "captured_apk_sha256": "ABA522F7DA08D4AC16E64B484AD273427A8AAE5BBED53CE5152BE9E1EC85114A",
+    "unchanged_historical_ui_evidence": true,
+    "relabeled_as_current_3ff": false,
+    "current_home_exit_proof": "Separate focused observation; no new eighteen-view marketing set claimed."
+  },
+  "limits": [
+    "Broad native log gate remains false due to the retained VAO/VP9 diagnostics; their causes are unproved.",
+    "Native earned-hint selection remains unverified after the earlier unearned returns; no new reward request was made.",
+    "The old slow offline observation belongs to the predecessor. Offline behavior was not replayed on this successor.",
+    "One successful Home/Back observation is not general startup, performance, long-session or full-content acceptance.",
+    "Physical devices, audible output, native simultaneous multitouch, interactive Web and production services remain unverified.",
+    "Minimum API24/target API35 remains an engine test constraint; release setup and current Play eligibility belong to the owner."
+  ],
+  "preserved_aba_report": {
+    "schema": 2,
+    "status": "QUALIFIED_CURRENT_APK_TEST_HANDOFF_WITH_LIMITATIONS",
+    "runtime_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
+    "android": {
+      "file": "build/round-two-331b83ca-a1/android/room-for-tomorrow-debug.apk",
+      "sha256": "ABA522F7DA08D4AC16E64B484AD273427A8AAE5BBED53CE5152BE9E1EC85114A",
+      "bytes": 198536067,
+      "debug": true
+    },
+    "web": {
+      "entry": "build/round-two-331b83ca-a1/web/index.html",
+      "html_sha256": "04FFA7A84F9E57D50C874CB28D2AE69646E7F89C01D21A9A57623DA660E26CC7",
+      "html_bytes": 5492,
+      "pck_sha256": "F45CA561FAAD6064C3ECC2FFA5962F2394078EA3330A297D4C4B8F99AFD5E762",
+      "pck_bytes": 17023604,
+      "interactive_browser_qa": false
+    },
+    "accepted_exports_strict_errors_empty": true,
+    "runtime_before_after_source_binding_stable": true,
+    "complete_notice_bundle_verified": true,
+    "source_tests": {
+      "earlier_content_base": "4c3bfb2185717b762d126a5513ed795f38c5cbd1",
+      "earlier_content_checks": {
+        "model": 1579,
+        "round_two": 1037,
+        "ordinary_ui": 155,
+        "paired_compatibility_ui": 20,
+        "illustrated_journal_gpu": 67,
+        "illustrated_journal_headless": 61
+      },
+      "earlier_scope": "Dated unchanged-content evidence; not every earlier test rerun on current successor.",
+      "focused_successor": {
+        "source_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
+        "changed_paths": [
+          "game/main.gd",
+          "tests/test_ui.gd"
+        ],
+        "scope": "Honest no-hint feedback after current unearned/failed return; stale/duplicate/wrong-page/wrong-room/replaced-board callbacks cannot overwrite newer feedback. Earned selection-only and economy/save behavior unchanged.",
+        "ui_checks": 167,
+        "round_two_ui_checks": 15,
+        "strict_pass": true,
+        "exit_codes_zero": true,
+        "stderr_diagnostics_empty": true,
+        "native_sdk_earning_evidence": false,
+        "successor_affected_native_verified": true
+      },
+      "tests_by_doc_worker": false
+    },
+    "native_report": "docs/NATIVE_QA.json",
+    "successor_native_acceptance": false,
+    "critical_predecessor": {
+      "runtime_commit": "4c3bfb2185717b762d126a5513ed795f38c5cbd1",
+      "test_uid_followup": "e521e88b1c10cf1f582cc16f2eab823cae9d2a16",
+      "apk_sha256": "7D07345130707FE8B03263319C4B8C1F2BF0146105BA716B7C6699173F09CCC7",
+      "scope": "Qualified critical predecessor evidence, not current successor replay.",
+      "recovery": "One authorized normal host AVD restart with session loss accepted. Actual absent package/save preceded one R2 install and one genuine22-group prelaunch restoration. Host/full guest APK hashes matched. Recovery, not cross-restart retention; original-to-R2 migration not replayed.",
+      "planning": "Actual chair rotation blocked its front/completion, named Plan tip explained it, successful Undo restored it, Lift removed it and in-game Back saved the draft/Home.",
+      "first_clear": {
+        "room_id": 1,
+        "name": "Morning Letter",
+        "previously_uncleared": true,
+        "optional_wish_met": true,
+        "coins_delta": 60,
+        "xp_delta": 45,
+        "bank_before": [
+          235,
+          130
+        ],
+        "bank_after": [
+          295,
+          175
+        ]
+      },
+      "duplicate_clear": {
+        "coins_delta": 0,
+        "xp_delta": 0,
+        "all22_groups_unchanged": true
+      },
+      "new_catalogue": "Ten category options and actual bathroom/Bedroom models rendered; rotated new bunk placed/saved. All140 models are not individually native verified.",
+      "hint": {
+        "presentations": 2,
+        "dismissals": 2,
+        "earned_events_observed": 0,
+        "grants": 0,
+        "both_bank_draft_save_unchanged": true,
+        "earned_branch": "UNVERIFIED",
+        "visible_feedback_defect": "Opening status stayed after both returns; this defect motivated the successor repair; its actual current unearned-return feedback is now verified."
+      },
+      "hardware_back": "Default quit to launcher, distinct from in-game Home.",
+      "online_cold": "All22groups byte-exact without restoration on a subsequent ONLINE cold launch.",
+      "offline": "Actual defaultnone/no connected Internet verified twice. One normal plant move/Back after late Home changed only drafts/quest actions; bank295/175. Not an offline all22 equality claim.",
+      "timing": "Offline Home visible at203.28seconds; onset bounded118-203seconds after earlier black frames. Not a performance pass.",
+      "broad_native_log_gate": false,
+      "diagnostics": "System-Back shutdown reported ObjectDB leak,5resources still in use and VAO-state diagnostic. Resource identities/causes unproved. Scoped script/fatal counts zero do not establish broad cleanliness.",
+      "final_park": "Safely stopped; newest genuine22-group295coin/175XP profile with saved bunk matches full backup. Original display/radios/default connectivity restored and verified. Preserve progress, not older recovery snapshot.",
+      "old_system_ui_anr": "Historical earlier session; cause unproved, not observed during recovered predecessor flow."
+    },
+    "original_history": "docs/history/pre-round-two-handoff/LOCAL_TEST_RESULTS.json",
+    "final_capture_count_required": 18,
+    "publication": {
+      "source_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
+      "source_push_verified": true,
+      "hosted_ci_run": "https://github.com/EthannYakabuski/room-for-tomorrow/actions/runs/39719181068",
+      "hosted_ci_status": "COMPLETED_SUCCESS",
+      "terminal_ci_result_claimed": true,
+      "final_documentation_published": false,
+      "pages_enabled": false,
+      "library_or_play_action": false,
+      "dated_baseline": "6359e64705dd7c3a84d59e0aac16d027a8173edf",
+      "dated_run": "https://github.com/EthannYakabuski/room-for-tomorrow/actions/runs/39526924268",
+      "hosted_ci_validate_and_build": "success",
+      "hosted_ci_deploy": "skipped"
+    },
+    "limits": [
+      "Current update/full guest APK identity/prelaunch retention, unearned-return feedback,18actualrawviews and bounded cold/save/restoration verified with specific qualifications.",
+      "Earned native hint remains UNVERIFIED after two unearned predecessor requests and one current unearned return; no more requests required.",
+      "Later shaped commissions61-120 remain legitimately locked; source/GPU proof is separate from native reachability.",
+      "Predecessor ObjectDB/5resource/VAO diagnostics remain unresolved; feedback repair is not proved resource cleanup.",
+      "Offline203-second observation is not performance acceptance or an app/environment-wide cause finding.",
+      "Emulator audio disabled; physical devices,audible output,native simultaneous multitouch,interactive Web,production services and human balance/content/long sessions unverified."
+    ],
+    "native_report_sha256": "C0D631C63B0D7D0DB314E98D0C3BE1E6008009C282D995579C26957AF8A7B4F6",
+    "successor_hint_return": {
+      "status": "PASS_UNEARNED_RETURN_ONLY",
+      "apk_sha256": "ABA522F7DA08D4AC16E64B484AD273427A8AAE5BBED53CE5152BE9E1EC85114A",
+      "actual_presentations": 1,
+      "actual_dismissals": 1,
+      "earned_events_observed": 0,
+      "hint_granted": false,
+      "exact_feedback": "No hint was unlocked. Your room is unchanged.",
+      "root_visual_verified": true,
+      "all22_save_groups_and_drafts_unchanged": true,
       "bank_after": [
         295,
         175
-      ]
+      ],
+      "native_earned_hint": "UNVERIFIED",
+      "further_current_requests_required": false,
+      "qualification": "Current affected unearned return only; not broad native, cleanup, performance, final capture or closing-state acceptance."
     },
-    "duplicate_clear": {
-      "coins_delta": 0,
-      "xp_delta": 0,
-      "all22_groups_unchanged": true
+    "successor_update_verification": {
+      "normal_update_installation": "SUCCESS_ONCE",
+      "independent_full_guest_apk_hash_matches_host": true,
+      "apk_sha256": "ABA522F7DA08D4AC16E64B484AD273427A8AAE5BBED53CE5152BE9E1EC85114A",
+      "prelaunch_save_groups": 22,
+      "prelaunch_profile_bytes": 906,
+      "prelaunch_save_byte_exact_preupdate": true,
+      "bank_after": [
+        295,
+        175
+      ],
+      "restore_clear_or_completed_reward_replay": false,
+      "qualification": "Verified normal update and before-first-launch retention only; later cold/closing checks remain separate."
     },
-    "new_catalogue": "Ten category options and actual bathroom/Bedroom models rendered; rotated new bunk placed/saved. All140 models are not individually native verified.",
-    "hint": {
-      "presentations": 2,
-      "dismissals": 2,
-      "earned_events_observed": 0,
-      "grants": 0,
-      "both_bank_draft_save_unchanged": true,
-      "earned_branch": "UNVERIFIED",
-      "visible_feedback_defect": "Opening status stayed after both returns; this defect motivated the successor repair; its actual current unearned-return feedback is now verified."
+    "current_capture_progress": {
+      "required_total": 18,
+      "per_profile": 6,
+      "root_independent_visual_and_raw_hash_accepted": 18,
+      "actual_dimensions": {
+        "phone": [
+          1080,
+          1920
+        ],
+        "7inch": [
+          1200,
+          1920
+        ],
+        "10inch": [
+          1600,
+          2560
+        ]
+      },
+      "density_dpi": {
+        "phone": 420,
+        "7inch": 320,
+        "10inch": 300
+      },
+      "files_copied_to_private_payload": 18,
+      "pending_views": 0,
+      "final_manifest_complete": true,
+      "physical_device_or_tablet_test": false,
+      "qualification": "18 unique unmodified actual current-APK emulator captures. Ten-inch catalogue shows All pieces/bathroom models and genuine rotated bunk, not Bedroom filter. Reconnect/black frames excluded."
     },
-    "hardware_back": "Default quit to launcher, distinct from in-game Home.",
-    "online_cold": "All22groups byte-exact without restoration on a subsequent ONLINE cold launch.",
-    "offline": "Actual defaultnone/no connected Internet verified twice. One normal plant move/Back after late Home changed only drafts/quest actions; bank295/175. Not an offline all22 equality claim.",
-    "timing": "Offline Home visible at203.28seconds; onset bounded118-203seconds after earlier black frames. Not a performance pass.",
+    "successor_closing_verification": {
+      "formal_release_utc": "2026-10-22T05:38:15.258961+00:00",
+      "one_normal_original_phone_profile_cold_launch": true,
+      "home_observed_after_seconds": 22.1,
+      "observed_anr": false,
+      "all22_groups_byte_exact": true,
+      "profile_bytes": 906,
+      "bank": [
+        295,
+        175
+      ],
+      "cleared_commissions": [
+        0,
+        1,
+        13
+      ],
+      "genuine_rotated_bunk_retained": true,
+      "restoration_or_reward_replay": false,
+      "stopped_process_absent": true,
+      "full_backup_embedded_main_save_exact": true,
+      "original_display": {
+        "size": [
+          1080,
+          1920
+        ],
+        "density_dpi": 420,
+        "overrides_present": false
+      },
+      "original_radios_restored": {
+        "airplane_on": false,
+        "wifi_on": true,
+        "mobile_data_on": true
+      },
+      "actual_default_connectivity_verified": "CONNECTED_WIFI_WITH_MOBILE_CONNECTED",
+      "informational_guest_date_command_exit": 1,
+      "informational_guest_date_command_reason": "Unsupported date option; no clock change made.",
+      "full_command_clean_claim": false,
+      "qualification": "Bounded current cold/save/restoration observation, not general performance or clean-native-exit acceptance. Temporary black reconnect view was quarantined and not used as a final capture."
+    },
+    "predecessor_exit_triage_qualification": {
+      "predecessor_broad_native_exit_log_gate": false,
+      "observed_resources_still_in_use": 5,
+      "resource_identities_or_call_stack_available": false,
+      "cause": "UNPROVED",
+      "current_audio_exit_source_identical_to_predecessor": true,
+      "headless_skips_actual_audio_setup": true,
+      "passing_ci_verifies_native_active_audio_exit": false,
+      "harmless_or_fixed_claim": false,
+      "no_speculative_runtime_fix": "No attributable resource ownership/call-site evidence; no cleanup change made."
+    },
+    "local_handoff_evidence_complete": true,
+    "full_native_acceptance": false,
+    "native_qualified_test_complete": true,
+    "qualified_native_handoff_ready": true,
     "broad_native_log_gate": false,
-    "diagnostics": "System-Back shutdown reported ObjectDB leak,5resources still in use and VAO-state diagnostic. Resource identities/causes unproved. Scoped script/fatal counts zero do not establish broad cleanliness.",
-    "final_park": "Safely stopped; newest genuine22-group295coin/175XP profile with saved bunk matches full backup. Original display/radios/default connectivity restored and verified. Preserve progress, not older recovery snapshot.",
-    "old_system_ui_anr": "Historical earlier session; cause unproved, not observed during recovered predecessor flow."
-  },
-  "original_history": "docs/history/pre-round-two-handoff/LOCAL_TEST_RESULTS.json",
-  "final_capture_count_required": 18,
-  "publication": {
-    "source_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
-    "source_push_verified": true,
-    "hosted_ci_run": "https://github.com/EthannYakabuski/room-for-tomorrow/actions/runs/39719181068",
-    "hosted_ci_status": "COMPLETED_SUCCESS",
-    "terminal_ci_result_claimed": true,
-    "final_documentation_published": false,
-    "pages_enabled": false,
-    "library_or_play_action": false,
-    "dated_baseline": "6359e64705dd7c3a84d59e0aac16d027a8173edf",
-    "dated_run": "https://github.com/EthannYakabuski/room-for-tomorrow/actions/runs/39526924268",
-    "hosted_ci_validate_and_build": "success",
-    "hosted_ci_deploy": "skipped"
-  },
-  "limits": [
-    "Current update/full guest APK identity/prelaunch retention, unearned-return feedback,18actualrawviews and bounded cold/save/restoration verified with specific qualifications.",
-    "Earned native hint remains UNVERIFIED after two unearned predecessor requests and one current unearned return; no more requests required.",
-    "Later shaped commissions61-120 remain legitimately locked; source/GPU proof is separate from native reachability.",
-    "Predecessor ObjectDB/5resource/VAO diagnostics remain unresolved; feedback repair is not proved resource cleanup.",
-    "Offline203-second observation is not performance acceptance or an app/environment-wide cause finding.",
-    "Emulator audio disabled; physical devices,audible output,native simultaneous multitouch,interactive Web,production services and human balance/content/long sessions unverified."
-  ],
-  "native_report_sha256": "C0D631C63B0D7D0DB314E98D0C3BE1E6008009C282D995579C26957AF8A7B4F6",
-  "successor_hint_return": {
-    "status": "PASS_UNEARNED_RETURN_ONLY",
-    "apk_sha256": "ABA522F7DA08D4AC16E64B484AD273427A8AAE5BBED53CE5152BE9E1EC85114A",
-    "actual_presentations": 1,
-    "actual_dismissals": 1,
-    "earned_events_observed": 0,
-    "hint_granted": false,
-    "exact_feedback": "No hint was unlocked. Your room is unchanged.",
-    "root_visual_verified": true,
-    "all22_save_groups_and_drafts_unchanged": true,
-    "bank_after": [
-      295,
-      175
-    ],
-    "native_earned_hint": "UNVERIFIED",
-    "further_current_requests_required": false,
-    "qualification": "Current affected unearned return only; not broad native, cleanup, performance, final capture or closing-state acceptance."
-  },
-  "successor_update_verification": {
-    "normal_update_installation": "SUCCESS_ONCE",
-    "independent_full_guest_apk_hash_matches_host": true,
-    "apk_sha256": "ABA522F7DA08D4AC16E64B484AD273427A8AAE5BBED53CE5152BE9E1EC85114A",
-    "prelaunch_save_groups": 22,
-    "prelaunch_profile_bytes": 906,
-    "prelaunch_save_byte_exact_preupdate": true,
-    "bank_after": [
-      295,
-      175
-    ],
-    "restore_clear_or_completed_reward_replay": false,
-    "qualification": "Verified normal update and before-first-launch retention only; later cold/closing checks remain separate."
-  },
-  "current_capture_progress": {
-    "required_total": 18,
-    "per_profile": 6,
-    "root_independent_visual_and_raw_hash_accepted": 18,
-    "actual_dimensions": {
-      "phone": [
-        1080,
-        1920
+    "current_closing_log_scope": {
+      "scope": "Current force-stop closing log slice only",
+      "listed_term_counts": {
+        "SCRIPT ERROR": 0,
+        "FATAL EXCEPTION": 0,
+        "ERROR:": 0,
+        "ObjectDB": 0,
+        "resources still in use": 0,
+        "removeVertexArrayObject": 0
+      },
+      "qualification": "Zero listed terms in this slice does not erase predecessor system-Back shutdown diagnostics or establish whole-run/broad log cleanliness.",
+      "broad_native_log_gate": false
+    },
+    "successor_native_acceptance_scope": "Full/broad native acceptance is false; the documented current affected-flow/capture/cold-save scope is verified and ready for a qualified local handoff.",
+    "loader_ownership_source_follow_up": {
+      "status": "WINDOWS_SOURCE_VALIDATED_NATIVE_REBUILD_AND_RETEST_PENDING",
+      "preserved_runtime_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
+      "preserved_handoff_commit": "58e74c8a919dd04f518b0f400d19fb6426dbddec",
+      "scope": "Game-owned pending-load tracking/cancellation and completion ownership through vendor deferred decrement. No vendor, earned-only/once, gameplay, save or service-value changes.",
+      "local_windows_godot_4_5_1": {
+        "loader_lifetime_checks": 92,
+        "ui_callback_checks": 167,
+        "platform_smoke_pass": true,
+        "round_two_ui_checks": 15,
+        "all_four_exit_zero": true,
+        "all_four_strict_diagnostics_empty": true,
+        "native_ad_events": 0
+      },
+      "import": "Completed. Original broad word scan matched informational editor class names; reviewed actual script/error/warning/leak prefixes were absent. Isolated editor profile lacked Android build-tools configuration; no export was attempted.",
+      "native_shutdown_named_scripts": [
+        "InterstitialAdLoader",
+        "InterstitialAdLoadCallback",
+        "RewardedAdLoader",
+        "RewardedAdLoadCallback",
+        "MobileSingletonPlugin"
       ],
-      "7inch": [
-        1200,
-        1920
-      ],
-      "10inch": [
-        1600,
-        2560
-      ]
-    },
-    "density_dpi": {
-      "phone": 420,
-      "7inch": 320,
-      "10inch": 300
-    },
-    "files_copied_to_private_payload": 18,
-    "pending_views": 0,
-    "final_manifest_complete": true,
-    "physical_device_or_tablet_test": false,
-    "qualification": "18 unique unmodified actual current-APK emulator captures. Ten-inch catalogue shows All pieces/bathroom models and genuine rotated bunk, not Bedroom filter. Reconnect/black frames excluded."
-  },
-  "successor_closing_verification": {
-    "formal_release_utc": "2026-10-22T05:38:15.258961+00:00",
-    "one_normal_original_phone_profile_cold_launch": true,
-    "home_observed_after_seconds": 22.1,
-    "observed_anr": false,
-    "all22_groups_byte_exact": true,
-    "profile_bytes": 906,
-    "bank": [
-      295,
-      175
-    ],
-    "cleared_commissions": [
-      0,
-      1,
-      13
-    ],
-    "genuine_rotated_bunk_retained": true,
-    "restoration_or_reward_replay": false,
-    "stopped_process_absent": true,
-    "full_backup_embedded_main_save_exact": true,
-    "original_display": {
-      "size": [
-        1080,
-        1920
-      ],
-      "density_dpi": 420,
-      "overrides_present": false
-    },
-    "original_radios_restored": {
-      "airplane_on": false,
-      "wifi_on": true,
-      "mobile_data_on": true
-    },
-    "actual_default_connectivity_verified": "CONNECTED_WIFI_WITH_MOBILE_CONNECTED",
-    "informational_guest_date_command_exit": 1,
-    "informational_guest_date_command_reason": "Unsupported date option; no clock change made.",
-    "full_command_clean_claim": false,
-    "qualification": "Bounded current cold/save/restoration observation, not general performance or clean-native-exit acceptance. Temporary black reconnect view was quarantined and not used as a final capture."
-  },
-  "predecessor_exit_triage_qualification": {
-    "predecessor_broad_native_exit_log_gate": false,
-    "observed_resources_still_in_use": 5,
-    "resource_identities_or_call_stack_available": false,
-    "cause": "UNPROVED",
-    "current_audio_exit_source_identical_to_predecessor": true,
-    "headless_skips_actual_audio_setup": true,
-    "passing_ci_verifies_native_active_audio_exit": false,
-    "harmless_or_fixed_claim": false,
-    "no_speculative_runtime_fix": "No attributable resource ownership/call-site evidence; no cleanup change made."
-  },
-  "local_handoff_evidence_complete": true,
-  "full_native_acceptance": false,
-  "native_qualified_test_complete": true,
-  "qualified_native_handoff_ready": true,
-  "broad_native_log_gate": false,
-  "current_closing_log_scope": {
-    "scope": "Current force-stop closing log slice only",
-    "listed_term_counts": {
-      "SCRIPT ERROR": 0,
-      "FATAL EXCEPTION": 0,
-      "ERROR:": 0,
-      "ObjectDB": 0,
-      "resources still in use": 0,
-      "removeVertexArrayObject": 0
-    },
-    "qualification": "Zero listed terms in this slice does not erase predecessor system-Back shutdown diagnostics or establish whole-run/broad log cleanliness.",
-    "broad_native_log_gate": false
-  },
-  "successor_native_acceptance_scope": "Full/broad native acceptance is false; the documented current affected-flow/capture/cold-save scope is verified and ready for a qualified local handoff.",
-  "loader_ownership_source_follow_up": {
-    "status": "WINDOWS_SOURCE_VALIDATED_NATIVE_REBUILD_AND_RETEST_PENDING",
-    "preserved_runtime_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
-    "preserved_handoff_commit": "58e74c8a919dd04f518b0f400d19fb6426dbddec",
-    "scope": "Game-owned pending-load tracking/cancellation and completion ownership through vendor deferred decrement. No vendor, earned-only/once, gameplay, save or service-value changes.",
-    "local_windows_godot_4_5_1": {
-      "loader_lifetime_checks": 92,
-      "ui_callback_checks": 167,
-      "platform_smoke_pass": true,
-      "round_two_ui_checks": 15,
-      "all_four_exit_zero": true,
-      "all_four_strict_diagnostics_empty": true,
-      "native_ad_events": 0
-    },
-    "import": "Completed. Original broad word scan matched informational editor class names; reviewed actual script/error/warning/leak prefixes were absent. Isolated editor profile lacked Android build-tools configuration; no export was attempted.",
-    "native_shutdown_named_scripts": [
-      "InterstitialAdLoader",
-      "InterstitialAdLoadCallback",
-      "RewardedAdLoader",
-      "RewardedAdLoadCallback",
-      "MobileSingletonPlugin"
-    ],
-    "native_request_state": "Pending versus completed state of the observed retained objects was not recorded.",
-    "native_cleanup_verified": false,
-    "native_earned_hint_verified": false,
-    "separate_vao_diagnostic": "Cause remains unproved; loader source fixtures do not establish its resolution.",
-    "artifact_boundary": "Existing ABA APK/Web/screenshots/archives remain preserved older artifacts. Rebuild and ordinary Android Back verification are required for this source follow-up."
+      "native_request_state": "Pending versus completed state of the observed retained objects was not recorded.",
+      "native_cleanup_verified": false,
+      "native_earned_hint_verified": false,
+      "separate_vao_diagnostic": "Cause remains unproved; loader source fixtures do not establish its resolution.",
+      "artifact_boundary": "Existing ABA APK/Web/screenshots/archives remain preserved older artifacts. Rebuild and ordinary Android Back verification are required for this source follow-up."
+    }
   }
 }
