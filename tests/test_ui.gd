@@ -1,5 +1,15 @@
 extends SceneTree
 const App = preload("res://main.tscn")
+# Deterministic game-facing callbacks only; no native SDK reward is simulated.
+class HintApp extends "res://game/main.gd":
+	var hint_return: Callable
+	func service() -> Node:
+		return null
+	func call_service(method: String, args: Array = []) -> Variant:
+		if method == "can_reward": return true
+		if method == "reward_requested": hint_return = args[1]
+		return null
+
 var checks: int = 0
 var failures: int = 0
 
@@ -133,8 +143,66 @@ func run() -> void:
 			await tap(app.board.get_global_transform()*(rect.position+Vector2(rect.size.x*.5,rect.size.y*.3)))
 	check(app.selected=="shelf","A touch on tall furniture selects its visible sprite")
 	check(not FileAccess.file_exists("user://room-test-isolated.json"),"UI flow did not write a gameplay test save")
+	await check_hint_returns()
 	root.remove_child(app)
 	app.free()
 	await layout()
 	print("ROOM_UI_TESTS: %d checks, %d failures" % [checks,failures])
 	quit(0 if failures==0 else 1)
+
+func check_hint_returns() -> void:
+	var app: Control = HintApp.new()
+	app.test_mode = true
+	root.add_child(app)
+	await layout()
+	app.start_room(1,false)
+	await layout()
+	app.puzzle.placed = [app.puzzle.room.solution[0].duplicate(true)]
+	app.remember_draft()
+	app.refresh_puzzle()
+	var placed: Array = app.puzzle.placed.duplicate(true)
+	var bank: String = app.progress.encode()
+	app.request_hint()
+	var unearned: Callable = app.hint_return
+	check("Opening" in app.message_label.text and app.progress.pending_reward != 0,"Hint request enters pending feedback")
+	unearned.call(false)
+	check(app.message_label.text == "No hint was unlocked. Your room is unchanged.","Unearned or failed hint return replaces opening feedback")
+	check(app.board.hints.is_empty() and app.puzzle.placed == placed and app.progress.encode() == bank,"Unearned hint preserves placement, saved draft, coins and XP")
+	check(app.progress.pending_reward == 0,"Unearned hint consumes only its request token")
+	app.message_label.text = "A later planning message."
+	unearned.call(false)
+	check(app.message_label.text == "A later planning message.","Duplicate unearned return cannot replace newer feedback")
+	app.request_hint()
+	var earned: Callable = app.hint_return
+	var current_token: int = app.progress.pending_reward
+	unearned.call(false)
+	check("Opening" in app.message_label.text and app.progress.pending_reward == current_token,"Stale callback cannot clear a newer request or its feedback")
+	earned.call(true)
+	check(not app.board.hints.is_empty() and "One possible plan:" in app.message_label.text,"Earned hint still selects a precise plan")
+	check(app.puzzle.placed == placed and app.progress.encode() == bank,"Earned hint leaves the arrangement, draft and economy unchanged")
+	var precise_hint: Dictionary = app.board.hints.duplicate(true)
+	var precise_message: String = app.message_label.text
+	earned.call(false)
+	check(app.board.hints == precise_hint and app.message_label.text == precise_message,"Late duplicate false return cannot erase an earned hint")
+	app.request_hint()
+	var other_room: Callable = app.hint_return
+	app.start_room(2,false)
+	await layout()
+	app.message_label.text = "Planning another room."
+	other_room.call(false)
+	check(app.message_label.text == "Planning another room." and app.board.hints.is_empty(),"Unearned return cannot change a different room's feedback")
+	app.request_hint()
+	var replaced_board: Callable = app.hint_return
+	app.start_room(2,false)
+	await layout()
+	app.message_label.text = "A fresh visit to this room."
+	replaced_board.call(false)
+	check(app.message_label.text == "A fresh visit to this room.","Unearned return cannot change a replacement board for the same room")
+	app.request_hint()
+	var away: Callable = app.hint_return
+	app.show_home()
+	await layout()
+	away.call(false)
+	check(app.page == "home" and app.progress.pending_reward == 0,"Return after leaving the puzzle clears its token without touching freed UI")
+	app.free()
+	await layout()

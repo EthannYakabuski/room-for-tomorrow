@@ -511,12 +511,19 @@ func request_hint() -> void:
 	var token: int = progress.begin_reward()
 	if token == 0: return
 	var room_id: int = int(puzzle.room.id)
+	var board_id: int = board.get_instance_id()
 	message_label.text = "Opening a rewarded hint…"
-	call_service("reward_requested",["precise_placement_hint",func(earned: bool) -> void: receive_hint(token,earned,room_id)])
+	call_service("reward_requested",["precise_placement_hint",func(earned: bool) -> void: receive_hint(token,earned,room_id,board_id)])
 
-func receive_hint(token: int, earned: bool, room_id: int) -> void:
-	if not progress.finish_reward(token,earned): return
-	if not is_instance_valid(board) or int(puzzle.room.id) != room_id: return
+func receive_hint(token: int, earned: bool, room_id: int, board_id: int = 0) -> void:
+	# An unearned current request still needs feedback; stale tokens do not.
+	if token == 0 or token != progress.pending_reward: return
+	var granted: bool = progress.finish_reward(token,earned)
+	if page != "puzzle" or not is_instance_valid(board) or not is_instance_valid(message_label) or int(puzzle.room.id) != room_id: return
+	if board_id != 0 and board.get_instance_id() != board_id: return
+	if not granted:
+		message_label.text = "No hint was unlocked. Your room is unchanged."
+		return
 	var hint: Dictionary = puzzle.next_hint()
 	if hint.is_empty(): message_label.text = "You have already found the recorded arrangement."; return
 	board.hints = hint
