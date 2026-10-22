@@ -81,7 +81,7 @@
   "pending_checks": [
     "Earned native hint remains UNVERIFIED; no request replay required.",
     "Later legitimately locked commissions/all140models/physicaldevices/audibleoutput/interactiveWeb/productionservice/humanbalance coverage remains outside this bounded verification.",
-    "Native shutdown-resource identities/causes remain unresolved; passing headless CI is not native active-audio exit proof."
+    "Rebuild the loader-ownership follow-up and verify actual ordinary Android Back shutdown. Named ABA loader scripts have a matching source lifetime gap; the separate VAO cause and native earned hints remain unverified."
   ],
   "captures": {
     "status": "FINAL18_RAW_ROOT_VISUAL_HASH_ACCEPTED",
@@ -240,5 +240,33 @@
     "qualification": "Zero listed terms in this slice does not erase predecessor system-Back shutdown diagnostics or establish whole-run/broad log cleanliness.",
     "broad_native_log_gate": false
   },
-  "successor_native_acceptance_scope": "Full/broad native acceptance is false; the documented current affected-flow/capture/cold-save scope is verified and ready for a qualified local handoff."
+  "successor_native_acceptance_scope": "Full/broad native acceptance is false; the documented current affected-flow/capture/cold-save scope is verified and ready for a qualified local handoff.",
+  "loader_ownership_source_follow_up": {
+    "status": "WINDOWS_SOURCE_VALIDATED_NATIVE_REBUILD_AND_RETEST_PENDING",
+    "preserved_runtime_commit": "331b83cac2384ea0c1960335471f1923e28a5378",
+    "preserved_handoff_commit": "58e74c8a919dd04f518b0f400d19fb6426dbddec",
+    "scope": "Game-owned pending-load tracking/cancellation and completion ownership through vendor deferred decrement. No vendor, earned-only/once, gameplay, save or service-value changes.",
+    "local_windows_godot_4_5_1": {
+      "loader_lifetime_checks": 92,
+      "ui_callback_checks": 167,
+      "platform_smoke_pass": true,
+      "round_two_ui_checks": 15,
+      "all_four_exit_zero": true,
+      "all_four_strict_diagnostics_empty": true,
+      "native_ad_events": 0
+    },
+    "import": "Completed. Original broad word scan matched informational editor class names; reviewed actual script/error/warning/leak prefixes were absent. Isolated editor profile lacked Android build-tools configuration; no export was attempted.",
+    "native_shutdown_named_scripts": [
+      "InterstitialAdLoader",
+      "InterstitialAdLoadCallback",
+      "RewardedAdLoader",
+      "RewardedAdLoadCallback",
+      "MobileSingletonPlugin"
+    ],
+    "native_request_state": "Pending versus completed state of the observed retained objects was not recorded.",
+    "native_cleanup_verified": false,
+    "native_earned_hint_verified": false,
+    "separate_vao_diagnostic": "Cause remains unproved; loader source fixtures do not establish its resolution.",
+    "artifact_boundary": "Existing ABA APK/Web/screenshots/archives remain preserved older artifacts. Rebuild and ordinary Android Back verification are required for this source follow-up."
+  }
 }
