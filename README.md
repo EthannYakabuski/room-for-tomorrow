@@ -1,5 +1,13 @@
 # Room for Tomorrow
 
+## Round Four: qualified Android App Bundle
+
+The accepted debug/test AAB is `build/round-four-aab-001/room-for-tomorrow-debug.aab` (108411377 bytes), SHA256 `8553AB6759709D67BE117EEA5021E72D260A8B4F2DE23B39358805CA923C57E9`. Build source: `6b0ba74eb5a0aaef421ad0fd5e4d869166ab4df9`. The preset used minimum API 24/target API 36; Godot 4.5.1 Compatibility exported it successfully. The actual bundle passed six native ELF-header checks and matching 32/64-bit library coverage for ARM64, x86 and x86_64.
+
+Round Four scope is the Android build correction only; gameplay, service IDs and genuine saves were not changed by this delivery.
+
+This AAB has not been installed/native-tested, production-signed or uploaded to Play. Earlier native QA and screenshots below remain tied to their named older APKs. The Round Four source/documentation has not yet received verified exact-commit public CI; publication/CI remains pending. Owner release signing, an unused version code, current Play checks and real-service/device testing remain separate. See [Android changes](docs/ROUND_FOUR_ANDROID.md), [platform setup](docs/PLATFORM_SETUP.md) and [handoff](HANDOFF.txt).
+
 ## Current loader-ownership successor: qualified native exit pass
 
 Runtime `1b964de0ed94bbcca0424f5f6744f57369a120b5` passed [exact source CI](https://github.com/EthannYakabuski/room-for-tomorrow/actions/runs/39751770491) and has accepted local Android/Web outputs in `build/round-two-1b964de0-a1/`. APK SHA256 `3FF7F9CD3908811B5CF30507B1D4CF212CF03034CD95F78E35661C94A98B927E`. See HANDOFF.txt for the full pair identities and archive verification rules.
@@ -34,14 +42,15 @@ Later documentation commits require their own CI result; this dated result does 
 
 ## Build and test
 
-Use Godot **4.5.1 Compatibility**, matching export templates, Java17 and the Android SDK. Android test package: `com.ethannyakabuski.roomfortomorrow`, minimumAPI24/targetAPI35. Android texture import is enabled; the initial Android shader-cache guard avoids an observed old-emulator driver fault. Android remote-run is disabled in the preset so headless exports do not shut down the ADB server; command-line export still works. See [native setup](docs/PLATFORM_SETUP.md) and the game/tests reports for exact test entrypoints.
+Use Godot **4.5.1 Compatibility**, matching export templates, Java17 and the Android SDK. Android test package: `com.ethannyakabuski.roomfortomorrow`, minimumAPI24/targetAPI36. Android texture import is enabled; the initial Android shader-cache guard avoids an observed old-emulator driver fault. Android remote-run is disabled in the preset so headless exports do not shut down the ADB server; command-line export still works. See [native setup](docs/PLATFORM_SETUP.md) and the game/tests reports for exact test entrypoints.
 
 ```sh
 godot --headless --editor --path . --import
 godot --headless --path . --script tests/test_ad_load_lifetime.gd
 godot --headless --path . --script platform/tests/services_smoke.gd
 godot --headless --path . --export-release Web build/local-next-update/web/index.html
-godot --headless --path . --install-android-build-template --export-debug Android build/local-next-update/android/room-for-tomorrow-debug.apk
+godot --headless --path . --install-android-build-template --export-debug Android build/local-next-update/android/room-for-tomorrow-debug.aab
+python tools/verify_android_bundle.py build/local-next-update/android/room-for-tomorrow-debug.aab --preset export_presets.cfg
 ```
 
 Create new unused output folders first; preserve old and accepted artifacts. These commands assume a `godot` executable on PATH; on Windows substitute the installed Godot executable, using PowerShell's `&` call operator for a quoted path. No Windows desktop build is supplied.
