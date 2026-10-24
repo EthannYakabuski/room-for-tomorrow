@@ -2,7 +2,7 @@
 
 ## Current Round Four build
 
-The Android preset defaults to Gradle AAB with matched ARM64/x86/x86_64 native coverage. The accepted local export used minimum API 24/target API 36; SHA256 `8553AB6759709D67BE117EEA5021E72D260A8B4F2DE23B39358805CA923C57E9` from build source `6b0ba74eb5a0aaef421ad0fd5e4d869166ab4df9`. New exact-commit public CI, release signing and native/device acceptance remain pending. Older native/API35 observations below are dated evidence only; they do not impose a fixed engine constraint on this new export. Read [the build correction](ROUND_FOUR_ANDROID.md) and [the artifact handoff](../HANDOFF.txt) before distribution.
+The Android preset defaults to Gradle AAB with matched ARM64/x86/x86_64 native coverage. The accepted local export used minimum API 24/target API 36; SHA256 `8553AB6759709D67BE117EEA5021E72D260A8B4F2DE23B39358805CA923C57E9` from build source `6b0ba74eb5a0aaef421ad0fd5e4d869166ab4df9`. Public source revision `8e8857e88d6f3323ca8e87d08c1f51133936261c` has [passing exact-commit hosted CI](https://github.com/EthannYakabuski/room-for-tomorrow/actions/runs/40125496737); release signing and native/device acceptance remain pending. The accepted local bundle retains its original build-source/hash provenance. Older native/API35 observations below are dated evidence only; they do not impose a fixed engine constraint on this new export. Read [the build correction](ROUND_FOUR_ANDROID.md) and [the artifact handoff](../HANDOFF.txt) before distribution.
 
 ## Reviewed hint-return successor and qualified native handoff
 
