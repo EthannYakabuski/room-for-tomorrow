@@ -1,3 +1,8 @@
+WEB PAGES DEPLOYMENT CONFIGURATION - 2026-11-05
+Stable URL: https://ethannyakabuski.github.io/room-for-tomorrow/
+The owner requested GitHub Pages hosting for this game. Main CI retains source/service/game, Web and Android debug AAB gates, then deploys only the Web output with notices. build-info.json identifies the public repository and exact source commit. See docs/WEB_PAGES.md. Verify terminal exact-commit CI/deployment and served identity; configuration alone is not proof of live availability or interactive/iframe acceptance. Actual browser/iframe checks are separate from build/deployment checks. Website files, old artifact provenance, Android production publication, owner settings and genuine saves are unchanged.
+
+PRESERVED PRE-PAGES HANDOFFS - older Pages-held statements remain dated evidence
 ROUND FOUR - QUALIFIED ANDROID BUILD-ONLY HANDOFF
 Updated 2026-10-24. Local bundle validation passed. Public source revision 8e8857e88d6f3323ca8e87d08c1f51133936261c has exact-commit hosted CI SUCCESS: https://github.com/EthannYakabuski/room-for-tomorrow/actions/runs/40125496737. Native/device acceptance remains pending.
 

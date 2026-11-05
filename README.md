@@ -1,5 +1,10 @@
 # Room for Tomorrow
 
+## Play on the Web
+
+Stable URL: [https://ethannyakabuski.github.io/room-for-tomorrow/](https://ethannyakabuski.github.io/room-for-tomorrow/). Main-branch CI now has the requested Pages deployment path after all existing validation/build gates. Confirm the exact Actions deployment and `build-info.json` source commit before claiming a revision live. See [Web and iframe integration](docs/WEB_PAGES.md) for browser/service/save limitations. The website itself is unchanged.
+
+
 ## Round Four: qualified Android App Bundle
 
 The accepted debug/test AAB is `build/round-four-aab-001/room-for-tomorrow-debug.aab` (108411377 bytes), SHA256 `8553AB6759709D67BE117EEA5021E72D260A8B4F2DE23B39358805CA923C57E9`. Build source: `6b0ba74eb5a0aaef421ad0fd5e4d869166ab4df9`. The preset used minimum API 24/target API 36; Godot 4.5.1 Compatibility exported it successfully. The actual bundle passed six native ELF-header checks and matching 32/64-bit library coverage for ARM64, x86 and x86_64.
@@ -61,7 +66,7 @@ AdMob uses Google's official test app/unit IDs. Main menus offer a banner, every
 
 ## Source and delivery
 
-Original code is Apache-2.0. Developer: [EthannYakabuski](https://github.com/EthannYakabuski). Third-party assets/plugins retain their supplied licenses and required notices. Hosted CI runs game/service tests and exports Android/Web; Pages deployment remains explicitly disabled. Build artifacts, caches and keys are excluded from source. See HANDOFF.txt for actual results and blockers; file/workflow presence alone does not establish verification.
+Original code is Apache-2.0. Developer: [EthannYakabuski](https://github.com/EthannYakabuski). Third-party assets/plugins retain their supplied licenses and required notices. Hosted CI runs game/service tests and exports Android/Web; Main-branch Pages deployment follows the existing strict build/test gates; see docs/WEB_PAGES.md. Build artifacts, caches and keys are excluded from source. See HANDOFF.txt for actual results and blockers; file/workflow presence alone does not establish verification.
 
 Marketing assets, store/web copy, icons and screenshot provenance belong under marketing/. Human-owned next steps include final backend IDs/account setup, release signing, current Play eligibility checks, production service tests, human playtesting and Play publication. The first package is test-configured and must not be treated as Play-ready.
 
@@ -85,7 +90,7 @@ Android artifact.
 
 The public repository contains source, assets, notices and sanitized verification summaries. Original local QA APKs, raw SDK logs, real saves, signing material and private evidence stay outside tracked public content. Local restored build outputs remain ignored. Hosted export artifacts are separate binaries from the APK named in HANDOFF.txt and have not received that original native QA.
 
-Pages remains disabled; no live deployment, Library action or Google Play publication is part of this handoff. Keep the complete third-party notices with redistributed source and builds.
+Pages deployment is now separately requested through CI; see docs/WEB_PAGES.md for its URL and verification contract. Library actions and Google Play publication remain outside this update. Keep the complete third-party notices with redistributed source and builds.
 
 ## Screenshot verification
 
