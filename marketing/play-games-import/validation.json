@@ -1,0 +1,20 @@
+{
+  "game": "Room for Tomorrow",
+  "achievement_count": 20,
+  "archive_entries": 22,
+  "total_points": 775,
+  "all_standard": true,
+  "all_revealed": true,
+  "zip": "room-for-tomorrow-achievements-google-play.zip",
+  "zip_bytes": 9709466,
+  "zip_sha256": "d005228829cc3d985a7d2de81b8a1d3075aa1cce2542d91f6053e3a7c38dbae1",
+  "catalog_canonical_json_sha256": "2ece85e5dee3e9537f8fd51790047b3656366c8fa63ad49a78d93c4f0aed1985",
+  "icon_dimensions": "512x512",
+  "members_under_1000000_bytes": true,
+  "flat_archive": true,
+  "csv_headers": false,
+  "zip_crc_and_source_bytes": "PASS",
+  "console_import_tested": false,
+  "production_ids_configured": false,
+  "schema": "https://developer.android.com/games/pgs/integrate-achievements#zip-file-guidelines"
+}

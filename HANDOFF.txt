@@ -1,3 +1,6 @@
+GOOGLE PLAY ACHIEVEMENTS IMPORT - 2026-11-12
+20 standard/revealed achievements packaged under marketing/play-games-import/; see README.md and validation.json there. Names/icons follow game/catalog.json; points are proposed and descriptions are documented. Local archive/source/schema validation passed. No gameplay/services configuration or Play Console state changed. Previous binary/native acceptance remains unchanged.
+
 WEB PAGES DEPLOYMENT CONFIGURATION - 2026-11-05
 Stable URL: https://ethannyakabuski.github.io/room-for-tomorrow/
 The owner requested GitHub Pages hosting for this game. Main CI retains source/service/game, Web and Android debug AAB gates, then deploys only the Web output with notices. build-info.json identifies the public repository and exact source commit. See docs/WEB_PAGES.md. Verify terminal exact-commit CI/deployment and served identity; configuration alone is not proof of live availability or interactive/iframe acceptance. Actual browser/iframe checks are separate from build/deployment checks. Website files, old artifact provenance, Android production publication, owner settings and genuine saves are unchanged.
